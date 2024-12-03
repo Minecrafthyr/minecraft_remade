@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "group": "stained_terracotta",
+ "ingredients": [
+  "minecraft:terracotta",
+  "minecraft:yellow_dye"
+ ],
+ "result": {
+  "id": "minecraft:yellow_terracotta"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:slime_ball",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/slime",
+ "type": "minecraft:entity"
+}

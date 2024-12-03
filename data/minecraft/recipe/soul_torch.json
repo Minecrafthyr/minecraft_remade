@@ -1,0 +1,20 @@
+{
+ "category": "misc",
+ "ingredients": [
+  "minecraft:torch",
+  "minecraft:torch",
+  "minecraft:torch",
+  "minecraft:torch",
+  "#minecraft:soul_fire_base_blocks",
+  "minecraft:torch",
+  "minecraft:torch",
+  "minecraft:torch",
+  "minecraft:torch"
+ ],
+ "result": {
+  "count": 8,
+  "id": "minecraft:soul_torch"
+ },
+ "show_notification": true,
+ "type": "minecraft:crafting_shapeless"
+}

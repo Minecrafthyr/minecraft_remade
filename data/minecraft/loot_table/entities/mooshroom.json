@@ -1,0 +1,73 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+          "nbt": "{Type:\"red\"}"
+         }
+        }
+       ],
+       "functions": [
+        {
+         "count": {
+          "max": 5.0,
+          "min": 1.0,
+          "type": "uniform"
+         },
+         "function": "minecraft:set_count"
+        }
+       ],
+       "name": "minecraft:red_mushroom",
+       "type": "minecraft:item"
+      },
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+          "nbt": "{Type:\"brown\"}"
+         }
+        }
+       ],
+       "functions": [
+        {
+         "count": {
+          "max": 5.0,
+          "min": 1.0,
+          "type": "uniform"
+         },
+         "function": "minecraft:set_count"
+        }
+       ],
+       "name": "minecraft:brown_mushroom",
+       "type": "minecraft:item"
+      }
+     ]
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "name": "minecraft:entities/cow",
+     "type": "minecraft:loot_table"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/mooshroom",
+ "type": "minecraft:entity"
+}

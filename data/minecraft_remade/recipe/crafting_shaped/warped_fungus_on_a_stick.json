@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "#": "minecraft:stick",
+  "I": "minecraft:warped_fungus",
+  "X": "minecraft:string"
+ },
+ "pattern": [
+  "  #",
+  " #X",
+  "#IX"
+ ],
+ "result": {
+  "id": "minecraft:warped_fungus_on_a_stick"
+ }
+}

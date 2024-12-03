@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "slime": {
+   "conditions": {
+    "damage": {
+     "source_entity": {
+      "type": "#minecraft_remade:slime"
+     }
+    }
+   },
+   "trigger": "minecraft:entity_hurt_player"
+  }
+ },
+ "rewards": {
+  "function": "minecraft_remade:adv/ehp/slime"
+ }
+}

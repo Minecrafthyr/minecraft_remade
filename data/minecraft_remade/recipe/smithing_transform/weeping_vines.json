@@ -1,0 +1,8 @@
+{
+ "type": "minecraft:smithing_transform",
+ "base": "minecraft:vine",
+ "addition": "minecraft:nether_wart",
+ "result": {
+  "id": "minecraft:weeping_vines"
+ }
+}

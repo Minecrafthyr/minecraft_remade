@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:blasting",
+ "cookingtime": 100,
+ "group": "iron_ingot",
+ "ingredient": "#minecraft_remade:smelt/iron_ingot",
+ "result": {
+  "id": "minecraft:iron_ingot"
+ }
+}

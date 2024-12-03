@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "boat",
+ "key": {
+  "#": "minecraft:bamboo_slab",
+  "C": "minecraft:chest",
+  "S": "minecraft:wooden_shovel"
+ },
+ "pattern": [
+  "SCS",
+  "###"
+ ],
+ "result": {
+  "id": "minecraft:bamboo_chest_raft"
+ }
+}

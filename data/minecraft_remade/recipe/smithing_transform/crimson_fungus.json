@@ -1,0 +1,8 @@
+{
+ "type": "minecraft:smithing_transform",
+ "base": "minecraft:red_mushroom",
+ "addition": "minecraft:nether_wart",
+ "result": {
+  "id": "minecraft:crimson_fungus"
+ }
+}

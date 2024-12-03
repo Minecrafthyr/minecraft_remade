@@ -1,0 +1,62 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1.0,
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:azalea_leaves"
+      },
+      {
+       "type": "minecraft:group",
+       "children": [
+        {
+         "name": "minecraft:stick",
+         "type": "minecraft:item",
+         "weight": 2,
+         "quality": 0
+        },
+        {
+         "name": "minecraft:azalea",
+         "type": "minecraft:item",
+         "quality": 1
+        }
+       ],
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.2
+        }
+       ],
+       "functions": [
+        {
+         "enchantment": "minecraft:fortune",
+         "formula": "minecraft:uniform_bonus_count",
+         "function": "minecraft:apply_bonus",
+         "parameters": {
+          "bonusMultiplier": 2
+         }
+        },
+        {
+         "function": "minecraft:explosion_decay"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "minecraft:blocks/azalea_leaves"
+}

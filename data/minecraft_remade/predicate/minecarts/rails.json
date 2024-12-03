@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "tag": "minecraft:rails"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:powered_rail"
+          ],
+          "state": {
+            "powered": "false"
+          }
+        }
+      }
+    }
+  }
+]

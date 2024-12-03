@@ -1,0 +1,58 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": 4.0,
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:rotten_flesh",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": 3,
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:bone",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/zoglin",
+ "type": "minecraft:entity"
+}

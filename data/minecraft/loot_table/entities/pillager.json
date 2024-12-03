@@ -1,0 +1,85 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "max": 5.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:emerald",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "chance": 0.1,
+     "condition": "minecraft:random_chance"
+    }
+   ],
+   "entries": [
+    {
+     "functions": [
+      {
+       "function": "minecraft:set_name",
+       "name": "filled_map.mansion"
+      },
+      {
+       "decoration": "mansion",
+       "destination": "minecraft:on_woodland_explorer_maps",
+       "function": "minecraft:exploration_map",
+       "zoom": 2
+      }
+     ],
+     "name": "minecraft:map",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance_with_enchanted_bonus",
+       "enchantment": "minecraft:looting",
+       "unenchanted_chance": 0.05,
+       "enchanted_chance": {
+        "type": "minecraft:linear",
+        "base": 0.075,
+        "per_level_above_first": 0.025
+       }
+      }
+     ],
+     "name": "minecraft:sentry_armor_trim_smithing_template",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "type": "minecraft:entity"
+}

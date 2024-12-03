@@ -1,0 +1,88 @@
+{
+ "pools": [
+  {
+   "entries": [
+    {
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance_with_enchanted_bonus",
+       "enchantment": "minecraft:looting",
+       "unenchanted_chance": 0.1,
+       "enchanted_chance": {
+        "type": "minecraft:linear",
+        "base": 0.15,
+        "per_level_above_first": 0.05
+       }
+      }
+     ],
+     "name": "minecraft:wild_armor_trim_smithing_template",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "name": "minecraft:bamboo",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "max": 2.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:leather",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:bone",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/panda",
+ "type": "minecraft:entity"
+}

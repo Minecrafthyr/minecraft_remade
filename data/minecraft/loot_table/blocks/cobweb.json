@@ -1,0 +1,36 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:cobweb",
+       "type": "minecraft:item"
+      },
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:survives_explosion"
+        }
+       ],
+       "name": "minecraft:string",
+       "type": "minecraft:item"
+      }
+     ]
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/cobweb",
+ "type": "minecraft:block"
+}

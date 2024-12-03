@@ -1,0 +1,90 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "conditions": [
+      {
+       "chance": 0.3,
+       "condition": "minecraft:random_chance"
+      }
+     ],
+     "name": "minecraft:vex_armor_trim_smithing_template",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "name": "minecraft:totem_of_undying",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "chance": 0.1,
+     "condition": "minecraft:random_chance"
+    }
+   ],
+   "entries": [
+    {
+     "functions": [
+      {
+       "function": "minecraft:set_name",
+       "name": "filled_map.mansion"
+      },
+      {
+       "decoration": "mansion",
+       "destination": "minecraft:on_woodland_explorer_maps",
+       "function": "minecraft:exploration_map",
+       "zoom": 2
+      }
+     ],
+     "name": "minecraft:map",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "max": 5.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:emerald",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/evoker",
+ "type": "minecraft:entity"
+}

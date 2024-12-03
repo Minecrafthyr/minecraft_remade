@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "group": "bonemeal",
+ "ingredients": [
+  [
+   "minecraft:bone",
+   "minecraft:nautilus_shell"
+  ]
+ ],
+ "result": {
+  "id": "minecraft:bone_meal"
+ }
+}

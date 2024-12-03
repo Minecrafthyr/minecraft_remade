@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "key": {
+  "#": [
+   "#minecraft:logs",
+   "#minecraft:planks"
+  ],
+  "F": "minecraft:furnace"
+ },
+ "pattern": [
+  " # ",
+  "#F#",
+  " # "
+ ],
+ "result": {
+  "id": "minecraft:smoker"
+ }
+}

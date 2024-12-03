@@ -1,0 +1,50 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:reference",
+     "name": "minecraft_remade:tool/silk_touch_or_shear"
+    }
+   ],
+   "entries": [
+    {
+     "name": "minecraft:crimson_roots",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.2
+      }
+     ],
+     "functions": [
+      {
+       "enchantment": "minecraft:fortune",
+       "formula": "minecraft:uniform_bonus_count",
+       "function": "minecraft:apply_bonus",
+       "parameters": {
+        "bonusMultiplier": 2
+       }
+      },
+      {
+       "function": "minecraft:explosion_decay"
+      }
+     ],
+     "name": "minecraft:string"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/crimson_roots"
+}

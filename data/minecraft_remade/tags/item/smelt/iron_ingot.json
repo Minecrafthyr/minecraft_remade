@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:compass",
+    "minecraft:iron_horse_armor",
+    "minecraft:cauldron",
+    "minecraft:rail"
+  ]
+}

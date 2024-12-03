@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:smelting",
+ "cookingtime": 200,
+ "group": "red_dye",
+ "ingredient": "minecraft:nether_wart",
+ "result": {
+  "id": "minecraft:red_dye"
+ }
+}

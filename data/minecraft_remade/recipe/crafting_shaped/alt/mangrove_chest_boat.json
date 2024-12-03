@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "boat",
+ "key": {
+  "#": "minecraft:mangrove_slab",
+  "C": "minecraft:chest",
+  "S": "minecraft:wooden_shovel"
+ },
+ "pattern": [
+  "S S",
+  "#C#",
+  "###"
+ ],
+ "result": {
+  "id": "minecraft:mangrove_chest_boat"
+ }
+}

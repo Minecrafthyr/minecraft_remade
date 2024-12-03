@@ -1,0 +1,78 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:loot_table",
+     "value": "minecraft:entities/pig"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:loot_table",
+     "value": "minecraft:gameplay/piglin_bartering"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_count"
+      },
+      {
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting"
+      }
+     ],
+     "name": "minecraft:gold_ingot",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance_with_enchanted_bonus",
+       "enchantment": "minecraft:looting",
+       "unenchanted_chance": 0.05,
+       "enchanted_chance": {
+        "type": "minecraft:linear",
+        "base": 0.075,
+        "per_level_above_first": 0.025
+       }
+      }
+     ],
+     "name": "minecraft:snout_armor_trim_smithing_template",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/piglin",
+ "type": "minecraft:entity"
+}

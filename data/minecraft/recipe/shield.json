@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "O": "minecraft:iron_ingot",
+  "W": "#minecraft:planks",
+  "i": "minecraft:iron_nugget"
+ },
+ "pattern": [
+  "iWO",
+  "iW ",
+  "iW "
+ ],
+ "result": {
+  "id": "minecraft:shield"
+ }
+}

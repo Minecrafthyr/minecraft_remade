@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "bed",
+ "key": {
+  "#": "minecraft:light_blue_wool",
+  "X": "#minecraft:wooden_slabs"
+ },
+ "pattern": [
+  "##",
+  "XX"
+ ],
+ "result": {
+  "id": "minecraft:light_blue_bed"
+ }
+}

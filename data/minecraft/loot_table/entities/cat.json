@@ -1,0 +1,53 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting",
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       }
+      }
+     ],
+     "name": "minecraft:string",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "count": 1,
+       "function": "minecraft:set_count"
+      },
+      {
+       "function": "minecraft:enchanted_count_increase",
+       "enchantment": "minecraft:looting",
+       "count": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       }
+      }
+     ],
+     "name": "minecraft:bone",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:entities/cat",
+ "type": "minecraft:entity"
+}

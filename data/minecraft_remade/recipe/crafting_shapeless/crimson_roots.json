@@ -1,0 +1,11 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "minecraft:hanging_roots",
+  "minecraft:nether_wart"
+ ],
+ "result": {
+  "id": "minecraft:crimson_roots"
+ }
+}

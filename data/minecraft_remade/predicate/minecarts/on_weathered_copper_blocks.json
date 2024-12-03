@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetY": -1,
+  "predicate": {
+    "block": {
+      "tag": "minecraft_remade:weathered_copper_blocks"
+    }
+  }
+}

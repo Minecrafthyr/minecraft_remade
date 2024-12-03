@@ -1,0 +1,73 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1.0,
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:mangrove_leaves"
+      },
+      {
+       "type": "minecraft:item",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.2
+        },
+        {
+         "condition": "minecraft:inverted",
+         "term": {
+          "condition": "minecraft:all_of",
+          "terms": [
+           {
+            "block": "minecraft:mangrove_leaves",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+             "distance": "7"
+            }
+           },
+           {
+            "condition": "minecraft:inverted",
+            "term": {
+             "condition": "minecraft:entity_properties",
+             "entity": "this",
+             "predicate": {}
+            }
+           }
+          ]
+         }
+        }
+       ],
+       "functions": [
+        {
+         "enchantment": "minecraft:fortune",
+         "formula": "minecraft:uniform_bonus_count",
+         "function": "minecraft:apply_bonus",
+         "parameters": {
+          "bonusMultiplier": 2
+         }
+        },
+        {
+         "function": "minecraft:explosion_decay"
+        }
+       ],
+       "name": "minecraft:stick"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "minecraft:blocks/mangrove_leaves"
+}

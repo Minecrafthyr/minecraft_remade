@@ -1,0 +1,11 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:iron_nugget",
+  "minecraft:echo_shard"
+ ],
+ "result": {
+  "id": "minecraft:disc_fragment_5"
+ }
+}

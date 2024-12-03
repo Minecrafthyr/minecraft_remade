@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "stonecutter": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "player",
+                      "gamemode": "spectator"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "player",
+                      "gamemode": "creative"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "minecraft_remade:entity/on/block/blocks/stonecutter"
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/stonecutter"
+  }
+}

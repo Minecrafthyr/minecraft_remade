@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "boat",
+ "key": {
+  "#": "minecraft:oak_slab",
+  "C": "minecraft:chest",
+  "S": "minecraft:wooden_shovel"
+ },
+ "pattern": [
+  "S S",
+  "#C#",
+  "###"
+ ],
+ "result": {
+  "id": "minecraft:oak_chest_boat"
+ }
+}

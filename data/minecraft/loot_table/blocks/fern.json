@@ -1,0 +1,111 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:fern",
+       "type": "minecraft:item"
+      },
+      {
+       "type": "minecraft:group",
+       "conditions": [
+        {
+         "condition": "minecraft:random_chance",
+         "chance": 0.2
+        }
+       ],
+       "children": [
+        {
+         "type": "minecraft:item",
+         "name": "minecraft:wheat_seeds"
+        },
+        {
+         "type": "minecraft:item",
+         "name": "minecraft:melon_seeds"
+        },
+        {
+         "type": "minecraft:item",
+         "name": "minecraft:pumpkin_seeds"
+        },
+        {
+         "type": "minecraft:item",
+         "name": "minecraft:beetroot_seeds"
+        }
+       ],
+       "functions": [
+        {
+         "enchantment": "minecraft:fortune",
+         "formula": "minecraft:uniform_bonus_count",
+         "function": "minecraft:apply_bonus",
+         "parameters": {
+          "bonusMultiplier": 2
+         }
+        },
+        {
+         "function": "minecraft:explosion_decay"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "entries": [
+    {
+     "conditions": [
+      {
+       "condition": "minecraft:inverted",
+       "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+         "predicates": {
+         "minecraft:enchantments": [
+          {
+           "enchantments": "minecraft:silk_touch",
+           "levels": {
+            "min": 1
+           }
+          }
+         ]
+        }
+        }
+       }
+      },
+      {
+       "condition": "minecraft:survives_explosion"
+      },
+      {
+       "condition": "minecraft:table_bonus",
+       "enchantment": "minecraft:fortune",
+       "chances": [
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1
+       ]
+      }
+     ],
+     "name": "minecraft:string",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/fern",
+ "type": "minecraft:block"
+}

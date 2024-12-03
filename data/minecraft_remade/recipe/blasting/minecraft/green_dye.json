@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:blasting",
+ "cookingtime": 100,
+ "experience": 0.2,
+ "ingredient": "minecraft:cactus",
+ "result": {
+  "id": "minecraft:green_dye"
+ }
+}

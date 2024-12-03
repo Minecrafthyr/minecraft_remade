@@ -1,0 +1,50 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:reference",
+     "name": "minecraft_remade:tool/silk_touch_or_shear"
+    }
+   ],
+   "entries": [
+    {
+     "name": "minecraft:warped_roots",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "entries": [
+    {
+     "conditions": [
+      {
+       "chances": [
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1
+       ],
+       "condition": "minecraft:table_bonus",
+       "enchantment": "minecraft:fortune"
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:explosion_decay"
+      }
+     ],
+     "name": "minecraft:string",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/warped_roots"
+}

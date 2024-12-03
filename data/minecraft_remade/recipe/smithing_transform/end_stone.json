@@ -1,0 +1,8 @@
+{
+ "type": "minecraft:smithing_transform",
+ "base": "minecraft:cobblestone",
+ "addition": "minecraft:ender_pearl",
+ "result": {
+  "id": "minecraft:end_stone"
+ }
+}

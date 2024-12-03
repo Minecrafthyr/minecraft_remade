@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "#": "minecraft:iron_ingot",
+  "I": "minecraft:iron_nugget"
+ },
+ "pattern": [
+  "# ",
+  "I#"
+ ],
+ "result": {
+  "id": "minecraft:shears"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "#": "minecraft:stick",
+  "I": "minecraft:carrot",
+  "X": "minecraft:string"
+ },
+ "pattern": [
+  "  #",
+  " #X",
+  "#IX"
+ ],
+ "result": {
+  "id": "minecraft:carrot_on_a_stick"
+ }
+}

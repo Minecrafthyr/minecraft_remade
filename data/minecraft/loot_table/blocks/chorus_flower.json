@@ -1,0 +1,50 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:chorus_flower",
+       "type": "minecraft:item"
+      },
+      {
+       "conditions": [
+        {
+         "block": "minecraft:chorus_flower",
+         "condition": "minecraft:block_state_property",
+         "properties": {
+          "age": "5"
+         }
+        }
+       ],
+       "functions": [
+        {
+         "function": "minecraft:apply_bonus",
+         "enchantment": "minecraft:fortune",
+         "formula": "uniform_bonus_count",
+         "parameters": {
+          "bonusMultiplier": 2
+         }
+        }
+       ],
+       "name": "minecraft:chorus_fruit",
+       "type": "minecraft:item"
+      }
+     ]
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/chorus_flower"
+}

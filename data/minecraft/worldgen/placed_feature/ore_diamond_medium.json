@@ -1,0 +1,1 @@
+{"feature":"minecraft:ore_diamond_medium","placement":[{"count":1,"type":"minecraft:count"},{"type":"minecraft:in_square"},{"height":{"max_inclusive":{"above_bottom":80},"min_inclusive":{"above_bottom":0},"type":"minecraft:uniform"},"type":"minecraft:height_range"},{"type":"minecraft:biome"}]}

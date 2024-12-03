@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:stonecutting",
+ "group": "fence_gate",
+ "ingredient": "minecraft:acacia_planks",
+ "result": {
+  "id": "minecraft:acacia_fence_gate",
+  "count": 2
+ }
+}

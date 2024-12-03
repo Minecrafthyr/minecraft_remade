@@ -1,0 +1,126 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "functions": [
+      {
+       "add": false,
+       "damage": {
+        "max": 0.9,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_damage"
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": 30.0,
+       "options": "#minecraft:treasure"
+      }
+     ],
+     "name": "minecraft:bow",
+     "type": "minecraft:item",
+     "weight": 2
+    },
+    {
+     "functions": [
+      {
+       "add": false,
+       "damage": {
+        "max": 0.9,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+       },
+       "function": "minecraft:set_damage"
+      },
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": 30.0,
+       "options": "#minecraft:treasure"
+      }
+     ],
+     "name": "minecraft:fishing_rod",
+     "type": "minecraft:item",
+     "weight": 2
+    },
+    {
+     "functions": [
+      {
+       "function": "minecraft:enchant_with_levels",
+       "levels": 30.0,
+       "options": "#minecraft:treasure"
+      }
+     ],
+     "name": "minecraft:book",
+     "type": "minecraft:item",
+     "weight": 2
+    },
+    {
+     "name": "minecraft:nautilus_shell",
+     "type": "minecraft:item",
+     "weight": 4
+    },
+    {
+     "name": "minecraft:prismarine_crystals",
+     "type": "minecraft:item",
+     "weight": 3
+    },
+    {
+     "name": "minecraft:prismarine_shard",
+     "type": "minecraft:item",
+     "weight": 3
+    },
+    {
+     "name": "minecraft:iron_ingot",
+     "type": "minecraft:item",
+     "weight": 4
+    },
+    {
+     "name": "minecraft:gold_ingot",
+     "type": "minecraft:item",
+     "weight": 2
+    },
+    {
+     "name": "minecraft:diamond",
+     "type": "minecraft:item"
+    },
+    {
+     "name": "minecraft:copper_ingot",
+     "type": "minecraft:item",
+     "weight": 3
+    },
+    {
+     "conditions": [
+      {
+       "condition": "minecraft:location_check",
+       "predicate": {
+        "dimension": "minecraft:the_nether"
+       }
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_name",
+       "name": "Easter egg"
+      },
+      {
+       "function": "minecraft:set_lore",
+       "mode": "append",
+       "lore": [
+        "How can you fish in the nether?"
+       ]
+      }
+     ],
+     "name": "minecraft:egg",
+     "type": "minecraft:item",
+     "weight": 5
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:gameplay/fishing/treasure",
+ "type": "minecraft:fishing"
+}

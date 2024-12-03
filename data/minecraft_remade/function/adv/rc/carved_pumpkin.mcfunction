@@ -1,0 +1,1 @@
+advancement revoke @s only minecraft_remade:func/rc/carved_pumpkin

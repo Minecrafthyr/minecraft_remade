@@ -1,0 +1,60 @@
+{
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "children": [
+      {
+       "conditions": [
+        {
+         "condition": "minecraft:reference",
+         "name": "minecraft_remade:tool/silk_touch_or_shear"
+        }
+       ],
+       "name": "minecraft:red_mushroom_block",
+       "type": "minecraft:item"
+      },
+      {
+       "functions": [
+        {
+         "add": false,
+         "count": {
+          "max": 4.0,
+          "min": 0.0,
+          "type": "minecraft:uniform"
+         },
+         "function": "minecraft:set_count"
+        },
+        {
+         "enchantment": "minecraft:fortune",
+         "formula": "minecraft:uniform_bonus_count",
+         "function": "minecraft:apply_bonus",
+         "parameters": {
+          "bonusMultiplier": 2
+         }
+        },
+        {
+         "function": "minecraft:limit_count",
+         "limit": {
+          "max": 4.0,
+          "min": 0.0
+         }
+        },
+        {
+         "function": "minecraft:explosion_decay"
+        }
+       ],
+       "name": "minecraft:red_mushroom",
+       "type": "minecraft:item"
+      }
+     ],
+     "type": "minecraft:alternatives"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/red_mushroom_block",
+ "type": "minecraft:block"
+}

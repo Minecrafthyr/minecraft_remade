@@ -1,0 +1,30 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:golden_apple",
+  "minecraft:glass_bottle"
+ ],
+ "result": {
+  "id": "minecraft:potion",
+  "components": {
+   "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.golden_apple_juice\", \"fallback\":  \"Golden Apple Juice\"}",
+   "minecraft:rarity": "rare",
+   "minecraft:potion_contents": {
+    "custom_color": 12895312,
+    "custom_effects": [
+     {
+      "amplifier": 3,
+      "duration": 1200,
+      "id": "minecraft:absorption"
+     },
+     {
+      "amplifier": 3,
+      "duration": 50,
+      "id": "minecraft:regeneration"
+     }
+    ]
+   }
+  }
+ }
+}

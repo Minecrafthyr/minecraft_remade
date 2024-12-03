@@ -1,0 +1,29 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:apple",
+  "minecraft:glass_bottle"
+ ],
+ "result": {
+  "id": "minecraft:potion",
+  "components": {
+   "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.apple_juice\", \"fallback\":  \"Apple Juice\"}",
+   "minecraft:potion_contents": {
+    "custom_color": 11842656,
+    "custom_effects": [
+     {
+      "amplifier": 3,
+      "duration": 1,
+      "id": "minecraft:saturation"
+     },
+     {
+      "amplifier": 0,
+      "duration": 50,
+      "id": "minecraft:regeneration"
+     }
+    ]
+   }
+  }
+ }
+}

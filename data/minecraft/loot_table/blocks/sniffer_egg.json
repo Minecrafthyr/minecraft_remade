@@ -1,0 +1,42 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ],
+   "entries": [
+    {
+     "functions": [
+      {
+       "block": "minecraft:sniffer_egg",
+       "conditions": [
+        {
+         "condition": "minecraft:inverted",
+         "term": {
+          "block": "minecraft:sniffer_egg",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+           "hatch": "0"
+          }
+         }
+        }
+       ],
+       "function": "minecraft:copy_state",
+       "properties": [
+        "hatch"
+       ]
+      }
+     ],
+     "name": "minecraft:sniffer_egg",
+     "type": "minecraft:item"
+    }
+   ],
+   "rolls": 1.0
+  }
+ ],
+ "random_sequence": "minecraft:blocks/sniffer_egg"
+}

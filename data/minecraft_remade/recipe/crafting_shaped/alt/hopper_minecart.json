@@ -1,0 +1,18 @@
+{
+ "category": "misc",
+ "key": {
+  "#": {
+   "item": "minecraft:iron_ingot"
+  },
+  "C": {
+   "item": "minecraft:hopper"
+  }
+ },
+ "pattern": [
+  "#C#",
+  "###"
+ ],
+ "result": {
+  "id": "minecraft:hopper_minecart"
+ }
+}

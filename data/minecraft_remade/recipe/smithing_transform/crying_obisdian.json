@@ -1,0 +1,8 @@
+{
+ "type": "minecraft:smithing_transform",
+ "base": "minecraft:obsidian",
+ "addition": "minecraft:ghast_tear",
+ "result": {
+  "id": "minecraft:crying_obsidian"
+ }
+}

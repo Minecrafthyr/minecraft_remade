@@ -1,0 +1,12 @@
+{
+ "replace": true,
+ "values": [
+  "minecraft:diamond_block",
+  "minecraft:emerald_block",
+  "minecraft:obsidian",
+  "minecraft:crying_obsidian",
+  "minecraft:respawn_anchor",
+  "minecraft:amethyst_block",
+  "minecraft:budding_amethyst"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "key": {
+  "#": "minecraft:iron_ingot",
+  "C": "minecraft:tnt"
+ },
+ "pattern": [
+  "#C#",
+  "###"
+ ],
+ "result": {
+  "id": "minecraft:tnt_minecart"
+ }
+}

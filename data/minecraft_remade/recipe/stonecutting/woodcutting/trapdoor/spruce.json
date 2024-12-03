@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:stonecutting",
+ "group": "trapdoor",
+ "ingredient": "minecraft:spruce_planks",
+ "result": {
+  "id": "minecraft:spruce_trapdoor",
+  "count": 6
+ }
+}

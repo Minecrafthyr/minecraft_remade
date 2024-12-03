@@ -1,0 +1,18 @@
+{
+ "replace": false,
+ "values": [
+  "minecraft:cactus",
+  "minecraft:hay_block",
+  "minecraft:brown_mushroom_block",
+  "minecraft:red_mushroom_block",
+  "minecraft:mushroom_stem",
+  "minecraft:seagrass",
+  "minecraft:tall_seagrass",
+  "minecraft:kelp",
+  "minecraft:kelp_plant",
+  "minecraft:bee_nest",
+  "minecraft:beehive",
+  "minecraft:sculk_vein",
+  "minecraft:glow_lichen"
+ ]
+}

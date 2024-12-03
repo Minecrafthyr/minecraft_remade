@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "key": {
+  "B": "minecraft:rotten_flesh",
+  "S": "minecraft:skeleton_skull"
+ },
+ "pattern": [
+  "BBB",
+  "BSB",
+  "BBB"
+ ],
+ "result": {
+  "id": "minecraft:zombie_head"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "food",
+ "ingredients": [
+  "minecraft:milk_bucket",
+  "minecraft:sweet_berries",
+  "minecraft:sugar",
+  "minecraft:bread",
+  "minecraft:egg"
+ ],
+ "result": {
+  "id": "minecraft:cake"
+ }
+}

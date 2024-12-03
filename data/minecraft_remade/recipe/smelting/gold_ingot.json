@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:smelting",
+ "cookingtime": 200,
+ "group": "gold_ingot",
+ "ingredient": "#minecraft_remade:smelt/gold_ingot",
+ "result": {
+  "id": "minecraft:gold_ingot"
+ }
+}

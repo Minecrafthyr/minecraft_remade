@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "key": {
+  "#": "minecraft:red_dye",
+  "P": "minecraft:paper",
+  "X": "minecraft:gunpowder"
+ },
+ "pattern": [
+  "#X#",
+  "PXP",
+  "#X#"
+ ],
+ "result": {
+  "id": "minecraft:tnt"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "key": {
+  "#": "minecraft:netherite_ingot",
+  "I": "minecraft:iron_nugget",
+  "S": "minecraft:chiseled_stone_bricks"
+ },
+ "pattern": [
+  "ISI",
+  "S#S",
+  "ISI"
+ ],
+ "result": {
+  "id": "minecraft:lodestone"
+ }
+}

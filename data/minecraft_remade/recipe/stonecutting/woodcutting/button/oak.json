@@ -1,0 +1,9 @@
+{
+ "type": "minecraft:stonecutting",
+ "group": "button",
+ "ingredient": "minecraft:oak_planks",
+ "result": {
+  "id": "minecraft:oak_button",
+  "count": 1
+ }
+}

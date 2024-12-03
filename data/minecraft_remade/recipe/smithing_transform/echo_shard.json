@@ -1,0 +1,8 @@
+{
+ "type": "minecraft:smithing_transform",
+ "base": "minecraft:amethyst_shard",
+ "addition": "minecraft:sculk",
+ "result": {
+  "id": "minecraft:echo_shard"
+ }
+}

@@ -61,7 +61,7 @@
          "enchantment": "minecraft:looting"
         }
        ],
-       "name": "minecraft:scute",
+       "name": "minecraft:turtle_scute",
        "type": "minecraft:item"
       }
      ]

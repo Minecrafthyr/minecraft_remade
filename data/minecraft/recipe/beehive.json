@@ -3,7 +3,7 @@
  "category": "misc",
  "key": {
   "X": "minecraft:honeycomb",
-  "-": "minecraft:wooden_slabs"
+  "-": "#minecraft:wooden_slabs"
  },
  "pattern": [
   " - ",

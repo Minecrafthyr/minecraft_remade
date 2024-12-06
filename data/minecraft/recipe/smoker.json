@@ -2,10 +2,7 @@
  "type": "minecraft:crafting_shaped",
  "category": "misc",
  "key": {
-  "#": [
-   "#minecraft:logs",
-   "#minecraft:planks"
-  ],
+  "#": "#minecraft_remade:wooden_blocks",
   "F": "minecraft:furnace"
  },
  "pattern": [

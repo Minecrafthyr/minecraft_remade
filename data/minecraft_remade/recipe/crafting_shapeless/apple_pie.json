@@ -9,8 +9,7 @@
  "result": {
   "id": "minecraft:pumpkin_pie",
   "components": {
-   "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.apple_pie\", \"fallback\":  \"Apple Pie\"}",
-   "minecraft:custom_model_data": 400002
+   "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.apple_pie\", \"fallback\":  \"Apple Pie\"}"
   }
  }
 }

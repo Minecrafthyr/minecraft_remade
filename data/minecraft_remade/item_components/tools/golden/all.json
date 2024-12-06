@@ -1,0 +1,6 @@
+{
+  "targets": "#minecraft_remade:tools/golden",
+  "components": {
+   "minecraft:max_damage": 16
+  }
+}

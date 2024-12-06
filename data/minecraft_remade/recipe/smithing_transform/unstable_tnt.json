@@ -6,13 +6,10 @@
   "id": "minecraft:tnt",
   "components": {
    "minecraft:lore": [
-    {
-     "text": "(unstable)",
-     "color": "gray"
-    }
+    "{\"text\": \"(unstable)\", \"color\": \"gray\"}"
    ],
    "minecraft:block_state": {
-    "unstable": true
+    "unstable": "true"
    }
   }
  }

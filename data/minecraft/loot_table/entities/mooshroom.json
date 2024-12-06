@@ -61,8 +61,9 @@
    "bonus_rolls": 0.0,
    "entries": [
     {
-     "name": "minecraft:entities/cow",
-     "type": "minecraft:loot_table"
+     "type": "minecraft:loot_table",
+     "value": "minecraft:entities/cow"
+     
     }
    ],
    "rolls": 1.0

@@ -1,8 +1,0 @@
-{
- "targets": "minecraft:glow_berries",
- "components": {
-  "minecraft:consumable": {
-   "consume_seconds": 1.0
-  }
- }
-}

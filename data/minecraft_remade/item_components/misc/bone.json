@@ -1,0 +1,24 @@
+{
+ "targets": [
+  "minecraft:bone",
+  "minecraft:stick"
+ ],
+ "components": {
+  "minecraft:attribute_modifiers": [
+   {
+    "id": "minecraft_remade:tool",
+    "amount": -0.5,
+    "operation": "add_value",
+    "slot": "mainhand",
+    "type": "minecraft:attack_speed"
+   },
+   {
+    "id": "minecraft_remade:tool",
+    "amount": 1,
+    "operation": "add_value",
+    "slot": "mainhand",
+    "type": "minecraft:attack_damage"
+   }
+  ]
+ }
+}

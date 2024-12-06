@@ -1,6 +1,6 @@
 {
  "pack": {
-  "pack_format": 57,
+  "pack_format": 61,
   "description": [
    "Minecraft Remade datapack ",
    {
@@ -16,6 +16,27 @@
     "__comment": "ore_tweaks",
     "namespace": "minecraft",
     "path": "recipe/(.+_from_(blasting|smelting)_.+_ore|netherite_scrap_from_blasting|netherite_scrap)\\.json"
+   }
+  ]
+ },
+ "patched": {
+  "format_version": 1,
+  "patch_targets": [
+   {
+    "pack_type": "server_data",
+    "patch": "stairs",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.*_stairs.json"
+       }
+      ]
+     }
+    ]
    }
   ]
  }

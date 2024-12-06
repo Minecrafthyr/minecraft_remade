@@ -4,8 +4,8 @@
    "bonus_rolls": 0.0,
    "entries": [
     {
-     "name": "minecraft:entities/llama",
-     "type": "minecraft:loot_table"
+     "type": "minecraft:loot_table",
+     "value": "minecraft:entities/llama"
     }
    ],
    "rolls": 1.0

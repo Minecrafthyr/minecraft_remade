@@ -11,8 +11,6 @@ scoreboard objectives add readonly.xp xp
 
 scoreboard objectives add minecraft_remade.temp dummy
 scoreboard objectives add minecraft_remade.attack_cd dummy
-scoreboard objectives add minecraft_remade.machine.mineral_exp_converter dummy
-scoreboard objectives add minecraft_remade.machine.soul_converter dummy
 scoreboard objectives add minecraft_remade.in_fire_time dummy
 
 

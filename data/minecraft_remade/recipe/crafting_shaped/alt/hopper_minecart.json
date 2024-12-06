@@ -1,12 +1,9 @@
 {
+ "type": "minecraft:crafting_shaped",
  "category": "misc",
  "key": {
-  "#": {
-   "item": "minecraft:iron_ingot"
-  },
-  "C": {
-   "item": "minecraft:hopper"
-  }
+  "#": "minecraft:iron_ingot",
+  "C": "minecraft:hopper"
  },
  "pattern": [
   "#C#",

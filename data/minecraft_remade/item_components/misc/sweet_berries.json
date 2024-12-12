@@ -1,11 +1,11 @@
 {
-  "targets": [
-    "minecraft:glow_berries",
-    "minecraft:sweet_berries"
-  ],
-  "components": {
-    "minecraft:consumable": {
-      "consume_seconds": 1.0
-    }
+ "targets": [
+  "minecraft:glow_berries",
+  "minecraft:sweet_berries"
+ ],
+ "components": {
+  "minecraft:consumable": {
+   "consume_seconds": 1.0
   }
+ }
 }

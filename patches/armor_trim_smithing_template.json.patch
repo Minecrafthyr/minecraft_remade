@@ -1,0 +1,30 @@
+[
+ {
+  "op": "replace",
+  "path": "/type",
+  "value": "minecraft:crafting_shapeless"
+ },
+ {
+  "op": "remove",
+  "path": "/pattern"
+ },
+ {
+  "op": "copy",
+  "from": "/key/#",
+  "path": "/ingredients/0"
+ },
+ {
+  "op": "copy",
+  "from": "/key/S",
+  "path": "/ingredients/1"
+ },
+ {
+  "op": "copy",
+  "from": "/key/C",
+  "path": "/ingredients/2"
+ },
+ {
+  "op": "remove",
+  "from": "/key"
+ }
+]

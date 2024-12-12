@@ -2,14 +2,14 @@
  "type": "minecraft:crafting_shaped",
  "category": "misc",
  "key": {
+  "#": "#minecraft:planks",
   "A": "minecraft:arrow",
   "F": "minecraft:feather",
-  "P": "#minecraft:planks",
   "S": "minecraft:string"
  },
  "pattern": [
   "FS",
-  "PA"
+  "#A"
  ],
  "result": {
   "id": "minecraft:fletching_table"

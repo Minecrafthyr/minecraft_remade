@@ -1,0 +1,5 @@
+{
+ "op": "replace",
+ "path": "/result/count",
+ "value": 4
+}

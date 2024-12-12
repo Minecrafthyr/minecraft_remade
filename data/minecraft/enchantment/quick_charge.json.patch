@@ -1,0 +1,12 @@
+{
+ "op": "replace",
+ "path": "/effects/minecraft:crossbow_charge_time",
+ "value": {
+  "type": "minecraft:multiply",
+  "factor": {
+   "type": "minecraft:linear",
+   "base": 0.85,
+   "per_level_above_first": -0.15
+  }
+ }
+}

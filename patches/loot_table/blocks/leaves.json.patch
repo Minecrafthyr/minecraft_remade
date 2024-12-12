@@ -1,0 +1,50 @@
+[
+ {
+  "op": "add",
+  "path": "/pools/0/entries/0/children/1",
+  "value": {
+   "type": "minecraft:group",
+   "children": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:stick",
+     "weight": 2,
+     "quality": 0
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:air",
+     "quality": 1
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.2
+    }
+   ],
+   "functions": [
+    {
+     "enchantment": "minecraft:fortune",
+     "formula": "minecraft:uniform_bonus_count",
+     "function": "minecraft:apply_bonus",
+     "parameters": {
+      "bonusMultiplier": 2
+     }
+    },
+    {
+     "function": "minecraft:explosion_decay"
+    }
+   ]
+  }
+ },
+ {
+  "op": "copy",
+  "from": "/pools/0/entries/0/children/2/name",
+  "path": "/pools/0/entries/0/children/1/children/1/name"
+ },
+ {
+  "op": "remove",
+  "path": "/pools/1"
+ }
+]

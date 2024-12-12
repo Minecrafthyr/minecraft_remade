@@ -1,0 +1,10 @@
+{
+ "op": "replace",
+ "path": "/pools/0/conditions/0",
+ "value": {
+  "condition": "minecraft:match_tool",
+  "predicate": {
+   "items": "#minecraft_remade:drop_log"
+  }
+ }
+}

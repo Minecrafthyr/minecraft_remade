@@ -19,6 +19,9 @@
     "slot": "mainhand",
     "type": "minecraft:attack_damage"
    }
-  ]
+  ],
+  "enchantable": {
+   "value": 30
+  }
  }
 }

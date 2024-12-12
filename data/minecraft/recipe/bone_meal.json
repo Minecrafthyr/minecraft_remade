@@ -3,10 +3,7 @@
  "category": "misc",
  "group": "bonemeal",
  "ingredients": [
-  [
-   "minecraft:bone",
-   "minecraft:nautilus_shell"
-  ]
+  "#minecraft_remade:craft_to_bone_meal"
  ],
  "result": {
   "id": "minecraft:bone_meal"

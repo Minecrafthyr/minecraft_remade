@@ -1,14 +1,7 @@
 {
  "pack": {
   "pack_format": 61,
-  "description": [
-   "Minecraft Remade datapack ",
-   {
-    "text": "v1.0.0",
-    "color": "green"
-   },
-   " - Minecraft_hyr"
-  ]
+  "description": "v1.0.0 by Minecraft_hyr"
  },
  "filter": {
   "block": [
@@ -32,7 +25,199 @@
       ],
       "path": [
        {
-        "pattern": "recipe/.*_stairs.json"
+        "pattern": "recipe/.+_stairs\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "slab",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_slab\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "stained_glass_pane",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_stained_glass_pane\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "planks",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_planks\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "boat",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_boat\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "banner",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_banner\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "bed",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_bed\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "terracotta",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_terracotta\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "something_on_a_stick",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_on_a_stick\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "armor_trim_smithing_template",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.+_armor_trim_smithing_template\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "copper_grate",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.*copper_grate_from_.*copper.*_from_stonecutting\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "cut_copper",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.*cut_copper(_stairs)?_from_.*copper.*_stonecutting\\.json"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "pack_type": "server_data",
+    "patch": "cut_copper_slab",
+    "targets": [
+     {
+      "namespace": [
+       "minecraft"
+      ],
+      "path": [
+       {
+        "pattern": "recipe/.*cut_copper_slab_from_.*copper.*_stonecutting\\.json"
        }
       ]
      }

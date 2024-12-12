@@ -5,7 +5,8 @@ execute if data storage minecraft_remade:data configs.spectral_arrow_glowing{ena
 
 execute if data storage minecraft_remade:data configs.on_fire{enabled:true} run function minecraft_remade:func/on_fire
 
-
 execute as @e[type=#minecraft_remade:slime,tag=minecraft_remade.attack_cd] run function minecraft_remade:func/attack_cd/remove_1
 
 execute as @a[advancements={minecraft_remade:func/phe/player_attack=true}] run function minecraft_remade:func/player/attack_cd/remove_1
+
+gamerule naturalRegeneration false

@@ -1,0 +1,25 @@
+[
+ {
+  "op": "replace",
+  "path": "/type",
+  "value": "minecraft:stonecutting"
+ },
+ {
+  "op": "remove",
+  "path": "/category"
+ },
+ {
+  "op": "remove",
+  "path": "/pattern"
+ },
+ {
+  "op": "copy",
+  "from": "/key/#",
+  "path": "/ingredient"
+ },
+ {
+  "op": "replace",
+  "path": "/result/count",
+  "value": 8
+ }
+]

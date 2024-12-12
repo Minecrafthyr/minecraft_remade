@@ -1,6 +1,5 @@
 {
  "type": "minecraft:smithing_transform",
- "category": "buliding",
  "base": "minecraft:diorite",
  "addition": "minecraft:quartz",
  "result": {

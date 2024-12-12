@@ -1,6 +1,5 @@
 {
  "type": "minecraft:smithing_transform",
- "category": "buliding",
  "base": "minecraft:stone",
  "addition": "minecraft:quartz",
  "result": {

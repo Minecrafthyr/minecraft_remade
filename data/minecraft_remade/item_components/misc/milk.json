@@ -1,0 +1,9 @@
+{
+ "targets": "minecraft:milk_bucket",
+ "components": {
+  "minecraft:food": {
+   "can_always_eat": true,
+   "saturation": 0.4
+  }
+ }
+}

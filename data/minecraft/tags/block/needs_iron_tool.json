@@ -1,12 +1,21 @@
 {
- "replace": true,
- "values": [
-  "minecraft:diamond_block",
-  "minecraft:emerald_block",
-  "minecraft:obsidian",
-  "minecraft:crying_obsidian",
-  "minecraft:respawn_anchor",
-  "minecraft:amethyst_block",
-  "minecraft:budding_amethyst"
- ]
+  "replace": true,
+  "values": [
+    "#minecraft_remade:deepslate_blocks",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor",
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_redstone_ore"
+  ]
 }

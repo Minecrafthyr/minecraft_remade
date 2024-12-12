@@ -1,0 +1,15 @@
+[
+ {
+  "op": "replace",
+  "path": "/key/X",
+  "value": "#minecraft:wooden_slabs"
+ },
+ {
+  "op": "replace",
+  "path": "/pattern",
+  "value": [
+   "##",
+   "XX"
+  ]
+ }
+]

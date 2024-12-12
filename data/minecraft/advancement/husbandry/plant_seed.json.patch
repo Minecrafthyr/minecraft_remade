@@ -1,0 +1,30 @@
+[
+ {
+  "op": "replace",
+  "path": "/criteria",
+  "value": {
+   "plant_seed": {
+    "trigger": "minecraft:placed_block",
+    "conditions": {
+     "location": [
+      {
+       "condition": "minecraft:location_check",
+       "predicate": {
+        "block": {
+         "blocks": "#minecraft:crops"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "op": "replace",
+  "path": "/requirements/0",
+  "value": [
+   "plant_seed"
+  ]
+ }
+]

@@ -3,13 +3,13 @@
  "category": "building",
  "key": {
   "G": "minecraft:gold_ingot",
-  "N": "minecraft:gold_nugget",
-  "S": "minecraft:stick"
+  "-": "minecraft:gold_nugget",
+  "/": "minecraft:stick"
  },
  "pattern": [
-  "SSS",
+  "///",
   " G ",
-  "GNG"
+  "G-G"
  ],
  "result": {
   "id": "minecraft:bell"

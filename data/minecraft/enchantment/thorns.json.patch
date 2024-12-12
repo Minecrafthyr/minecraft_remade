@@ -1,0 +1,48 @@
+[
+ {
+  "op": "replace",
+  "path": "/supported_items",
+  "value": "#minecraft_remade:enchantable/armor_and_horse_armor"
+ },
+ {
+  "op": "replace",
+  "path": "/effects/minecraft:post_attack/0/effect/effects/1/amount",
+  "value": 1.0
+ },
+ {
+  "op": "replace",
+  "path": "/effects/minecraft:post_attack/0/requirements",
+  "value": {
+   "condition": "minecraft:random_chance",
+   "chance": {
+    "type": "minecraft:enchantment_level",
+    "amount": {
+     "type": "minecraft:linear",
+     "base": 0.1,
+     "per_level_above_first": 0.1
+    }
+   }
+  }
+ },
+ {
+  "op": "replace",
+  "path": "/max_cost",
+  "value": {
+   "base": 40,
+   "per_level_above_first": 10
+  }
+ },
+ {
+  "op": "replace",
+  "path": "/min_cost",
+  "value": {
+   "base": 10,
+   "per_level_above_first": 10
+  }
+ },
+ {
+  "op": "replace",
+  "path": "/anvil_cost",
+  "value": 6
+ }
+]

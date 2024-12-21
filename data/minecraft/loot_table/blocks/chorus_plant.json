@@ -1,27 +1,26 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "rolls": 1.0,
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:alternatives",
-     "children": [
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "entries": [
         {
-         "condition": "minecraft:reference",
-         "name": "minecraft_remade:tool/silk_touch_or_shear"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch_or_shears"
+                }
+              ],
+              "name": "minecraft:chorus_plant",
+              "type": "minecraft:item"
+            }
+          ]
         }
-       ],
-       "name": "minecraft:chorus_plant",
-       "type": "minecraft:item"
-      }
-     ]
+      ]
     }
-   ]
-  }
- ],
- "random_sequence": "minecraft:blocks/chorus_plant"
+  ],
+  "random_sequence": "minecraft:blocks/chorus_plant"
 }

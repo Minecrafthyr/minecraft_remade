@@ -1,9 +1,0 @@
-{
-  "condition": "minecraft:location_check",
-  "offsetY": -1,
-  "predicate": {
-    "block": {
-      "tag": "minecraft_remade:oxidized_copper_blocks"
-    }
-  }
-}

@@ -1,111 +1,46 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "rolls": 1.0,
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:alternatives",
-     "children": [
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "entries": [
         {
-         "condition": "minecraft:match_tool",
-         "predicate": {
-          "predicates": {
-           "minecraft:enchantments": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-             "enchantments": "minecraft:silk_touch",
-             "levels": {
-              "min": 1
-             }
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_components",
+                  "include": [
+                    "minecraft:bees"
+                  ],
+                  "source": "block_entity"
+                },
+                {
+                  "block": "minecraft:beehive",
+                  "function": "minecraft:copy_state",
+                  "properties": [
+                    "honey_level"
+                  ]
+                }
+              ],
+              "name": "minecraft:beehive",
+              "type": "minecraft:item"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "minecraft_remade:block/beehive"
             }
-           ]
-          }
-         }
+          ]
         }
-       ],
-       "functions": [
-        {
-         "function": "minecraft:copy_components",
-         "include": [
-          "minecraft:bees"
-         ],
-         "source": "block_entity"
-        },
-        {
-         "block": "minecraft:beehive",
-         "function": "minecraft:copy_state",
-         "properties": [
-          "honey_level"
-         ]
-        }
-       ],
-       "name": "minecraft:beehive",
-       "type": "minecraft:item"
-      },
-      {
-       "name": "minecraft:beehive",
-       "type": "minecraft:item"
-      }
-     ]
+      ]
     }
-   ]
-  },
-  {
-   "rolls": 1.0,
-   "bonus_rolls": 0.0,
-   "conditions": [
-    {
-     "condition": "minecraft:inverted",
-     "term": {
-      "condition": "minecraft:match_tool",
-      "predicate": {
-       "predicates": {
-        "minecraft:enchantments": [
-         {
-          "enchantments": "minecraft:silk_touch",
-          "levels": {
-           "min": 1
-          }
-         }
-        ]
-       }
-      }
-     }
-    }
-   ],
-   "entries": [
-    {
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": 3.0
-      },
-      {
-       "function": "minecraft:set_count",
-       "count": 3.0,
-       "add": true,
-       "conditions": [
-        {
-         "block": "minecraft:beehive",
-         "condition": "minecraft:block_state_property",
-         "properties": {
-          "honey_level": "5"
-         }
-        }
-       ]
-      },
-      {
-       "function": "minecraft:explosion_decay"
-      }
-     ],
-     "name": "minecraft:honeycomb",
-     "type": "minecraft:item"
-    }
-   ]
-  }
- ],
- "random_sequence": "minecraft:blocks/beehive"
+  ],
+  "random_sequence": "minecraft:blocks/beehive"
 }

@@ -1,36 +1,35 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "type": "minecraft:alternatives",
-     "children": [
-      {
-       "conditions": [
+      "entries": [
         {
-         "condition": "minecraft:reference",
-         "name": "minecraft_remade:tool/silk_touch_or_shear"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch_or_shears"
+                }
+              ],
+              "name": "minecraft:cobweb",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:string",
+              "type": "minecraft:item"
+            }
+          ]
         }
-       ],
-       "name": "minecraft:cobweb",
-       "type": "minecraft:item"
-      },
-      {
-       "conditions": [
-        {
-         "condition": "minecraft:survives_explosion"
-        }
-       ],
-       "name": "minecraft:string",
-       "type": "minecraft:item"
-      }
-     ]
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/cobweb",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/cobweb",
+  "type": "minecraft:block"
 }

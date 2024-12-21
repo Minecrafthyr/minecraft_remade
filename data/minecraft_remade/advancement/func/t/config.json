@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "test": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "score": "minecraft_remade.configs",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#trigger.config"
+              }
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "minecraft_remade.config": {
+                "min": -2147483648,
+                "max": 2147483647
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/config"
+  }
+}

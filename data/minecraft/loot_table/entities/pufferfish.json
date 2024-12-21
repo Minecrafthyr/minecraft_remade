@@ -1,32 +1,30 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:entity",
+  "pools": [
     {
-     "name": "minecraft:pufferfish",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+      "rolls": 1.0,
+      "entries": [
+        {
+          "name": "minecraft:pufferfish",
+          "type": "minecraft:item"
+        }
+      ]
+    },
     {
-     "chance": 0.05,
-     "condition": "minecraft:random_chance"
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        }
+      ]
     }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:bone",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/pufferfish",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/pufferfish"
 }

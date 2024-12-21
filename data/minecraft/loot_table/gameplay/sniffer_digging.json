@@ -1,38 +1,37 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:gift",
+  "pools": [
     {
-     "name": "minecraft:torchflower_seeds",
-     "type": "minecraft:item",
-     "weight": 2
-    },
-    {
-     "name": "minecraft:pitcher_pod",
-     "type": "minecraft:item",
-     "weight": 2
-    },
-    {
-     "name": "minecraft:wheat_seeds",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:melon_seeds",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:pumpkin_seeds",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:beetroot_seeds",
-     "type": "minecraft:item"
+      "rolls": 1.0,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds"
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:gameplay/sniffer_digging",
- "type": "minecraft:gift"
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
 }

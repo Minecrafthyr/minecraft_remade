@@ -6,7 +6,6 @@
   ],
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "functions": [
         {
           "enchantment": "minecraft:fortune",
@@ -36,9 +35,9 @@
       "rolls": 1.0
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:item",
           "conditions": [
             {
               "block": "minecraft:wheat",
@@ -59,8 +58,7 @@
               }
             }
           ],
-          "name": "minecraft:wheat_seeds",
-          "type": "minecraft:item"
+          "name": "minecraft:wheat_seeds"
         },
         {
           "conditions": [

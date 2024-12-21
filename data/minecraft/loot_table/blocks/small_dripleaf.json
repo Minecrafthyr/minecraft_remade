@@ -1,16 +1,15 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "name": "minecraft:small_dripleaf",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "name": "minecraft:small_dripleaf",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/small_dripleaf"
+  ],
+  "random_sequence": "minecraft:blocks/small_dripleaf"
 }

@@ -1,16 +1,15 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "type": "minecraft:loot_table",
-     "value": "minecraft:entities/llama"
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:entities/llama"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/llama",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/llama",
+  "type": "minecraft:entity"
 }

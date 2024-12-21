@@ -1,16 +1,16 @@
 {
- "criteria": {
-  "carved_pumpkin": {
-   "conditions": {
-    "recipe_id": "minecraft_remade:stonecutting/carved_pumpkin"
-   },
-   "trigger": "minecraft:recipe_crafted"
+  "criteria": {
+    "carved_pumpkin": {
+      "conditions": {
+        "recipe_id": "minecraft_remade:stonecutting/carved_pumpkin"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/rc/carved_pumpkin",
+    "loot": [
+      "minecraft_remade:generic/4_pumpkin_seeds"
+    ]
   }
- },
- "rewards": {
-  "function": "minecraft_remade:adv/rc/carved_pumpkin",
-  "loot": [
-   "minecraft_remade:generic/4_pumpkin_seeds"
-  ]
- }
 }

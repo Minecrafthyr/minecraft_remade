@@ -1,123 +1,117 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "functions": [
-      {
-       "add": false,
-       "count": 2,
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:sculk_catalyst",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 2,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sculk_catalyst",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "name": "minecraft:sculk_sensor",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      "entries": [
+        {
+          "name": "minecraft:sculk_sensor",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "functions": [
-      {
-       "count": 4,
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:sculk",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": 4,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sculk",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 4.0,
-        "min": 1.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      },
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:echo_shard",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:echo_shard",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "conditions": [
-      {
-       "condition": "minecraft:random_chance_with_enchanted_bonus",
-       "enchantment": "minecraft:looting",
-       "unenchanted_chance": 0.4,
-       "enchanted_chance": {
-        "type": "minecraft:linear",
-        "base": 0.5,
-        "per_level_above_first": 0.1
-       }
-      }
-     ],
-     "name": "minecraft:ward_armor_trim_smithing_template",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "minecraft:looting",
+              "unenchanted_chance": 0.4,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.5,
+                "per_level_above_first": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "conditions": [
-      {
-       "condition": "minecraft:random_chance_with_enchanted_bonus",
-       "enchantment": "minecraft:looting",
-       "unenchanted_chance": 0.2,
-       "enchanted_chance": {
-        "type": "minecraft:linear",
-        "base": 0.3,
-        "per_level_above_first": 0.1
-       }
-      }
-     ],
-     "name": "minecraft:silence_armor_trim_smithing_template",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "minecraft:looting",
+              "unenchanted_chance": 0.2,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.3,
+                "per_level_above_first": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/warden",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/warden",
+  "type": "minecraft:entity"
 }

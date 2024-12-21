@@ -1,28 +1,27 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:gift",
+  "pools": [
     {
-     "name": "minecraft:redstone",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:lapis_lazuli",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:glowstone_dust",
-     "type": "minecraft:item"
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust"
+        }
+      ]
     }
-   ],
-   "rolls": {
-    "max": 2.0,
-    "min": 1.0,
-    "type": "minecraft:uniform"
-   }
-  }
- ],
- "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift",
- "type": "minecraft:gift"
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
 }

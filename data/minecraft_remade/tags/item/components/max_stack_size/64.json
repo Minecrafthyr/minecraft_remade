@@ -1,0 +1,67 @@
+{
+ "values": [
+  "#c:potions",
+  "#c:foods/soups",
+  "#c:shulker_boxes",
+  "minecraft:armor_stand",
+  "minecraft:bowl",
+  "minecraft:saddle",
+  "minecraft:totem_of_undying",
+  "minecraft:cake",
+  "minecraft:ender_pearl",
+  "minecraft:snowball",
+  "minecraft:egg",
+  "minecraft:goat_horn",
+  "minecraft:enchanted_book",
+  "minecraft:writable_book",
+  "minecraft:written_book",
+  "minecraft:honey_bottle",
+  "minecraft:flint_and_steel",
+  "#minecraft:beds",
+  "#minecraft:signs",
+  "#minecraft:hanging_signs",
+  "#minecraft:boats",
+  "#minecraft:chest_boats",
+  "#taglib:bucket/buckets",
+  "#taglib:music_disc",
+  "#taglib:banner_patterns",
+  "#taglib:normal_boats",
+  "#taglib:minecarts",
+  {
+   "id": "toughasnails:dirty_water_bottle",
+   "required": false
+  },
+  {
+   "id": "toughasnails:purified_water_bottle",
+   "required": false
+  },
+  {
+   "id": "toughasnails:glow_berry_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:pumpkin_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:sweet_berry_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:cactus_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:melon_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:apple_juice",
+   "required": false
+  },
+  {
+   "id": "toughasnails:chorus_fruit_juice",
+   "required": false
+  }
+ ]
+}

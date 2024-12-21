@@ -1,43 +1,31 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "conditions": [
-      {
-       "condition": "minecraft:match_tool",
-       "predicate": {
-        "predicates": {
-         "minecraft:enchantments": [
-          {
-           "enchantments": "minecraft:silk_touch",
-           "levels": {
-            "min": 1
-           }
-          }
-         ]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "minecraft_remade:tool/silk_touch"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            }
+          ],
+          "name": "minecraft:beacon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:block/broken_beacon"
         }
-       }
-      }
-     ],
-     "functions": [
-      {
-       "function": "minecraft:copy_name",
-       "source": "block_entity"
-      }
-     ],
-     "name": "minecraft:beacon"
-    },
-    {
-     "type": "minecraft:loot_table",
-     "value": "minecraft_remade:block/broken_beacon"
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/beacon"
+  ],
+  "random_sequence": "minecraft:blocks/beacon"
 }

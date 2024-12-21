@@ -1,0 +1,2 @@
+scoreboard players remove @s minecraft_remade.stonecutter_damage.time 1
+execute if score @s minecraft_remade.stonecutter_damage.time matches 0..40 if predicate minecraft_remade:func/stonecutter_damage run function minecraft_remade:func/stonecutter_damage/add

@@ -1,43 +1,39 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:entity",
+  "pools": [
     {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      },
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      },
-      {
-       "function": "minecraft:limit_count",
-       "limit": {
-        "max": 1,
-        "min": 0
-       }
-      }
-     ],
-     "name": "minecraft:ender_pearl",
-     "type": "minecraft:item"
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            {
+              "function": "minecraft:limit_count",
+              "limit": 1
+            }
+          ]
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/endermite",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/endermite"
 }

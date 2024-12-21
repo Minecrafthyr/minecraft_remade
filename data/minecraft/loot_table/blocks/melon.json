@@ -1,55 +1,54 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "children": [
-      {
-       "conditions": [
+      "entries": [
         {
-         "condition": "minecraft:any_of",
-         "terms": [
-          {
-           "condition": "minecraft:match_tool",
-           "predicate": {
-            "items": "#minecraft:axes"
-           }
-          },
-          {
-           "condition": "minecraft:match_tool",
-           "predicate": {
-            "items": "#minecraft:swords"
-           }
-          }
-         ]
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#minecraft:axes"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#minecraft:swords"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 8.0
+                }
+              ],
+              "name": "minecraft:melon_slice"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:melon"
+            }
+          ]
         }
-       ],
-       "functions": [
-        {
-         "count": 8.0,
-         "function": "minecraft:set_count"
-        }
-       ],
-       "name": "minecraft:melon_slice",
-       "type": "minecraft:item"
-      },
-      {
-       "conditions": [
-        {
-         "condition": "minecraft:survives_explosion"
-        }
-       ],
-       "name": "minecraft:melon",
-       "type": "minecraft:item"
-      }
-     ],
-     "type": "minecraft:alternatives"
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/melon"
+  ],
+  "random_sequence": "minecraft:blocks/melon"
 }

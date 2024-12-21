@@ -1,36 +1,35 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:gift",
+  "pools": [
     {
-     "name": "minecraft:cooked_rabbit",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:cooked_chicken",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:cooked_porkchop",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:cooked_beef",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:cooked_mutton",
-     "type": "minecraft:item"
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton"
+        }
+      ]
     }
-   ],
-   "rolls": {
-    "max": 2.0,
-    "min": 1.0,
-    "type": "minecraft:uniform"
-   }
-  }
- ],
- "random_sequence": "minecraft:gameplay/hero_of_the_village/butcher_gift",
- "type": "minecraft:gift"
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/butcher_gift"
 }

@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "stonecutter_damage": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#stonecutter_damage"
+              },
+              "score": "minecraft_remade.configs"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator",
+                    "creative"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "minecraft_remade:func/stonecutter_damage"
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/stonecutter_damage"
+  }
+}

@@ -1,4 +1,4 @@
 {
- "op": "remove",
- "path": "/primary_items"
+  "op": "remove",
+  "path": "/primary_items"
 }

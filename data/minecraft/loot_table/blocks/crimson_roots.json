@@ -1,50 +1,47 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "condition": "minecraft:reference",
-     "name": "minecraft_remade:tool/silk_touch_or_shear"
-    }
-   ],
-   "entries": [
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "minecraft_remade:tool/silk_touch_or_shears"
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:crimson_roots",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
-     "name": "minecraft:crimson_roots",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "minecraft:fortune",
+              "unenchanted_chance": 0.1,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.2,
+                "per_level_above_first": 0.2
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "minecraft:string"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "conditions": [
-      {
-       "condition": "minecraft:random_chance",
-       "chance": 0.2
-      }
-     ],
-     "functions": [
-      {
-       "enchantment": "minecraft:fortune",
-       "formula": "minecraft:uniform_bonus_count",
-       "function": "minecraft:apply_bonus",
-       "parameters": {
-        "bonusMultiplier": 2
-       }
-      },
-      {
-       "function": "minecraft:explosion_decay"
-      }
-     ],
-     "name": "minecraft:string"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/crimson_roots"
+  ],
+  "random_sequence": "minecraft:blocks/crimson_roots"
 }

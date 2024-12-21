@@ -1,0 +1,9 @@
+{
+  "op": "replace",
+  "path": "/pools/0/entries/0/functions/0/count",
+  "value": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 3.0
+  }
+}

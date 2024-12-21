@@ -1,43 +1,41 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "condition": "minecraft:survives_explosion"
-    }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:spruce_sapling",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
-    {
-     "condition": "minecraft:survives_explosion"
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_sapling"
+        }
+      ],
+      "rolls": 1.0
     },
     {
-     "block": "minecraft:spruce_sapling",
-     "condition": "minecraft:block_state_property",
-     "properties": {
-      "stage": "1"
-     }
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "block": "minecraft:spruce_sapling",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "stage": "1"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_log"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:spruce_log",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/spruce_sapling",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/spruce_sapling"
 }

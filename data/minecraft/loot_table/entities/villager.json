@@ -1,57 +1,15 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 5.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      },
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:emerald",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:entity/template/villager"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:bone",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/villager",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/villager",
+  "type": "minecraft:entity"
 }

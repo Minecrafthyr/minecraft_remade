@@ -1,111 +1,97 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "type": "minecraft:alternatives",
-     "children": [
-      {
-       "conditions": [
+      "entries": [
         {
-         "condition": "minecraft:reference",
-         "name": "minecraft_remade:tool/silk_touch_or_shear"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:fern",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:wheat_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:melon_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:pumpkin_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:beetroot_seeds"
+                }
+              ],
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
         }
-       ],
-       "name": "minecraft:fern",
-       "type": "minecraft:item"
-      },
-      {
-       "type": "minecraft:group",
-       "conditions": [
-        {
-         "condition": "minecraft:random_chance",
-         "chance": 0.2
-        }
-       ],
-       "children": [
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:wheat_seeds"
-        },
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:melon_seeds"
-        },
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:pumpkin_seeds"
-        },
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:beetroot_seeds"
-        }
-       ],
-       "functions": [
-        {
-         "enchantment": "minecraft:fortune",
-         "formula": "minecraft:uniform_bonus_count",
-         "function": "minecraft:apply_bonus",
-         "parameters": {
-          "bonusMultiplier": 2
-         }
-        },
-        {
-         "function": "minecraft:explosion_decay"
-        }
-       ]
-      }
-     ]
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "entries": [
+      ],
+      "rolls": 1.0
+    },
     {
-     "conditions": [
-      {
-       "condition": "minecraft:inverted",
-       "term": {
-        "condition": "minecraft:match_tool",
-        "predicate": {
-         "predicates": {
-         "minecraft:enchantments": [
-          {
-           "enchantments": "minecraft:silk_touch",
-           "levels": {
-            "min": 1
-           }
-          }
-         ]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "minecraft_remade:tool/silk_touch"
+              }
+            },
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 2
+              }
+            }
+          ]
         }
-        }
-       }
-      },
-      {
-       "condition": "minecraft:survives_explosion"
-      },
-      {
-       "condition": "minecraft:table_bonus",
-       "enchantment": "minecraft:fortune",
-       "chances": [
-        0.05,
-        0.1,
-        0.2,
-        0.4,
-        0.8,
-        1
-       ]
-      }
-     ],
-     "name": "minecraft:string",
-     "type": "minecraft:item"
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/fern",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/fern",
+  "type": "minecraft:block"
 }

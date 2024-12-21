@@ -1,1 +1,0 @@
-execute if data storage minecraft_remade:data configs.on_fire.snowball{enabled:true} as @e[type=minecraft:snowball,predicate=minecraft_remade:flags/is_on_fire/true,tag=!minecraft_remade.on_fire.disabled] run function minecraft_remade:func/on_fire/snowball with storage minecraft_remade:data configs.on_fire.snowball

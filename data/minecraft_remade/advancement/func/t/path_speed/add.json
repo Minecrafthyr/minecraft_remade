@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "test": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#path_speed"
+              },
+              "score": "minecraft_remade.configs"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "minecraft_remade:func/path_speed/add"
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/path_speed/add"
+  }
+}

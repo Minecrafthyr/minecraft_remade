@@ -1,21 +1,20 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "conditions": [
-      {
-       "condition": "minecraft:survives_explosion"
-      }
-     ],
-     "name": "minecraft:reinforced_deepslate",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "name": "minecraft:reinforced_deepslate"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/reinforced_deepslate"
+  ],
+  "random_sequence": "minecraft:blocks/reinforced_deepslate"
 }

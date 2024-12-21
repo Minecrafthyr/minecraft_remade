@@ -1,0 +1,2 @@
+schedule function minecraft_remade:loop/player/regeneration/fast 1t
+execute as @a[gamemode=!spectator,predicate=minecraft_remade:func/player/regeneration/fast] run function bs.health:add/health {points: 1}

@@ -1,10 +1,12 @@
 {
  "type": "minecraft:crafting_shapeless",
  "category": "misc",
+ "group": "paper",
  "ingredients": [
   "#minecraft:wooden_pressure_plates"
  ],
  "result": {
+  "count": 1,
   "id": "minecraft:paper"
  }
 }

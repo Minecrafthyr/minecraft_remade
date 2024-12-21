@@ -1,76 +1,20 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:gift",
+  "pools": [
     {
-     "name": "minecraft:bricks",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:red_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:blue_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:cyan_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:gray_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:lime_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:pink_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:black_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:brown_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:green_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:white_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:orange_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:purple_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:yellow_terracotta",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:magenta_terracotta",
-     "type": "minecraft:item"
+      "rolls": 1.0,
+      "entries": [
+        {
+          "name": "minecraft:bricks",
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:terracotta"
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift",
- "type": "minecraft:gift"
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift"
 }

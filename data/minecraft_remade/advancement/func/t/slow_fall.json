@@ -1,22 +1,43 @@
 {
- "criteria": {
-  "slow_fall": {
-   "conditions": {
-    "player": {
-     "equipment": {
-      "chest": {
-       "items": "minecraft:elytra"
-      }
-     },
-     "flags": {
-      "is_sneaking": true
-     }
+  "criteria": {
+    "slow_fall": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": "minecraft:elytra"
+                }
+              },
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
     }
-   },
-   "trigger": "minecraft:tick"
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/slow_fall"
   }
- },
- "rewards": {
-  "function": "minecraft_remade:adv/t/slow_fall"
- }
 }

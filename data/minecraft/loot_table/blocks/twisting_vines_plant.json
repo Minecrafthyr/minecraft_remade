@@ -1,1 +1,20 @@
-{"type":"minecraft:block","pools":[{"bonus_rolls":0.0,"conditions":[{"condition":"minecraft:survives_explosion"}],"entries":[{"name":"minecraft:twisting_vines","type":"minecraft:item"}],"rolls":1.0}],"random_sequence":"minecraft:blocks/twisting_vines_plant"}
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:twisting_vines",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/twisting_vines_plant"
+}

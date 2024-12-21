@@ -1,74 +1,70 @@
 {
- "pools": [
-  {
-   "conditions": [
+  "pools": [
     {
-     "condition": "minecraft:any_of",
-     "terms": [
-      {
-       "condition": "minecraft:all_of",
-       "terms": [
+      "conditions": [
         {
-         "block": "minecraft:large_fern",
-         "condition": "minecraft:block_state_property",
-         "properties": {
-          "half": "lower"
-         }
-        },
-        {
-         "condition": "minecraft:location_check",
-         "offsetY": 1,
-         "predicate": {
-          "block": {
-           "blocks": [
-            "minecraft:large_fern"
-           ],
-           "state": {
-            "half": "upper"
-           }
-          }
-         }
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "block": "minecraft:large_fern",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "lower"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:large_fern",
+                      "state": {
+                        "half": "upper"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "block": "minecraft:large_fern",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "upper"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:large_fern",
+                      "state": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
-       ]
-      },
-      {
-       "condition": "minecraft:all_of",
-       "terms": [
+      ],
+      "entries": [
         {
-         "block": "minecraft:large_fern",
-         "condition": "minecraft:block_state_property",
-         "properties": {
-          "half": "upper"
-         }
-        },
-        {
-         "condition": "minecraft:location_check",
-         "offsetY": -1,
-         "predicate": {
-          "block": {
-           "blocks": [
-            "minecraft:large_fern"
-           ],
-           "state": {
-            "half": "lower"
-           }
-          }
-         }
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/fern"
         }
-       ]
-      }
-     ]
+      ],
+      "rolls": 2.0
     }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:loot_table",
-     "value": "minecraft:blocks/fern"
-    }
-   ],
-   "rolls": 2.0
-  }
- ],
- "random_sequence": "minecraft:blocks/large_fern",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/large_fern",
+  "type": "minecraft:block"
 }

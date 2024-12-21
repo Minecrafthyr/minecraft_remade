@@ -1,10 +1,10 @@
 {
- "criteria": {
-  "load": {
-   "trigger": "minecraft:tick"
+  "criteria": {
+    "load": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/load"
   }
- },
- "rewards": {
-  "function": "minecraft_remade:adv/t/load"
- }
 }

@@ -1,1 +1,27 @@
-{"feature":"minecraft:ore_redstone","placement":[{"count":12,"type":"minecraft:count"},{"type":"minecraft:in_square"},{"height":{"max_inclusive":{"above_bottom":96},"min_inclusive":{"above_bottom":-96},"type":"minecraft:trapezoid"},"type":"minecraft:height_range"},{"type":"minecraft:biome"}]}
+{
+ "feature": "minecraft:ore_redstone",
+ "placement": [
+  {
+   "count": 12,
+   "type": "minecraft:count"
+  },
+  {
+   "type": "minecraft:in_square"
+  },
+  {
+   "height": {
+    "max_inclusive": {
+     "above_bottom": 96
+    },
+    "min_inclusive": {
+     "above_bottom": -96
+    },
+    "type": "minecraft:trapezoid"
+   },
+   "type": "minecraft:height_range"
+  },
+  {
+   "type": "minecraft:biome"
+  }
+ ]
+}

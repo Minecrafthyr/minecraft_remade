@@ -1,0 +1,8 @@
+{
+  "op": "add",
+  "path": "/pools/0/entries/-",
+  "value": {
+    "type": "minecraft:item",
+    "name": "minecraft:dune_armor_trim_smithing_template"
+  }
+}

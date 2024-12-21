@@ -1,0 +1,16 @@
+{
+  "op": "add",
+  "path": "/effects/minecraft:attributes",
+  "value": [
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.5,
+        "per_level_above_first": 0.5
+      },
+      "attribute": "minecraft:safe_fall_distance",
+      "id": "minecraft:enchantment.feather_falling",
+      "operation": "add_value"
+    }
+  ]
+}

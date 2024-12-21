@@ -1,0 +1,6 @@
+{
+ "targets": "#minecraft_remade:components/rarity/uncommon",
+ "components": {
+  "minecraft:rarity": "uncommon"
+ }
+}

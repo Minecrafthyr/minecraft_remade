@@ -1,27 +1,21 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "conditions": [
-      {
-       "condition": "minecraft:any_of",
-       "terms": [
+      "conditions": [
         {
-         "condition": "minecraft:reference",
-         "name": "minecraft_remade:tool/silk_touch_or_shear"
+          "condition": "minecraft:reference",
+          "name": "minecraft_remade:tool/silk_touch_or_shears"
         }
-       ]
-      }
-     ],
-     "name": "minecraft:vine"
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/vine"
+  ],
+  "random_sequence": "minecraft:blocks/vine"
 }

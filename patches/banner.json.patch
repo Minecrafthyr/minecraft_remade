@@ -1,8 +1,8 @@
 {
- "op": "replace",
- "path": "/pattern",
- "value": [
-  "#",
-  "|"
- ]
+  "op": "replace",
+  "path": "/pattern",
+  "value": [
+    "#",
+    "|"
+  ]
 }

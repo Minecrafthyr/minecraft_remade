@@ -1,67 +1,48 @@
 {
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+      },
       "entries": [
         {
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "max": 7.0,
-                "min": 2.0,
-                "type": "minecraft:uniform"
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
-          "type": "minecraft:item"
+          "type": "minecraft:item",
+          "name": "minecraft:arrow"
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
           "functions": [
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:long_poison"
-            },
-            {
-              "add": false,
-              "count": {
-                "max": 7.0,
-                "min": 2.0,
-                "type": "minecraft:uniform"
-              },
-              "function": "minecraft:set_count"
+              "id": "minecraft:poison"
             }
-          ],
-          "name": "minecraft:tipped_arrow",
-          "type": "minecraft:item"
+          ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
           "functions": [
             {
               "function": "minecraft:set_potion",
               "id": "minecraft:harming"
-            },
-            {
-              "add": false,
-              "count": {
-                "max": 7.0,
-                "min": 2.0,
-                "type": "minecraft:uniform"
-              },
-              "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:tipped_arrow",
-          "type": "minecraft:item"
+          ]
         }
       ],
-      "rolls": {
-        "max": 3.0,
-        "min": 1.0,
-        "type": "minecraft:uniform"
-      }
+      "functions": [
+        {
+          "add": false,
+          "count": {
+            "max": 7.0,
+            "min": 2.0,
+            "type": "minecraft:uniform"
+          },
+          "function": "minecraft:set_count"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/jungle_temple_dispenser",

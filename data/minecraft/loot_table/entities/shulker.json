@@ -1,50 +1,48 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "type": "minecraft:entity",
+  "pools": [
     {
-     "condition": "minecraft:random_chance_with_enchanted_bonus",
-     "enchantment": "minecraft:looting",
-     "unenchanted_chance": 0.4,
-     "enchanted_chance": {
-      "type": "minecraft:linear",
-      "base": 0.6,
-      "per_level_above_first": 0.2
-     }
-    }
-   ],
-   "entries": [
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.4,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.6,
+            "per_level_above_first": 0.2
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:shulker_shell",
+          "type": "minecraft:item"
+        }
+      ]
+    },
     {
-     "name": "minecraft:shulker_shell",
-     "type": "minecraft:item"
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.1,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.15,
+            "per_level_above_first": 0.05
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:spire_armor_trim_smithing_template",
+          "type": "minecraft:item"
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "conditions": [
-      {
-       "condition": "minecraft:random_chance_with_enchanted_bonus",
-       "enchantment": "minecraft:looting",
-       "unenchanted_chance": 0.1,
-       "enchanted_chance": {
-        "type": "minecraft:linear",
-        "base": 0.15,
-        "per_level_above_first": 0.05
-       }
-      }
-     ],
-     "name": "minecraft:spire_armor_trim_smithing_template",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/shulker",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/shulker"
 }

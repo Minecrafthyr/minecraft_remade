@@ -1,136 +1,127 @@
 {
- "pools": [
-  {
-   "conditions": [
+  "type": "minecraft:entity",
+  "pools": [
     {
-     "condition": "minecraft:random_chance_with_enchanted_bonus",
-     "enchantment": "minecraft:looting",
-     "unenchanted_chance": 0.05,
-     "enchanted_chance": {
-      "type": "minecraft:linear",
-      "base": 0.075,
-      "per_level_above_first": 0.025
-     }
-    }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:dune_armor_trim_smithing_template",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:rotten_flesh",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:bone",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:sand",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance_with_enchanted_bonus",
-     "enchantment": "minecraft:looting",
-     "unenchanted_chance": 0.025,
-     "enchanted_chance": {
-      "type": "minecraft:linear",
-      "base": 0.035,
-      "per_level_above_first": 0.1
-     }
-    }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:iron_ingot",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:carrot",
-     "type": "minecraft:item"
-    },
-    {
-     "functions": [
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "conditions": [
         {
-         "condition": "minecraft:entity_properties",
-         "entity": "this",
-         "predicate": {
-          "flags": {
-           "is_on_fire": true
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.05,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.075,
+            "per_level_above_first": 0.025
           }
-         }
         }
-       ],
-       "function": "minecraft:furnace_smelt"
-      }
-     ],
-     "name": "minecraft:potato",
-     "type": "minecraft:item"
+      ],
+      "entries": [
+        {
+          "name": "minecraft:dune_armor_trim_smithing_template",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.025,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.035,
+            "per_level_above_first": 0.1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:iron_ingot",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:carrot",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:potato",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/husk",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/husk"
 }

@@ -1,52 +1,40 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "children": [
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "entries": [
         {
-         "condition": "minecraft:match_tool",
-         "predicate": {
-          "predicates": {
-         "minecraft:enchantments": [
-          {
-           "enchantments": "minecraft:silk_touch",
-           "levels": {
-            "min": 1
-           }
-          }
-         ]
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "add": false,
+                  "count": 9,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
         }
-         }
-        }
-       ],
-       "name": "minecraft:glowstone",
-       "type": "minecraft:item"
-      },
-      {
-       "functions": [
-        {
-         "add": false,
-         "count": 9,
-         "function": "minecraft:set_count"
-        },
-        {
-         "function": "minecraft:explosion_decay"
-        }
-       ],
-       "name": "minecraft:glowstone_dust",
-       "type": "minecraft:item"
-      }
-     ],
-     "type": "minecraft:alternatives"
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/glowstone",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/glowstone"
 }

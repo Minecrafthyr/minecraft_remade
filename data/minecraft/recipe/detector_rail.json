@@ -7,6 +7,7 @@
   "minecraft:redstone"
  ],
  "result": {
+  "count": 1,
   "id": "minecraft:detector_rail"
  }
 }

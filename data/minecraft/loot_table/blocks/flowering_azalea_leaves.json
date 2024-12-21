@@ -1,62 +1,61 @@
 {
- "pools": [
-  {
-   "rolls": 1.0,
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:alternatives",
-     "children": [
-      {
-       "type": "minecraft:item",
-       "conditions": [
+      "rolls": 1.0,
+      "entries": [
         {
-         "condition": "minecraft:reference",
-         "name": "minecraft_remade:tool/silk_touch_or_shear"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:flowering_azalea_leaves",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch_or_shears"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "weight": 2,
+                  "quality": 0
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:flowering_azalea",
+                  "quality": 1
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ],
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
         }
-       ],
-       "name": "minecraft:flowering_azalea_leaves"
-      },
-      {
-       "type": "minecraft:group",
-       "children": [
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:stick",
-         "weight": 2,
-         "quality": 0
-        },
-        {
-         "type": "minecraft:item",
-         "name": "minecraft:flowering_azalea",
-         "quality": 1
-        }
-       ],
-       "conditions": [
-        {
-         "condition": "minecraft:random_chance",
-         "chance": 0.2
-        }
-       ],
-       "functions": [
-        {
-         "enchantment": "minecraft:fortune",
-         "formula": "minecraft:uniform_bonus_count",
-         "function": "minecraft:apply_bonus",
-         "parameters": {
-          "bonusMultiplier": 2
-         }
-        },
-        {
-         "function": "minecraft:explosion_decay"
-        }
-       ]
-      }
-     ]
+      ]
     }
-   ]
-  }
- ],
- "random_sequence": "minecraft:blocks/flowering_azalea_leaves",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/flowering_azalea_leaves"
 }

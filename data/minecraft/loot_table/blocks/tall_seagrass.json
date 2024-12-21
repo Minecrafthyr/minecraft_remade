@@ -1,75 +1,70 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "condition": "minecraft:any_of",
-     "terms": [
-      {
-       "condition": "minecraft:all_of",
-       "terms": [
+      "conditions": [
         {
-         "block": "minecraft:tall_seagrass",
-         "condition": "minecraft:block_state_property",
-         "properties": {
-          "half": "lower"
-         }
-        },
-        {
-         "condition": "minecraft:location_check",
-         "offsetY": 1,
-         "predicate": {
-          "block": {
-           "blocks": [
-            "minecraft:tall_seagrass"
-           ],
-           "state": {
-            "half": "upper"
-           }
-          }
-         }
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "block": "minecraft:tall_seagrass",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "lower"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:tall_seagrass",
+                      "state": {
+                        "half": "upper"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "block": "minecraft:tall_seagrass",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "upper"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:tall_seagrass",
+                      "state": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
-       ]
-      },
-      {
-       "condition": "minecraft:all_of",
-       "terms": [
+      ],
+      "entries": [
         {
-         "block": "minecraft:tall_seagrass",
-         "condition": "minecraft:block_state_property",
-         "properties": {
-          "half": "upper"
-         }
-        },
-        {
-         "condition": "minecraft:location_check",
-         "offsetY": -1,
-         "predicate": {
-          "block": {
-           "blocks": [
-            "minecraft:tall_seagrass"
-           ],
-           "state": {
-            "half": "lower"
-           }
-          }
-         }
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/seagrass"
         }
-       ]
-      }
-     ]
+      ],
+      "rolls": 2.0
     }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:loot_table",
-     "value": "minecraft:blocks/seagrass"
-    }
-   ],
-   "rolls": 2.0
-  }
- ],
- "random_sequence": "minecraft:blocks/tall_seagrass",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/tall_seagrass"
 }

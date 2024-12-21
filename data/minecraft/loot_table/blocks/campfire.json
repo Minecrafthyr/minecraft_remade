@@ -1,42 +1,30 @@
 {
- "type": "minecraft:block",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "name": "minecraft:campfire",
-     "functions": [
-      {
-       "function": "minecraft:copy_state",
-       "conditions": [
+      "entries": [
         {
-         "condition": "minecraft:match_tool",
-         "predicate": {
-          "predicates": {
-           "minecraft:enchantments": [
+          "type": "minecraft:item",
+          "name": "minecraft:campfire",
+          "functions": [
             {
-             "enchantments": "minecraft:silk_touch",
-             "levels": {
-              "min": 1
-             }
+              "function": "minecraft:copy_state",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
+              "block": "minecraft:campfire",
+              "properties": [
+                "lit"
+              ]
             }
-           ]
-          }
-         }
+          ]
         }
-       ],
-       "block": "minecraft:campfire",
-       "properties": [
-        "lit"
-       ]
-      }
-     ]
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/campfire"
+  ],
+  "random_sequence": "minecraft:blocks/campfire"
 }

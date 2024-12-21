@@ -1,28 +1,27 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:gift",
+  "pools": [
     {
-     "name": "minecraft:cod",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:salmon",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:pufferfish",
-     "type": "minecraft:item"
+      "rolls": {
+        "max": 2.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish"
+        }
+      ]
     }
-   ],
-   "rolls": {
-    "max": 2.0,
-    "min": 1.0,
-    "type": "minecraft:uniform"
-   }
-  }
- ],
- "random_sequence": "minecraft:gameplay/hero_of_the_village/fisherman_gift",
- "type": "minecraft:gift"
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/fisherman_gift"
 }

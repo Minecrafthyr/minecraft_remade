@@ -1,52 +1,40 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "children": [
-      {
-       "conditions": [
+      "entries": [
         {
-         "condition": "minecraft:match_tool",
-         "predicate": {
-          "predicates": {
-           "minecraft:enchantments": [
+          "children": [
             {
-             "enchantments": "minecraft:silk_touch",
-             "levels": {
-              "min": 1
-             }
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
+              "name": "minecraft:clay",
+              "type": "minecraft:item"
+            },
+            {
+              "functions": [
+                {
+                  "add": false,
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:clay_ball",
+              "type": "minecraft:item"
             }
-           ]
-          }
-         }
+          ],
+          "type": "minecraft:alternatives"
         }
-       ],
-       "name": "minecraft:clay",
-       "type": "minecraft:item"
-      },
-      {
-       "functions": [
-        {
-         "add": false,
-         "count": 4.0,
-         "function": "minecraft:set_count"
-        },
-        {
-         "function": "minecraft:explosion_decay"
-        }
-       ],
-       "name": "minecraft:clay_ball",
-       "type": "minecraft:item"
-      }
-     ],
-     "type": "minecraft:alternatives"
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/clay",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/clay",
+  "type": "minecraft:block"
 }

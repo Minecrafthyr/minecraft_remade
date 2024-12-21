@@ -3,6 +3,7 @@
  "base": "minecraft:stone",
  "addition": "minecraft:quartz",
  "result": {
+  "count": 1,
   "id": "minecraft:diorite"
  }
 }

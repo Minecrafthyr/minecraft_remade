@@ -1,43 +1,41 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "pools": [
     {
-     "condition": "minecraft:survives_explosion"
-    }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:birch_sapling",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
-    {
-     "condition": "minecraft:survives_explosion"
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:birch_sapling",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     },
     {
-     "block": "minecraft:birch_sapling",
-     "condition": "minecraft:block_state_property",
-     "properties": {
-      "stage": "1"
-     }
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "block": "minecraft:birch_sapling",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "stage": "1"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:birch_log",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:birch_log",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/birch_sapling",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/birch_sapling",
+  "type": "minecraft:block"
 }

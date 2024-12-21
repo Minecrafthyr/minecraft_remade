@@ -1,33 +1,21 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "type": "minecraft:block",
+  "pools": [
     {
-     "condition": "minecraft:match_tool",
-     "predicate": {
-      "predicates": {
-       "minecraft:enchantments": [
+      "rolls": 1.0,
+      "conditions": [
         {
-         "enchantments": "minecraft:silk_touch",
-         "levels": {
-          "min": 1
-         }
+          "condition": "minecraft:reference",
+          "name": "minecraft_remade:tool/silk_touch"
         }
-       ]
-      }
-     }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:infested_cracked_stone_bricks"
+        }
+      ]
     }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:infested_cracked_stone_bricks",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/infested_cracked_stone_bricks",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/infested_cracked_stone_bricks"
 }

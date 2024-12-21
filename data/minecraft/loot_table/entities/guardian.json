@@ -1,151 +1,137 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:entity",
+  "pools": [
     {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 2.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      },
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:prismarine_shard",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      },
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "entries": [
         {
-         "condition": "minecraft:entity_properties",
-         "entity": "this",
-         "predicate": {
-          "flags": {
-           "is_on_fire": true
-          }
-         }
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 2.0
+              }
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
         }
-       ],
-       "function": "minecraft:furnace_smelt"
-      }
-     ],
-     "name": "minecraft:cod",
-     "type": "minecraft:item",
-     "weight": 2
+      ]
     },
     {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:prismarine_crystals",
-     "type": "minecraft:item",
-     "weight": 2
+      "rolls": 1.0,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ]
     },
     {
-     "type": "minecraft:empty"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance_with_enchanted_bonus",
-     "enchantment": "minecraft:looting",
-     "unenchanted_chance": 0.025,
-     "enchanted_chance": {
-      "type": "minecraft:linear",
-      "base": 0.035,
-      "per_level_above_first": 0.1
-     }
-    }
-   ],
-   "entries": [
-    {
-     "functions": [
-      {
-       "conditions": [
+      "rolls": 1.0,
+      "conditions": [
         {
-         "condition": "minecraft:entity_properties",
-         "entity": "this",
-         "predicate": {
-          "flags": {
-           "is_on_fire": true
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.025,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.035,
+            "per_level_above_first": 0.1
           }
-         }
         }
-       ],
-       "function": "minecraft:furnace_smelt"
-      }
-     ],
-     "value": "minecraft:gameplay/fishing/fish",
-     "type": "minecraft:loot_table"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ],
+          "value": "minecraft:gameplay/fishing/fish",
+          "type": "minecraft:loot_table"
+        }
+      ]
+    },
     {
-     "conditions": [
-      {
-       "condition": "minecraft:random_chance_with_enchanted_bonus",
-       "enchantment": "minecraft:looting",
-       "unenchanted_chance": 0.05,
-       "enchanted_chance": {
-        "type": "minecraft:linear",
-        "base": 0.075,
-        "per_level_above_first": 0.025
-       }
-      }
-     ],
-     "name": "minecraft:tide_armor_trim_smithing_template",
-     "type": "minecraft:item"
+      "rolls": 1.0,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "minecraft:looting",
+              "unenchanted_chance": 0.05,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.075,
+                "per_level_above_first": 0.025
+              }
+            }
+          ],
+          "name": "minecraft:tide_armor_trim_smithing_template",
+          "type": "minecraft:item"
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/guardian",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/guardian"
 }

@@ -1,129 +1,86 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "pools": [
     {
-     "name": "minecraft:glowstone_dust",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:sugar",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:redstone",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:spider_eye",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:fermented_spider_eye",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:glass_bottle",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:gunpowder",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:blaze_powder",
-     "type": "minecraft:item"
-    },
-    {
-     "name": "minecraft:nether_wart",
-     "type": "minecraft:item",
-     "weight": 2
-    },
-    {
-     "name": "minecraft:stick",
-     "type": "minecraft:item",
-     "weight": 2
-    }
-   ],
-   "functions": [
-    {
-     "add": false,
-     "count": {
-      "max": 2.0,
-      "min": 1.0,
-      "type": "minecraft:uniform"
-     },
-     "function": "minecraft:set_count"
-    },
-    {
-     "count": {
-      "max": 1.0,
-      "min": 0.0,
-      "type": "minecraft:uniform"
-     },
-     "function": "minecraft:enchanted_count_increase",
-     "enchantment": "minecraft:looting"
-    }
-   ],
-   "rolls": {
-    "max": 3.0,
-    "min": 1.0,
-    "type": "minecraft:uniform"
-   }
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
-    {
-     "functions": [
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:glowstone_dust",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:sugar",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:redstone",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:spider_eye",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:fermented_spider_eye",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:glass_bottle",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:gunpowder",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:blaze_powder",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:nether_wart",
+          "type": "minecraft:item",
+          "weight": 2
+        },
+        {
+          "name": "minecraft:stick",
+          "type": "minecraft:item",
+          "weight": 2
+        }
+      ],
+      "functions": [
+        {
+          "add": false,
+          "count": {
+            "max": 2.0,
+            "min": 1.0,
+            "type": "minecraft:uniform"
+          },
+          "function": "minecraft:set_count"
+        },
+        {
+          "count": {
+            "max": 1.0,
+            "min": 0.0,
+            "type": "minecraft:uniform"
+          },
+          "function": "minecraft:enchanted_count_increase",
+          "enchantment": "minecraft:looting"
+        }
+      ],
+      "rolls": {
+        "max": 3.0,
+        "min": 1.0,
         "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
       }
-     ],
-     "name": "minecraft:bone",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  },
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+    },
     {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 5.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      },
-      {
-       "count": {
-        "max": 1.0,
-        "min": 0.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:enchanted_count_increase",
-       "enchantment": "minecraft:looting"
-      }
-     ],
-     "name": "minecraft:emerald",
-     "type": "minecraft:item"
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:entity/template/villager"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:entities/witch",
- "type": "minecraft:entity"
+  ],
+  "random_sequence": "minecraft:entities/witch",
+  "type": "minecraft:entity"
 }

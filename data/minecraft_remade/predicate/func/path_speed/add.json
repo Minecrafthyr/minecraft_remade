@@ -1,0 +1,26 @@
+[
+ {
+  "condition": "minecraft:inverted",
+  "term": {
+   "condition": "minecraft:entity_properties",
+   "entity": "this",
+   "predicate": {
+    "vehicle": {}
+   }
+  }
+ },
+ {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+   "flags": {
+    "is_flying": false
+   },
+   "movement_affected_by": {
+    "block": {
+     "blocks": "minecraft:dirt_path"
+    }
+   }
+  }
+ }
+]

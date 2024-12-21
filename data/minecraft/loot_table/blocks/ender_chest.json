@@ -1,21 +1,20 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "conditions": [
+  "pools": [
     {
-     "condition": "minecraft:survives_explosion"
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "name": "minecraft:ender_chest",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     }
-   ],
-   "entries": [
-    {
-     "name": "minecraft:ender_chest",
-     "type": "minecraft:item"
-    }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:blocks/ender_chest",
- "type": "minecraft:block"
+  ],
+  "random_sequence": "minecraft:blocks/ender_chest",
+  "type": "minecraft:block"
 }

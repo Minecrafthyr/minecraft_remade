@@ -3,6 +3,7 @@
  "base": "minecraft:sand",
  "addition": "minecraft:sand",
  "result": {
+  "count": 1,
   "id": "minecraft:sandstone"
  }
 }

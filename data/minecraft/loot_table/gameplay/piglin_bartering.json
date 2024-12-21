@@ -1,246 +1,241 @@
 {
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "entries": [
+  "type": "minecraft:barter",
+  "pools": [
     {
-     "name": "minecraft:netherite_upgrade_smithing_template",
-     "type": "minecraft:item",
-     "weight": 2
-    },
-    {
-     "functions": [
-      {
-       "enchantments": [
-        "minecraft:soul_speed"
-       ],
-       "function": "minecraft:enchant_randomly"
-      }
-     ],
-     "name": "minecraft:book",
-     "type": "minecraft:item",
-     "weight": 5
-    },
-    {
-     "functions": [
-      {
-       "enchantments": [
-        "minecraft:soul_speed"
-       ],
-       "function": "minecraft:enchant_randomly"
-      }
-     ],
-     "name": "minecraft:iron_boots",
-     "type": "minecraft:item",
-     "weight": 8
-    },
-    {
-     "functions": [
-      {
-       "function": "minecraft:set_potion",
-       "id": "minecraft:fire_resistance"
-      }
-     ],
-     "name": "minecraft:potion",
-     "type": "minecraft:item",
-     "weight": 8
-    },
-    {
-     "functions": [
-      {
-       "function": "minecraft:set_potion",
-       "id": "minecraft:fire_resistance"
-      }
-     ],
-     "name": "minecraft:splash_potion",
-     "type": "minecraft:item",
-     "weight": 8
-    },
-    {
-     "functions": [
-      {
-       "function": "minecraft:set_potion",
-       "id": "minecraft:water"
-      }
-     ],
-     "name": "minecraft:potion",
-     "type": "minecraft:item",
-     "weight": 10
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 36.0,
-        "min": 10.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:iron_nugget",
-     "type": "minecraft:item",
-     "weight": 10
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 4.0,
-        "min": 2.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:ender_pearl",
-     "type": "minecraft:item",
-     "weight": 10
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 9.0,
-        "min": 3.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:string",
-     "type": "minecraft:item",
-     "weight": 20
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 12.0,
-        "min": 5.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:quartz",
-     "type": "minecraft:item",
-     "weight": 20
-    },
-    {
-     "name": "minecraft:obsidian",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 3.0,
-        "min": 1.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:crying_obsidian",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "name": "minecraft:fire_charge",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 4.0,
-        "min": 2.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:leather",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 8.0,
-        "min": 2.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:soul_sand",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 12.0,
-        "min": 6.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:spectral_arrow",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 16.0,
-        "min": 8.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:gravel",
-     "type": "minecraft:item",
-     "weight": 40
-    },
-    {
-     "functions": [
-      {
-       "add": false,
-       "count": {
-        "max": 16.0,
-        "min": 8.0,
-        "type": "minecraft:uniform"
-       },
-       "function": "minecraft:set_count"
-      }
-     ],
-     "name": "minecraft:blackstone",
-     "type": "minecraft:item",
-     "weight": 40
+      "rolls": 1.0,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:soul_speed"
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:soul_speed"
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 10.0,
+                "max": 36.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 9.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 20,
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5.0,
+                "max": 12.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian"
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:crying_obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge"
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 12.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 40,
+          "type": "minecraft:item",
+          "name": "minecraft:blackstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              }
+            }
+          ]
+        }
+      ]
     }
-   ],
-   "rolls": 1.0
-  }
- ],
- "random_sequence": "minecraft:gameplay/piglin_bartering",
- "type": "minecraft:barter"
+  ],
+  "random_sequence": "minecraft:gameplay/piglin_bartering"
 }

@@ -1,0 +1,34 @@
+{
+ "values": [
+  "minecraft:netherite_block",
+  "minecraft:netherite_shovel",
+  "minecraft:netherite_pickaxe",
+  "minecraft:netherite_axe",
+  "minecraft:netherite_hoe",
+  "minecraft:netherite_sword",
+  "minecraft:netherite_helmet",
+  "minecraft:netherite_chestplate",
+  "minecraft:netherite_leggings",
+  "minecraft:netherite_boots",
+  "minecraft:netherite_ingot",
+  "minecraft:netherite_block",
+  "minecraft:netherite_scrap",
+  "minecraft:ancient_debris",
+  {
+   "id": "toughasnails:empty_netherite_canteen",
+   "required": false
+  },
+  {
+   "id": "toughasnails:netherite_dirty_water_canteen",
+   "required": false
+  },
+  {
+   "id": "toughasnails:netherite_water_canteen",
+   "required": false
+  },
+  {
+   "id": "toughasnails:netherite_purified_water_canteen",
+   "required": false
+  }
+ ]
+}

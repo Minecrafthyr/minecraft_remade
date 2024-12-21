@@ -1,0 +1,6 @@
+{
+ "targets": "#minecraft_remade:components/max_stack_size/8",
+ "components": {
+  "minecraft:max_stack_size": 8
+ }
+}

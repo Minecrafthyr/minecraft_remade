@@ -1,16 +1,16 @@
 [
- {
-  "op": "add",
-  "path": "/key/X",
-  "value": "minecraft:wooden_shovel"
- },
- {
-  "op": "replace",
-  "path": "/result/pattern",
-  "value": [
-   "X X",
-   "# #",
-   "###"
-  ]
- }
+  {
+    "op": "add",
+    "path": "/key/X",
+    "value": "minecraft:wooden_shovel"
+  },
+  {
+    "op": "replace",
+    "path": "/result/pattern",
+    "value": [
+      "X X",
+      "# #",
+      "###"
+    ]
+  }
 ]

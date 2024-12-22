@@ -1,11 +1,11 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "ingredients": [
-  "minecraft:command_block",
-  "minecraft:minecart"
- ],
- "result": {
-  "id": "minecraft:command_block_minecart"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:command_block",
+    "minecraft:minecart"
+  ],
+  "result": {
+    "id": "minecraft:command_block_minecart"
+  }
 }

@@ -1,18 +1,22 @@
 {
- "targets": [
-  "minecraft:mace",
-  "minecraft:heavy_core",
-  "minecraft:blaze_rod",
-  "minecraft:blaze_powder",
-  "minecraft:end_rod",
-  "minecraft:obsidian",
-  "minecraft:crying_obsidian",
-  "minecraft:ender_chest",
-  "minecraft:respawn_anchor"
- ],
- "components": {
-  "minecraft:damage_resistant": {
-   "types": "#minecraft:is_fire"
+  "targets": [
+    "minecraft:mace",
+    "minecraft:heavy_core",
+    "minecraft:blaze_rod",
+    "minecraft:blaze_powder",
+    "minecraft:end_rod",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:ender_chest",
+    "minecraft:respawn_anchor",
+    "minecraft:bedrock",
+    "minecraft:reinforced_deepslate",
+    "minecraft:spawner",
+    "#taglib:command_blocks"
+  ],
+  "components": {
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
   }
- }
 }

@@ -1,16 +1,16 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "ingredients": [
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:ladder"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:ladder"
+  }
 }

@@ -1,9 +1,9 @@
 {
- "op": "replace",
- "path": "/pattern",
- "value": [
-  " # ",
-  "#E#",
-  " # "
- ]
+  "op": "replace",
+  "path": "/pattern",
+  "value": [
+    " # ",
+    "#E#",
+    " # "
+  ]
 }

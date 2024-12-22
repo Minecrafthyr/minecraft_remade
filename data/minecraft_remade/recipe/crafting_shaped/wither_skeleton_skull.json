@@ -1,16 +1,16 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "building",
- "key": {
-  "B": "minecraft:wither_rose",
-  "S": "minecraft:skeleton_skull"
- },
- "pattern": [
-  "BBB",
-  "BSB",
-  "BBB"
- ],
- "result": {
-  "id": "minecraft:wither_skeleton_skull"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": "minecraft:wither_rose",
+    "S": "minecraft:skeleton_skull"
+  },
+  "pattern": [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+  "result": {
+    "id": "minecraft:wither_skeleton_skull"
+  }
 }

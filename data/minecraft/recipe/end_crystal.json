@@ -1,19 +1,19 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "A": "minecraft:amethyst_shard",
-  "E": "minecraft:ender_eye",
-  "G": "minecraft:glass",
-  "T": "minecraft:ghast_tear"
- },
- "pattern": [
-  "AGA",
-  "GEG",
-  "ATA"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:end_crystal"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:ender_eye",
+    "G": "minecraft:glass",
+    "T": "minecraft:ghast_tear"
+  },
+  "pattern": [
+    "AGA",
+    "GEG",
+    "ATA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:end_crystal"
+  }
 }

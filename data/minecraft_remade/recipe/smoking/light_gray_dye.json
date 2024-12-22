@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smoking",
- "category": "building",
- "cookingtime": 100,
- "ingredient": "minecraft:white_dye",
- "result": {
-  "id": "minecraft:light_gray_dye"
- }
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 100,
+  "ingredient": "minecraft:white_dye",
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  }
 }

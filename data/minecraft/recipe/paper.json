@@ -1,13 +1,13 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "ingredients": [
-  "minecraft:sugar_cane",
-  "minecraft:sugar_cane",
-  "minecraft:sugar_cane"
- ],
- "result": {
-  "count": 2,
-  "id": "minecraft:paper"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sugar_cane",
+    "minecraft:sugar_cane",
+    "minecraft:sugar_cane"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:paper"
+  }
 }

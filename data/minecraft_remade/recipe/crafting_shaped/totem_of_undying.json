@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "equipment",
- "key": {
-  "G": "minecraft:gold_block",
-  "e": "minecraft:emerald",
-  "g": "minecraft:gold_ingot"
- },
- "pattern": [
-  "eGe",
-  "gGg",
-  " g "
- ],
- "result": {
-  "id": "minecraft:totem_of_undying"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:gold_block",
+    "e": "minecraft:emerald",
+    "g": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "eGe",
+    "gGg",
+    " g "
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
 }

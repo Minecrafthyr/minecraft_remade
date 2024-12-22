@@ -1,8 +1,8 @@
 {
- "type": "minecraft:blasting",
- "cookingtime": 100,
- "ingredient": "minecraft:wet_sponge",
- "result": {
-  "id": "minecraft:sponge"
- }
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "ingredient": "minecraft:wet_sponge",
+  "result": {
+    "id": "minecraft:sponge"
+  }
 }

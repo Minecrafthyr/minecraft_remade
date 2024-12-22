@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "minecraft:mossy_cobblestone",
-  "C": "minecraft:diamond",
-  "S": "minecraft:moss_block"
- },
- "pattern": [
-  "#S#",
-  "#C#",
-  "###"
- ],
- "result": {
-  "id": "minecraft:wild_armor_trim_smithing_template"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:mossy_cobblestone",
+    "C": "minecraft:diamond",
+    "S": "minecraft:moss_block"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:wild_armor_trim_smithing_template"
+  }
 }

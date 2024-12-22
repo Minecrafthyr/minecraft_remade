@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:crimson_fungus",
- "addition": "minecraft:ender_pearl",
- "result": {
-  "id": "minecraft:warped_fungus"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:crimson_fungus",
+  "addition": "minecraft:ender_pearl",
+  "result": {
+    "id": "minecraft:warped_fungus"
+  }
 }

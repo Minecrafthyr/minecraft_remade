@@ -1,9 +1,9 @@
 {
- "type": "minecraft:blasting",
- "cookingtime": 100,
- "group": "gold_ingot",
- "ingredient": "#minecraft_remade:smelt/gold_ingot",
- "result": {
-  "id": "minecraft:gold_ingot"
- }
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "group": "gold_ingot",
+  "ingredient": "#minecraft_remade:smelt/gold_ingot",
+  "result": {
+    "id": "minecraft:gold_ingot"
+  }
 }

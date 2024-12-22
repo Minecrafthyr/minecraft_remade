@@ -1,13 +1,13 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "redstone",
- "ingredients": [
-  "minecraft:rail",
-  "minecraft:redstone",
-  "minecraft:redstone",
-  "minecraft:redstone"
- ],
- "result": {
-  "id": "minecraft:activator_rail"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:rail",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "minecraft:activator_rail"
+  }
 }

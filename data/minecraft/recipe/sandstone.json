@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:sand",
- "addition": "minecraft:sand",
- "result": {
-  "count": 1,
-  "id": "minecraft:sandstone"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:sand",
+  "addition": "minecraft:sand",
+  "result": {
+    "count": 1,
+    "id": "minecraft:sandstone"
+  }
 }

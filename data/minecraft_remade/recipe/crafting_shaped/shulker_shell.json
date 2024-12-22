@@ -1,15 +1,15 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "E": "minecraft:ender_eye",
-  "P": "minecraft:popped_chorus_fruit"
- },
- "pattern": [
-  "PPP",
-  "PEP"
- ],
- "result": {
-  "id": "minecraft:shulker_shell"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:ender_eye",
+    "P": "minecraft:popped_chorus_fruit"
+  },
+  "pattern": [
+    "PPP",
+    "PEP"
+  ],
+  "result": {
+    "id": "minecraft:shulker_shell"
+  }
 }

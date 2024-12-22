@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:stone",
- "addition": "minecraft:stone",
- "result": {
-  "id": "minecraft:deepslate"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:stone",
+  "addition": "minecraft:stone",
+  "result": {
+    "id": "minecraft:deepslate"
+  }
 }

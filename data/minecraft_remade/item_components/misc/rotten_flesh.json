@@ -1,32 +1,32 @@
 {
- "targets": "minecraft:rotten_flesh",
- "components": {
-  "minecraft:consumable": {
-   "on_consume_effects": [
-    {
-     "type": "minecraft:apply_effects",
-     "effects": [
-      {
-       "id": "minecraft:hunger",
-       "duration": 600
-      }
-     ]
+  "targets": "minecraft:rotten_flesh",
+  "components": {
+    "minecraft:consumable": {
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 600
+            }
+          ]
+        },
+        {
+          "type": "minecraft:apply_effects",
+          "probability": 0.2,
+          "effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 100
+            }
+          ]
+        }
+      ]
     },
-    {
-     "type": "minecraft:apply_effects",
-     "probability": 0.2,
-     "effects": [
-      {
-       "id": "minecraft:poison",
-       "duration": 100
-      }
-     ]
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation": 2
     }
-   ]
-  },
-  "minecraft:food": {
-   "nutrition": 2,
-   "saturation": 0.2
   }
- }
 }

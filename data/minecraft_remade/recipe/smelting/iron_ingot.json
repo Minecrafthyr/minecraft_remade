@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smelting",
- "cookingtime": 200,
- "group": "iron_ingot",
- "ingredient": "#minecraft_remade:smelt/iron_ingot",
- "result": {
-  "id": "minecraft:iron_ingot"
- }
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "group": "iron_ingot",
+  "ingredient": "#minecraft_remade:smelt/iron_ingot",
+  "result": {
+    "id": "minecraft:iron_ingot"
+  }
 }

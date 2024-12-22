@@ -1,6 +1,6 @@
 {
- "targets": "#minecraft_remade:components/rarity/epic",
- "components": {
-  "minecraft:rarity": "epic"
- }
+  "targets": "#minecraft_remade:components/rarity/epic",
+  "components": {
+    "minecraft:rarity": "epic"
+  }
 }

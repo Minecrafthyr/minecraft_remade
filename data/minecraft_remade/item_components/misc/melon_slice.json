@@ -1,8 +1,8 @@
 {
- "targets": "minecraft:melon_slice",
- "components": {
-  "minecraft:use_remainder": {
-   "id": "minecraft:melon_seeds"
+  "targets": "minecraft:melon_slice",
+  "components": {
+    "minecraft:use_remainder": {
+      "id": "minecraft:melon_seeds"
+    }
   }
- }
 }

@@ -1,6 +1,6 @@
 {
- "targets": "#minecraft_remade:components/max_stack_size/32",
- "components": {
-  "minecraft:max_stack_size": 32
- }
+  "targets": "#minecraft_remade:components/max_stack_size/32",
+  "components": {
+    "minecraft:max_stack_size": 32
+  }
 }

@@ -1,18 +1,18 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "#minecraft:planks",
-  "A": "minecraft:arrow",
-  "F": "minecraft:feather",
-  "S": "minecraft:string"
- },
- "pattern": [
-  "FS",
-  "#A"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:fletching_table"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:planks",
+    "A": "minecraft:arrow",
+    "F": "minecraft:feather",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "FS",
+    "#A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fletching_table"
+  }
 }

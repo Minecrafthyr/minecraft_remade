@@ -1,14 +1,14 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "building",
- "key": {
-  "#": "minecraft:dead_brain_coral"
- },
- "pattern": [
-  "##",
-  "##"
- ],
- "result": {
-  "id": "minecraft:dead_brain_coral_block"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:dead_brain_coral"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:dead_brain_coral_block"
+  }
 }

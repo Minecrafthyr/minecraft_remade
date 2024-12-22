@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:blackstone",
- "addition": "minecraft:gold_ingot",
- "result": {
-  "id": "minecraft:gilded_blackstone"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:blackstone",
+  "addition": "minecraft:gold_ingot",
+  "result": {
+    "id": "minecraft:gilded_blackstone"
+  }
 }

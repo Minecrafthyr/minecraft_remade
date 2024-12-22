@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "fence",
- "ingredient": "minecraft:warped_planks",
- "result": {
-  "id": "minecraft:warped_fence",
-  "count": 4
- }
+  "type": "minecraft:stonecutting",
+  "group": "fence",
+  "ingredient": "minecraft:warped_planks",
+  "result": {
+    "id": "minecraft:warped_fence",
+    "count": 4
+  }
 }

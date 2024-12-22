@@ -1,8 +1,8 @@
-{"type": "minecraft:crafting_shaped",
+{
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#":  "minecraft:snowball"
-    
+    "#": "minecraft:snowball"
   },
   "pattern": [
     "##"
@@ -11,5 +11,4 @@
     "count": 2,
     "id": "minecraft:snow"
   }
-  
 }

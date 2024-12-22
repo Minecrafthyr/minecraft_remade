@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:sweet_berries",
- "addition": "minecraft:glowstone_dust",
- "result": {
-  "id": "minecraft:glow_berries"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:sweet_berries",
+  "addition": "minecraft:glowstone_dust",
+  "result": {
+    "id": "minecraft:glow_berries"
+  }
 }

@@ -1,54 +1,54 @@
 [
- {
-  "condition": "minecraft:any_of",
-  "terms": [
-   {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-     "vehicle": {}
-    }
-   },
-   {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-     "flags": {
-      "is_flying": true
-     }
-    }
-   },
-   {
-    "condition": "minecraft:inverted",
-    "term": {
-     "condition": "minecraft:all_of",
-     "terms": [
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
       {
-       "condition": "minecraft:entity_properties",
-       "entity": "this",
-       "predicate": {
-        "movement_affected_by": {
-         "block": {
-          "blocks": "minecraft:dirt_path"
-         }
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "vehicle": {}
         }
-       }
       },
       {
-       "condition": "minecraft:inverted",
-       "term": {
-        "condition": "minecraft:entity_scores",
+        "condition": "minecraft:entity_properties",
         "entity": "this",
-        "scores": {
-         "minecraft_remade.jumped": {
-          "min": 1
-         }
+        "predicate": {
+          "flags": {
+            "is_flying": true
+          }
         }
-       }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement_affected_by": {
+                  "block": {
+                    "blocks": "minecraft:dirt_path"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "minecraft_remade.jumped": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
-     ]
-    }
-   }
-  ]
- }
+    ]
+  }
 ]

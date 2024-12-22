@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smelting",
- "cookingtime": 200,
- "group": "sugar",
- "ingredient": "minecraft:beetroot",
- "result": {
-  "id": "minecraft:sugar"
- }
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "group": "sugar",
+  "ingredient": "minecraft:beetroot",
+  "result": {
+    "id": "minecraft:sugar"
+  }
 }

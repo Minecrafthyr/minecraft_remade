@@ -1,18 +1,18 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "redstone",
- "key": {
-  "#": "minecraft:red_dye",
-  "P": "minecraft:paper",
-  "X": "minecraft:gunpowder"
- },
- "pattern": [
-  "#X#",
-  "PXP",
-  "#X#"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:tnt"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:red_dye",
+    "P": "minecraft:paper",
+    "X": "minecraft:gunpowder"
+  },
+  "pattern": [
+    "#X#",
+    "PXP",
+    "#X#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:tnt"
+  }
 }

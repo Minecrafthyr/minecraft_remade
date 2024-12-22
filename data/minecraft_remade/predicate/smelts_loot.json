@@ -1,42 +1,42 @@
 {
- "condition": "minecraft:any_of",
- "terms": [
-  {
-   "condition": "minecraft:entity_properties",
-   "entity": "this",
-   "predicate": {
-    "flags": {
-     "is_on_fire": true
-    }
-   }
-  },
-  {
-   "condition": "minecraft:damage_source_properties",
-   "predicate": {
-    "tags": [
-     {
-      "id": "minecraft:is_fire",
-      "expected": true
-     }
-    ]
-   }
-  },
-  {
-   "condition": "minecraft:entity_properties",
-   "entity": "direct_attacker",
-   "predicate": {
-    "equipment": {
-     "mainhand": {
-      "predicates": {
-       "minecraft:enchantments": [
-        {
-         "enchantments": "#minecraft:smelts_loot"
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_fire": true
         }
-       ]
       }
-     }
+    },
+    {
+      "condition": "minecraft:damage_source_properties",
+      "predicate": {
+        "tags": [
+          {
+            "id": "minecraft:is_fire",
+            "expected": true
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "direct_attacker",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#minecraft:smelts_loot"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
-   }
-  }
- ]
+  ]
 }

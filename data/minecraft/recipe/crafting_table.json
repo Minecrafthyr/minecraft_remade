@@ -1,16 +1,16 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "#minecraft:planks",
-  "L": "minecraft:leather"
- },
- "pattern": [
-  "L",
-  "#"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:crafting_table"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:planks",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    "L",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:crafting_table"
+  }
 }

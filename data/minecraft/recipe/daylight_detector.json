@@ -1,16 +1,16 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "redstone",
- "key": {
-  "Q": "minecraft:quartz",
-  "W": "#minecraft:wooden_slabs"
- },
- "pattern": [
-  "QQQ",
-  " W "
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:daylight_detector"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "Q": "minecraft:quartz",
+    "W": "#minecraft:wooden_slabs"
+  },
+  "pattern": [
+    "QQQ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:daylight_detector"
+  }
 }

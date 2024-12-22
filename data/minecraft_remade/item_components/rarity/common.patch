@@ -1,0 +1,12 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "tooltipz"
+  },
+  {
+    "op": "add",
+    "path": "/components/minecraft:tooltip_style",
+    "value": "minecraft:custom/common"
+  }
+]

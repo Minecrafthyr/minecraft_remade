@@ -1,15 +1,15 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "ingredients": [
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick",
-  "minecraft:stick",
-  "#minecraft:soul_fire_base_blocks"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:soul_campfire"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "#minecraft:soul_fire_base_blocks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:soul_campfire"
+  }
 }

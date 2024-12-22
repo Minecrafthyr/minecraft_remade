@@ -1,11 +1,11 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "group": "stick",
- "ingredients": [
-  "#minecraft:saplings"
- ],
- "result": {
-  "id": "minecraft:stick"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stick",
+  "ingredients": [
+    "#minecraft:saplings"
+  ],
+  "result": {
+    "id": "minecraft:stick"
+  }
 }

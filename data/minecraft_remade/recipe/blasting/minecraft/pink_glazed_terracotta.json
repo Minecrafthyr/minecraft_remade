@@ -1,9 +1,9 @@
 {
- "type": "minecraft:blasting",
- "cookingtime": 100,
- "experience": 0.1,
- "ingredient": "minecraft:pink_terracotta",
- "result": {
-  "id": "minecraft:pink_glazed_terracotta"
- }
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": "minecraft:pink_terracotta",
+  "result": {
+    "id": "minecraft:pink_glazed_terracotta"
+  }
 }

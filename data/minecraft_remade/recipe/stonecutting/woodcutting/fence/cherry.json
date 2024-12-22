@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "fence",
- "ingredient": "minecraft:cherry_planks",
- "result": {
-  "id": "minecraft:cherry_fence",
-  "count": 4
- }
+  "type": "minecraft:stonecutting",
+  "group": "fence",
+  "ingredient": "minecraft:cherry_planks",
+  "result": {
+    "id": "minecraft:cherry_fence",
+    "count": 4
+  }
 }

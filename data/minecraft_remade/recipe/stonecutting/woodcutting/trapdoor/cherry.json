@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "trapdoor",
- "ingredient": "minecraft:cherry_planks",
- "result": {
-  "id": "minecraft:cherry_trapdoor",
-  "count": 6
- }
+  "type": "minecraft:stonecutting",
+  "group": "trapdoor",
+  "ingredient": "minecraft:cherry_planks",
+  "result": {
+    "id": "minecraft:cherry_trapdoor",
+    "count": 6
+  }
 }

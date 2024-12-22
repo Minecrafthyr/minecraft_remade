@@ -1,9 +1,9 @@
 {
- "type": "minecraft:blasting",
- "cookingtime": 100,
- "experience": 0.1,
- "ingredient": "minecraft:quartz_block",
- "result": {
-  "id": "minecraft:smooth_quartz"
- }
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": "minecraft:quartz_block",
+  "result": {
+    "id": "minecraft:smooth_quartz"
+  }
 }

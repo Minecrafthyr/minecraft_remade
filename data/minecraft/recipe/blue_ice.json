@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:packed_ice",
- "addition": "minecraft:packed_ice",
- "result": {
-  "count": 1,
-  "id": "minecraft:blue_ice"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:packed_ice",
+  "addition": "minecraft:packed_ice",
+  "result": {
+    "count": 1,
+    "id": "minecraft:blue_ice"
+  }
 }

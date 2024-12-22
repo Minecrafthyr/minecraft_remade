@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "wood",
- "ingredient": "minecraft:crimson_hyphae",
- "result": {
-  "id": "minecraft:stripped_crimson_hyphae",
-  "count": 1
- }
+  "type": "minecraft:stonecutting",
+  "group": "wood",
+  "ingredient": "minecraft:crimson_hyphae",
+  "result": {
+    "id": "minecraft:stripped_crimson_hyphae",
+    "count": 1
+  }
 }

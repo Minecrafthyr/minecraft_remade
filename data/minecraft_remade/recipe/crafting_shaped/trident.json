@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "equipment",
- "key": {
-  "C": "minecraft:prismarine_crystals",
-  "I": "minecraft:iron_ingot",
-  "S": "minecraft:prismarine_shard"
- },
- "pattern": [
-  "III",
-  "CSC",
-  " S "
- ],
- "result": {
-  "id": "minecraft:trident"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:prismarine_crystals",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    "III",
+    "CSC",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:trident"
+  }
 }

@@ -8,6 +8,6 @@ License: [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/
 ### [Taglib](https://github.com/HeDeAnTheonlyone/Taglib)
 
 By [HeDeAnTheonlyone](https://github.com/HeDeAnTheonlyone)  
-Licence: [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+License: [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 - data/taglib/\*

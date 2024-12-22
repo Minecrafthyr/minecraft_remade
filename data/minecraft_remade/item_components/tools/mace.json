@@ -1,22 +1,22 @@
 {
- "targets": "minecraft:mace",
- "components": {
-  "minecraft:attribute_modifiers": [
-   {
-    "id": "minecraft:base_attack_speed",
-    "amount": -3.4,
-    "operation": "add_value",
-    "slot": "mainhand",
-    "type": "minecraft:attack_speed"
-   },
-   {
-    "id": "minecraft:base_attack_damage",
-    "amount": 9,
-    "operation": "add_value",
-    "slot": "mainhand",
-    "type": "minecraft:attack_damage"
-   }
-  ],
-  "!minecraft:max_damage": {}
- }
+  "targets": "minecraft:mace",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "id": "minecraft:base_attack_speed",
+        "amount": -3.4,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_speed"
+      },
+      {
+        "id": "minecraft:base_attack_damage",
+        "amount": 9,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_damage"
+      }
+    ],
+    "!minecraft:max_damage": {}
+  }
 }

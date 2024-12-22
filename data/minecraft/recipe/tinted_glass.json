@@ -1,12 +1,12 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "building",
- "ingredients": [
-  "minecraft:glass",
-  "minecraft:amethyst_shard"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:tinted_glass"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:tinted_glass"
+  }
 }

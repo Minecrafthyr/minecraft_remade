@@ -1,6 +1,6 @@
 {
- "replace": false,
- "values": [
-  "bs.health:__unload__"
- ]
+  "replace": false,
+  "values": [
+    "bs.health:__unload__"
+  ]
 }

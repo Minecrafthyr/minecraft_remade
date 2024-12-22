@@ -1,18 +1,18 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "minecraft:smooth_stone",
-  "F": "minecraft:furnace",
-  "I": "minecraft:iron_ingot"
- },
- "pattern": [
-  "I#I",
-  "#F#",
-  "I#I"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:blast_furnace"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:smooth_stone",
+    "F": "minecraft:furnace",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "I#I",
+    "#F#",
+    "I#I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
 }

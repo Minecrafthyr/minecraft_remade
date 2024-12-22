@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "glass_pane",
- "ingredient": "minecraft:glass",
- "result": {
-  "count": 8,
-  "id": "minecraft:glass_pane"
- }
+  "type": "minecraft:stonecutting",
+  "group": "glass_pane",
+  "ingredient": "minecraft:glass",
+  "result": {
+    "count": 8,
+    "id": "minecraft:glass_pane"
+  }
 }

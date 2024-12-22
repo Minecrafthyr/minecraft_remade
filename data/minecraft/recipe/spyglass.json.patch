@@ -1,5 +1,5 @@
 {
- "op": "replace",
- "path": "/key/#",
- "value": "minecraft:glass"
+  "op": "replace",
+  "path": "/key/#",
+  "value": "minecraft:glass"
 }

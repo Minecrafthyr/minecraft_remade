@@ -1,13 +1,13 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "redstone",
- "ingredients": [
-  "minecraft:activator_rail",
-  "minecraft:copper_ingot",
-  "minecraft:copper_ingot"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:powered_rail"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:activator_rail",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:powered_rail"
+  }
 }

@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "X": "minecraft:honeycomb",
-  "-": "#minecraft:wooden_slabs"
- },
- "pattern": [
-  " - ",
-  "XXX",
-  " - "
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:beehive"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": "minecraft:honeycomb",
+    "-": "#minecraft:wooden_slabs"
+  },
+  "pattern": [
+    " - ",
+    "XXX",
+    " - "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:beehive"
+  }
 }

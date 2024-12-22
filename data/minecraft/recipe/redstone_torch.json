@@ -1,12 +1,12 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "ingredients": [
-  "minecraft:stick",
-  "minecraft:redstone"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:redstone_torch"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:redstone_torch"
+  }
 }

@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "fence_gate",
- "ingredient": "minecraft:crimson_planks",
- "result": {
-  "id": "minecraft:crimson_fence_gate",
-  "count": 2
- }
+  "type": "minecraft:stonecutting",
+  "group": "fence_gate",
+  "ingredient": "minecraft:crimson_planks",
+  "result": {
+    "id": "minecraft:crimson_fence_gate",
+    "count": 2
+  }
 }

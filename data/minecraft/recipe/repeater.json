@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "redstone",
- "key": {
-  "#": "minecraft:redstone_torch",
-  "I": "minecraft:smooth_stone_slab",
-  "X": "minecraft:redstone"
- },
- "pattern": [
-  "#X#",
-  " I "
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:repeater"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:redstone_torch",
+    "I": "minecraft:smooth_stone_slab",
+    "X": "minecraft:redstone"
+  },
+  "pattern": [
+    "#X#",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:repeater"
+  }
 }

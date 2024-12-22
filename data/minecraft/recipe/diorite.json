@@ -1,9 +1,9 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:stone",
- "addition": "minecraft:quartz",
- "result": {
-  "count": 1,
-  "id": "minecraft:diorite"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:stone",
+  "addition": "minecraft:quartz",
+  "result": {
+    "count": 1,
+    "id": "minecraft:diorite"
+  }
 }

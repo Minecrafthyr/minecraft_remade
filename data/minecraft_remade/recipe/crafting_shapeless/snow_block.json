@@ -1,18 +1,18 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "building",
- "group": "snow_block",
- "ingredients": [
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow",
-  "minecraft:snow"
- ],
- "result": {
-  "id": "minecraft:snow_block"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "snow_block",
+  "ingredients": [
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow",
+    "minecraft:snow"
+  ],
+  "result": {
+    "id": "minecraft:snow_block"
+  }
 }

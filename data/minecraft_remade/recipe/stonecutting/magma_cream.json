@@ -1,8 +1,8 @@
 {
- "type": "minecraft:stonecutting",
- "ingredient": "minecraft:magma_block",
- "result": {
-  "id": "minecraft:magma_cream",
-  "count": 4
- }
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:magma_block",
+  "result": {
+    "id": "minecraft:magma_cream",
+    "count": 4
+  }
 }

@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "building",
- "key": {
-  "G": "minecraft:gold_ingot",
-  "-": "minecraft:gold_nugget",
-  "/": "minecraft:stick"
- },
- "pattern": [
-  "///",
-  " G ",
-  "G-G"
- ],
- "result": {
-  "id": "minecraft:bell"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "-": "minecraft:gold_nugget",
+    "/": "minecraft:stick"
+  },
+  "pattern": [
+    "///",
+    " G ",
+    "G-G"
+  ],
+  "result": {
+    "id": "minecraft:bell"
+  }
 }

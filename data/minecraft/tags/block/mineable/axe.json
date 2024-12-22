@@ -1,15 +1,15 @@
 {
- "replace": false,
- "values": [
-  "#minecraft:leaves",
-  "#minecraft:beds",
-  "minecraft:bamboo_sapling",
-  "minecraft:bamboo",
-  "minecraft:cactus",
-  "minecraft:shroomlight",
-  "minecraft:ochre_froglight",
-  "minecraft:verdant_froglight",
-  "minecraft:pearlescent_froglight",
-  "#minecraft:wart_blocks"
- ]
+  "replace": false,
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:beds",
+    "minecraft:bamboo_sapling",
+    "minecraft:bamboo",
+    "minecraft:cactus",
+    "minecraft:shroomlight",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight",
+    "#minecraft:wart_blocks"
+  ]
 }

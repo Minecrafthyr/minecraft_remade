@@ -1,25 +1,25 @@
 {
- "criteria": {
-  "player_attack": {
-   "conditions": {
-    "damage": {
-     "source_entity": {
-      "type": "minecraft:player"
-     },
-     "type": {
-      "tags": [
-       {
-        "expected": true,
-        "id": "minecraft_remade:player_attack"
-       }
-      ]
-     }
+  "criteria": {
+    "player_attack": {
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player"
+          },
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft_remade:player_attack"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
     }
-   },
-   "trigger": "minecraft:player_hurt_entity"
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/phe/player_attack"
   }
- },
- "rewards": {
-  "function": "minecraft_remade:adv/phe/player_attack"
- }
 }

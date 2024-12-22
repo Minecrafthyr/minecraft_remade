@@ -1,11 +1,11 @@
 {
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
- "group": "string",
- "ingredients": [
-  "#minecraft_remade:vines"
- ],
- "result": {
-  "id": "minecraft:string"
- }
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "string",
+  "ingredients": [
+    "#minecraft_remade:vines"
+  ],
+  "result": {
+    "id": "minecraft:string"
+  }
 }

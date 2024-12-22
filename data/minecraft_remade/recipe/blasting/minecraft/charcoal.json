@@ -1,9 +1,9 @@
 {
- "type": "minecraft:blasting",
- "cookingtime": 100,
- "experience": 0.15,
- "ingredient": "#minecraft_remade:wooden_blocks_that_burn",
- "result": {
-  "id": "minecraft:charcoal"
- }
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": "#minecraft_remade:wooden_blocks_that_burn",
+  "result": {
+    "id": "minecraft:charcoal"
+  }
 }

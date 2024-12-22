@@ -1,9 +1,9 @@
 {
- "type": "minecraft:blasting",
- "category": "misc",
- "cookingtime": 100,
- "ingredient": "#minecraft_remade:smelt/gold_nugget",
- "result": {
-  "id": "minecraft:gold_nugget"
- }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "ingredient": "#minecraft_remade:smelt/gold_nugget",
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
 }

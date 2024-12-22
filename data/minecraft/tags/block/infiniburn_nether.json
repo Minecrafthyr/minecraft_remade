@@ -1,7 +1,7 @@
 {
- "replace": true,
- "values": [
-  "#minecraft:infiniburn_overworld",
-  "minecraft:netherrack"
- ]
+  "replace": true,
+  "values": [
+    "#minecraft:infiniburn_overworld",
+    "minecraft:netherrack"
+  ]
 }

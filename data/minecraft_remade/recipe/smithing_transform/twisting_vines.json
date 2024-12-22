@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:weeping_vines",
- "addition": "minecraft:ender_pearl",
- "result": {
-  "id": "minecraft:twisting_vines"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:weeping_vines",
+  "addition": "minecraft:ender_pearl",
+  "result": {
+    "id": "minecraft:twisting_vines"
+  }
 }

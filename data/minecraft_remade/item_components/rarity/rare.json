@@ -1,6 +1,6 @@
 {
- "targets": "#minecraft_remade:components/rarity/rare",
- "components": {
-  "minecraft:rarity": "rare"
- }
+  "targets": "#minecraft_remade:components/rarity/rare",
+  "components": {
+    "minecraft:rarity": "rare"
+  }
 }

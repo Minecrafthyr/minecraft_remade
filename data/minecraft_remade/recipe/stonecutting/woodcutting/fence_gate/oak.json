@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "fence_gate",
- "ingredient": "minecraft:oak_planks",
- "result": {
-  "id": "minecraft:oak_fence_gate",
-  "count": 2
- }
+  "type": "minecraft:stonecutting",
+  "group": "fence_gate",
+  "ingredient": "minecraft:oak_planks",
+  "result": {
+    "id": "minecraft:oak_fence_gate",
+    "count": 2
+  }
 }

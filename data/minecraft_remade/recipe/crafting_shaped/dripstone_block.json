@@ -1,15 +1,15 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "building",
- "key": {
-  "#": "minecraft:nautilus_shell"
- },
- "pattern": [
-  "###",
-  "###",
-  "###"
- ],
- "result": {
-  "id": "minecraft:dripstone_block"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:nautilus_shell"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:dripstone_block"
+  }
 }

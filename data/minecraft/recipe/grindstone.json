@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "-": "minecraft:stone_slab",
-  "I": "minecraft:stick",
-  "O": "#minecraft:wooden_buttons"
- },
- "pattern": [
-  "O-O",
-  "I I"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:grindstone"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "-": "minecraft:stone_slab",
+    "I": "minecraft:stick",
+    "O": "#minecraft:wooden_buttons"
+  },
+  "pattern": [
+    "O-O",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:grindstone"
+  }
 }

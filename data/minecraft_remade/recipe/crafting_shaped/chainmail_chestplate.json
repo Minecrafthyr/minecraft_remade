@@ -1,16 +1,16 @@
 ﻿{
- "type": "minecraft:crafting_shaped",
- "category": "equipment",
- "group": "chainmail_chestplate",
- "key": {
-  "#": "minecraft:chain"
- },
- "pattern": [
-  "# #",
-  "###",
-  "###"
- ],
- "result": {
-  "id": "minecraft:chainmail_chestplate"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chainmail_chestplate",
+  "key": {
+    "#": "minecraft:chain"
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_chestplate"
+  }
 }

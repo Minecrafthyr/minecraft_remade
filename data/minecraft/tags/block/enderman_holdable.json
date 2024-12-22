@@ -1,11 +1,11 @@
 {
- "replace": false,
- "values": [
-  "minecraft:suspicious_gravel",
-  "minecraft:suspicious_sand",
-  "minecraft:cobweb",
-  "minecraft:soul_sand",
-  "minecraft:soul_soil",
-  "minecraft:snow"
- ]
+  "replace": false,
+  "values": [
+    "minecraft:suspicious_gravel",
+    "minecraft:suspicious_sand",
+    "minecraft:cobweb",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:snow"
+  ]
 }

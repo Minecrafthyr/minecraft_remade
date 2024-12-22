@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "/": "minecraft:stick",
-  "-": "#minecraft:wooden_slabs"
- },
- "pattern": [
-  "/-/",
-  "/ /",
-  "/-/"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:barrel"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": "minecraft:stick",
+    "-": "#minecraft:wooden_slabs"
+  },
+  "pattern": [
+    "/-/",
+    "/ /",
+    "/-/"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:barrel"
+  }
 }

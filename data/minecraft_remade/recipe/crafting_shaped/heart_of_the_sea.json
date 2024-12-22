@@ -1,16 +1,16 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "minecraft:lapis_block",
-  "X": "minecraft:prismarine"
- },
- "pattern": [
-  " # ",
-  "#X#",
-  " # "
- ],
- "result": {
-  "id": "minecraft:heart_of_the_sea"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:lapis_block",
+    "X": "minecraft:prismarine"
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:heart_of_the_sea"
+  }
 }

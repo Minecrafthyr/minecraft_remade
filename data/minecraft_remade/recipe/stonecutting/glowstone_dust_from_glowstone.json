@@ -1,8 +1,8 @@
 {
- "type": "minecraft:stonecutting",
- "ingredient": "minecraft:glowstone",
- "result": {
-  "id": "minecraft:glowstone_dust",
-  "count": 9
- }
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:glowstone",
+  "result": {
+    "id": "minecraft:glowstone_dust",
+    "count": 9
+  }
 }

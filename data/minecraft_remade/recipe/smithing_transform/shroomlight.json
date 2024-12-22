@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:glowstone",
- "addition": "#minecraft_remade:fungus",
- "result": {
-  "id": "minecraft:shroomlight"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:glowstone",
+  "addition": "#minecraft_remade:fungus",
+  "result": {
+    "id": "minecraft:shroomlight"
+  }
 }

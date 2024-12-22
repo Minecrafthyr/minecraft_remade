@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:apple",
- "addition": "minecraft:ender_pearl",
- "result": {
-  "id": "minecraft:chorus_fruit"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:apple",
+  "addition": "minecraft:ender_pearl",
+  "result": {
+    "id": "minecraft:chorus_fruit"
+  }
 }

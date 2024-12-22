@@ -1,16 +1,16 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:tnt",
- "addition": "minecraft:tripwire_hook",
- "result": {
-  "id": "minecraft:tnt",
-  "components": {
-   "minecraft:lore": [
-    "{\"text\": \"(unstable)\", \"color\": \"gray\"}"
-   ],
-   "minecraft:block_state": {
-    "unstable": "true"
-   }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:tnt",
+  "addition": "minecraft:tripwire_hook",
+  "result": {
+    "id": "minecraft:tnt",
+    "components": {
+      "minecraft:lore": [
+        "{\"text\": \"(unstable)\", \"color\": \"gray\"}"
+      ],
+      "minecraft:block_state": {
+        "unstable": "true"
+      }
+    }
   }
- }
 }

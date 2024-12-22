@@ -1,9 +1,9 @@
 {
- "type": "minecraft:stonecutting",
- "group": "fence_gate",
- "ingredient": "minecraft:birch_planks",
- "result": {
-  "id": "minecraft:birch_fence_gate",
-  "count": 2
- }
+  "type": "minecraft:stonecutting",
+  "group": "fence_gate",
+  "ingredient": "minecraft:birch_planks",
+  "result": {
+    "id": "minecraft:birch_fence_gate",
+    "count": 2
+  }
 }

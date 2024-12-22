@@ -1,6 +1,6 @@
 {
   "targets": "#minecraft_remade:tools/stone",
   "components": {
-   "minecraft:max_damage": 64
+    "minecraft:max_damage": 64
   }
 }

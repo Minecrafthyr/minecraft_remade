@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:magma_cream",
- "addition": "minecraft:emerald",
- "result": {
-  "id": "minecraft:verdant_froglight"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:magma_cream",
+  "addition": "minecraft:emerald",
+  "result": {
+    "id": "minecraft:verdant_froglight"
+  }
 }

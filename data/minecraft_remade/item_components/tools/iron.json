@@ -1,6 +1,6 @@
 {
   "targets": "#minecraft_remade:tools/iron",
   "components": {
-   "minecraft:max_damage": 256
+    "minecraft:max_damage": 256
   }
 }

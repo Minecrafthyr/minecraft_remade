@@ -1,18 +1,18 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "equipment",
- "key": {
-  "#": "minecraft:stick",
-  "I": "minecraft:iron_nugget",
-  "X": "minecraft:string"
- },
- "pattern": [
-  "  #",
-  " #X",
-  "#IX"
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:fishing_rod"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "I": "minecraft:iron_nugget",
+    "X": "minecraft:string"
+  },
+  "pattern": [
+    "  #",
+    " #X",
+    "#IX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fishing_rod"
+  }
 }

@@ -1,17 +1,17 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "#minecraft_remade:wooden_blocks",
-  "F": "minecraft:furnace"
- },
- "pattern": [
-  " # ",
-  "#F#",
-  " # "
- ],
- "result": {
-  "count": 1,
-  "id": "minecraft:smoker"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft_remade:wooden_blocks",
+    "F": "minecraft:furnace"
+  },
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smoker"
+  }
 }

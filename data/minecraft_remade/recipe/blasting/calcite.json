@@ -1,10 +1,10 @@
 {
- "type": "minecraft:blasting",
- "category": "blocks",
- "cookingtime": 100,
- "experience": 0.1,
- "ingredient": "minecraft:dripstone_block",
- "result": {
-  "id": "minecraft:calcite"
- }
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": "minecraft:dripstone_block",
+  "result": {
+    "id": "minecraft:calcite"
+  }
 }

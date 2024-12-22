@@ -1,27 +1,27 @@
 {
- "feature": "minecraft:ore_lapis",
- "placement": [
-  {
-   "count": 4,
-   "type": "minecraft:count"
-  },
-  {
-   "type": "minecraft:in_square"
-  },
-  {
-   "height": {
-    "max_inclusive": {
-     "above_bottom": 128
+  "feature": "minecraft:ore_lapis",
+  "placement": [
+    {
+      "count": 4,
+      "type": "minecraft:count"
     },
-    "min_inclusive": {
-     "above_bottom": -128
+    {
+      "type": "minecraft:in_square"
     },
-    "type": "minecraft:trapezoid"
-   },
-   "type": "minecraft:height_range"
-  },
-  {
-   "type": "minecraft:biome"
-  }
- ]
+    {
+      "height": {
+        "max_inclusive": {
+          "above_bottom": 128
+        },
+        "min_inclusive": {
+          "above_bottom": -128
+        },
+        "type": "minecraft:trapezoid"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

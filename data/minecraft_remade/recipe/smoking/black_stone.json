@@ -1,10 +1,10 @@
 {
- "type": "minecraft:smoking",
- "category": "building",
- "cookingtime": 200,
- "experience": 0.1,
- "ingredient": "minecraft:stone",
- "result": {
-  "id": "minecraft:blackstone"
- }
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:stone",
+  "result": {
+    "id": "minecraft:blackstone"
+  }
 }

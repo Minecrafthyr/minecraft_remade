@@ -1,9 +1,9 @@
 {
- "type": "minecraft:campfire_cooking",
- "cookingtime": 600,
- "experience": 0.15,
- "ingredient": "#minecraft_remade:wooden_blocks_that_burn",
- "result": {
-  "id": "minecraft:charcoal"
- }
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.15,
+  "ingredient": "#minecraft_remade:wooden_blocks_that_burn",
+  "result": {
+    "id": "minecraft:charcoal"
+  }
 }

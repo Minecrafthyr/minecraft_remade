@@ -1,8 +1,8 @@
 {
- "replace": true,
- "values": [
-  "minecraft:spawner",
-  "#minecraft:ice",
-  "minecraft:barrier"
- ]
+  "replace": true,
+  "values": [
+    "minecraft:spawner",
+    "#minecraft:ice",
+    "minecraft:barrier"
+  ]
 }

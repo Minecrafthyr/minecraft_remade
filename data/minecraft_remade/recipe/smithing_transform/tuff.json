@@ -1,8 +1,8 @@
 {
- "type": "minecraft:smithing_transform",
- "base": "minecraft:gravel",
- "addition": "minecraft:gravel",
- "result": {
-  "id": "minecraft:tuff"
- }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:gravel",
+  "addition": "minecraft:gravel",
+  "result": {
+    "id": "minecraft:tuff"
+  }
 }

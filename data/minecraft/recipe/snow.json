@@ -1,14 +1,14 @@
 {
- "type": "minecraft:crafting_shaped",
- "category": "misc",
- "key": {
-  "#": "minecraft:snow_block"
- },
- "pattern": [
-  "##"
- ],
- "result": {
-  "count": 8,
-  "id": "minecraft:snow"
- }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:snow_block"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:snow"
+  }
 }

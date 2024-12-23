@@ -9,12 +9,6 @@
           "functions": [
             {
               "function": "minecraft:copy_state",
-              "conditions": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/silk_touch"
-                }
-              ],
               "block": "minecraft:campfire",
               "properties": [
                 "lit"

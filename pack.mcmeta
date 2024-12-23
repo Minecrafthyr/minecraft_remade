@@ -97,22 +97,6 @@
       },
       {
         "pack_type": "server_data",
-        "patch": "boat",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/.+_boat\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
         "patch": "banner",
         "targets": [
           {
@@ -129,7 +113,7 @@
       },
       {
         "pack_type": "server_data",
-        "patch": "bed",
+        "patch": "button",
         "targets": [
           {
             "namespace": [
@@ -137,7 +121,23 @@
             ],
             "path": [
               {
-                "pattern": "recipe/.+_bed\\.json"
+                "pattern": "recipe/.+_button\\.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pack_type": "server_data",
+        "patch": "boat",
+        "targets": [
+          {
+            "namespace": [
+              "minecraft"
+            ],
+            "path": [
+              {
+                "pattern": "recipe/.+_boat\\.json"
               }
             ]
           }

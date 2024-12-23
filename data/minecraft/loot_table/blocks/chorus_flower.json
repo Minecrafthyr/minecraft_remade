@@ -17,6 +17,7 @@
               "type": "minecraft:item"
             },
             {
+              "type": "minecraft:item",
               "conditions": [
                 {
                   "block": "minecraft:chorus_flower",
@@ -26,6 +27,7 @@
                   }
                 }
               ],
+              "name": "minecraft:chorus_fruit",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
@@ -35,9 +37,7 @@
                     "bonusMultiplier": 2
                   }
                 }
-              ],
-              "name": "minecraft:chorus_fruit",
-              "type": "minecraft:item"
+              ]
             }
           ]
         }

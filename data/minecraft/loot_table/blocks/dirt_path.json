@@ -9,13 +9,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:dirt_path",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "minecraft_remade:tool/silk_touch"
                 }
-              ]
+              ],
+              "name": "minecraft:dirt_path"
             },
             {
               "type": "minecraft:item",

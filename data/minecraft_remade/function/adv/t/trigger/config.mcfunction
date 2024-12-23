@@ -1,4 +1,4 @@
-advancement revoke @s only minecraft_remade:func/t/config
+advancement revoke @s only minecraft_remade:func/t/trigger/config
 scoreboard players reset @s minecraft_remade.config
 scoreboard players enable @s minecraft_remade.config
 

@@ -32,6 +32,8 @@
     {
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
           "functions": [
             {
               "add": false,
@@ -53,11 +55,12 @@
             },
             {
               "function": "minecraft:limit_count",
-              "limit": 8
+              "limit": {
+                "min": 0,
+                "max": 8
+              }
             }
-          ],
-          "name": "minecraft:spider_eye",
-          "type": "minecraft:item"
+          ]
         }
       ],
       "rolls": 1.0

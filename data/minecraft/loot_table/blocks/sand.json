@@ -18,16 +18,11 @@
               "type": "minecraft:alternatives",
               "children": [
                 {
+                  "type": "minecraft:group",
                   "conditions": [
                     {
-                      "condition": "minecraft:random_chance_with_enchanted_bonus",
-                      "enchantment": "minecraft:fortune",
-                      "unenchanted_chance": 0.05,
-                      "enchanted_chance": {
-                        "type": "minecraft:linear",
-                        "base": 0.2,
-                        "per_level_above_first": 0.2
-                      }
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.2
                     }
                   ],
                   "children": [
@@ -56,7 +51,19 @@
                       "quality": 3
                     }
                   ],
-                  "type": "minecraft:group"
+                  "functions": [
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:uniform_bonus_count",
+                      "function": "minecraft:apply_bonus",
+                      "parameters": {
+                        "bonusMultiplier": 2
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
                 },
                 {
                   "name": "minecraft:sand",

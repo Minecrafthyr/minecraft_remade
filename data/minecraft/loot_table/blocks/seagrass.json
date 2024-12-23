@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "entries": [
@@ -19,20 +20,24 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "condition": "minecraft:random_chance_with_enchanted_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "unenchanted_chance": 0.1,
-                  "enchanted_chance": {
-                    "type": "minecraft:linear",
-                    "base": 0.2,
-                    "per_level_above_first": 0.2
-                  }
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
                 }
               ],
-              "name": "minecraft:string"
+              "name": "minecraft:string",
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
             }
           ]
         }
@@ -40,6 +45,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/seagrass",
-  "type": "minecraft:block"
+  "random_sequence": "minecraft:blocks/seagrass"
 }

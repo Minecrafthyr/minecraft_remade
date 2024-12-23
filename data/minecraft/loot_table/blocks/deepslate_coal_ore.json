@@ -9,13 +9,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:deepslate_coal_ore",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "minecraft_remade:tool/silk_touch"
                 }
-              ]
+              ],
+              "name": "minecraft:deepslate_coal_ore"
             },
             {
               "type": "minecraft:loot_table",

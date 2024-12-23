@@ -16,70 +16,10 @@
               "name": "minecraft:short_grass"
             },
             {
-              "type": "minecraft:group",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance_with_enchanted_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "unenchanted_chance": 0.1,
-                  "enchanted_chance": {
-                    "type": "minecraft:linear",
-                    "base": 0.2,
-                    "per_level_above_first": 0.2
-                  }
-                }
-              ],
-              "children": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:wheat_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:melon_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:pumpkin_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:beetroot_seeds"
-                }
-              ]
+              "type": "minecraft:loot_table",
+              "value": "minecraft_remade:block/short_grass"
             }
           ]
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:reference",
-                "name": "minecraft_remade:tool/silk_touch"
-              }
-            },
-            {
-              "condition": "minecraft:survives_explosion"
-            },
-            {
-              "condition": "minecraft:random_chance_with_enchanted_bonus",
-              "enchantment": "minecraft:fortune",
-              "unenchanted_chance": 0.1,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.2,
-                "per_level_above_first": 0.2
-              }
-            }
-          ],
-          "name": "minecraft:string",
-          "type": "minecraft:item"
         }
       ],
       "rolls": 1.0

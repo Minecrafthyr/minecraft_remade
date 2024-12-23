@@ -10,6 +10,18 @@
               "score": "minecraft_remade.configs",
               "target": {
                 "type": "minecraft:fixed",
+                "name": "#trigger"
+              }
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "score": "minecraft_remade.configs",
+              "target": {
+                "type": "minecraft:fixed",
                 "name": "#trigger.config"
               }
             },
@@ -31,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "minecraft_remade:adv/t/config"
+    "function": "minecraft_remade:adv/t/trigger/config"
   }
 }

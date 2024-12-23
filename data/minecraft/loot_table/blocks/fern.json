@@ -7,13 +7,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:fern",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "minecraft_remade:tool/silk_touch"
                 }
-              ]
+              ],
+              "name": "minecraft:fern"
             },
             {
               "type": "minecraft:group",

@@ -19,6 +19,12 @@
             },
             {
               "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ],
               "children": [
                 {
                   "type": "minecraft:item",
@@ -30,12 +36,6 @@
                   "type": "minecraft:item",
                   "name": "minecraft:jungle_sapling",
                   "quality": 1
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
                 }
               ],
               "functions": [

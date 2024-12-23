@@ -43,7 +43,10 @@
             },
             {
               "function": "minecraft:limit_count",
-              "limit": 1
+              "limit": {
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         }

@@ -3,11 +3,13 @@
   "category": "misc",
   "key": {
     "#": "#minecraft:planks",
-    "L": "minecraft:leather"
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_nugget",
+    "/": "minecraft:stick"
   },
   "pattern": [
-    "L",
-    "#"
+    "LI",
+    "#/"
   ],
   "result": {
     "count": 1,

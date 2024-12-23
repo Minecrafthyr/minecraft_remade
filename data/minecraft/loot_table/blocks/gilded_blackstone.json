@@ -9,13 +9,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:gilded_blackstone",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "minecraft_remade:tool/silk_touch"
                 }
-              ]
+              ],
+              "name": "minecraft:gilded_blackstone"
             },
             {
               "type": "minecraft:loot_table",

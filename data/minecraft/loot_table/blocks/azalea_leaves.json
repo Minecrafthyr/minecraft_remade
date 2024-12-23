@@ -19,6 +19,12 @@
             },
             {
               "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ],
               "children": [
                 {
                   "name": "minecraft:stick",
@@ -30,12 +36,6 @@
                   "name": "minecraft:azalea",
                   "type": "minecraft:item",
                   "quality": 1
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
                 }
               ],
               "functions": [

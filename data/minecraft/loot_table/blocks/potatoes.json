@@ -37,11 +37,13 @@
                 {
                   "name": "minecraft:potato",
                   "type": "minecraft:item",
-                  "weight": 19
+                  "weight": 19,
+                  "quality": 0
                 },
                 {
                   "name": "minecraft:poisonous_potato",
-                  "type": "minecraft:item"
+                  "type": "minecraft:item",
+                  "quality": -5
                 }
               ]
             },

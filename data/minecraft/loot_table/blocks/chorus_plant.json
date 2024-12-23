@@ -8,14 +8,14 @@
           "type": "minecraft:alternatives",
           "children": [
             {
+              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:reference",
                   "name": "minecraft_remade:tool/silk_touch_or_shears"
                 }
               ],
-              "name": "minecraft:chorus_plant",
-              "type": "minecraft:item"
+              "name": "minecraft:chorus_plant"
             }
           ]
         }

@@ -15,6 +15,7 @@
               "type": "minecraft:item"
             },
             {
+              "type": "minecraft:item",
               "functions": [
                 {
                   "add": false,
@@ -25,8 +26,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:clay_ball",
-              "type": "minecraft:item"
+              "name": "minecraft:clay_ball"
             }
           ],
           "type": "minecraft:alternatives"

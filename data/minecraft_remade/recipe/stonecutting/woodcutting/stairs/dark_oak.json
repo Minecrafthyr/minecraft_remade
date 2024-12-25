@@ -1,6 +1,6 @@
 {
-  "group": "stairs",
   "type": "minecraft:stonecutting",
+  "group": "stairs",
   "ingredient": "minecraft:dark_oak_planks",
   "result": {
     "id": "minecraft:dark_oak_stairs",

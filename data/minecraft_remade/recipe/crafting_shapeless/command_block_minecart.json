@@ -6,6 +6,7 @@
     "minecraft:minecart"
   ],
   "result": {
+    "count": 1,
     "id": "minecraft:command_block_minecart"
   }
 }

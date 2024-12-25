@@ -24,6 +24,7 @@ scoreboard players set 1200 readonly.const 1200
 data modify storage minecraft_remade:data load set value {version: 3, installed: true}
 data modify storage minecraft_remade:data configs set value {}
 
+function minecraft_remade:config/arrow_break/enable
 function minecraft_remade:config/flamming_arrows/enable
 function minecraft_remade:config/melting_snowball/enable
 function minecraft_remade:config/path_speed/enable

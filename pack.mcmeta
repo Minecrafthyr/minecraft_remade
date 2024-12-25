@@ -33,22 +33,6 @@
       },
       {
         "pack_type": "server_data",
-        "patch": "pressure_plate",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/(?!heavy_weighted_pressure_plate\\.json|light_weighted_pressure_plate\\.json).+_pressure_plate\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
         "patch": "slab",
         "targets": [
           {
@@ -129,22 +113,6 @@
       },
       {
         "pack_type": "server_data",
-        "patch": "boat",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/.+_boat\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
         "patch": "terracotta",
         "targets": [
           {
@@ -154,6 +122,38 @@
             "path": [
               {
                 "pattern": "recipe/.+(?!_glazed)_terracotta\\.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pack_type": "server_data",
+        "patch": "fence",
+        "targets": [
+          {
+            "namespace": [
+              "minecraft"
+            ],
+            "path": [
+              {
+                "pattern": "recipe/.+_fence\\.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pack_type": "server_data",
+        "patch": "fence_gate",
+        "targets": [
+          {
+            "namespace": [
+              "minecraft"
+            ],
+            "path": [
+              {
+                "pattern": "recipe/.+_fence_gate\\.json"
               }
             ]
           }

@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft_remade:enchantable/horse_armor",
-    "minecraft:wolf_armor"
+    "minecraft:wolf_armor",
+    "minecraft:elytra"
   ]
 }

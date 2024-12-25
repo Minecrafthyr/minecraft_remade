@@ -6,6 +6,7 @@
     "minecraft:bow"
   ],
   "result": {
+    "count": 1,
     "id": "minecraft:dispenser"
   }
 }

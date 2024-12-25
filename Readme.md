@@ -1,13 +1,16 @@
 # Minecraft Remade
 
 Tweaks Minecraft. Keeps in balanced.  
-Using "Item Components" and "Patched" mod for simply modify Minecraft datas.
+Using "Item Components" and "Patched" mod for simply modify Minecraft data.
 
 - Version: 1.0.0 preview 1
 - Game versions: 1.21.4
 - Project Links:  
   [Modrinth](https://modrinth.com/datapack/minecraft_remade)  
   [Github](https://github.com/Minecrafthyr/minecraft_remade)
+- Document Links:  
+  [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
+  [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)
 
 ## Mod Infos
 
@@ -23,8 +26,11 @@ The Modrinth collection is downside.
 
 ### Optional
 
+Packs that made compatibility with.
+
+- [Universal-Ores](https://modrinth.com/mod/universal-ores)
 - [Tooltipz](https://modrinth.com/mod/tooltipz)
-- [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
+- \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
   - [GlitchCore](https://modrinth.com/mod/glitchcore)
 
 ### Suggestions
@@ -43,15 +49,15 @@ The Modrinth collection is downside.
 More enchantable item are planned with medium priority.  
 Enchantment cost changes are not listed here, you can view [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/enchantment).
 
-- Protection**s** supported items are now armor, horse armor, wolf armor.
+- Protection**s** supported items are now Armor, Horse Armor, Wolf Armor, Elytra.
 - Breach supported items are now weapon.
 - Feater Falling increase 0.5 Safe Fall Distance attribute per level.
 - Flame ignite time is changed, max level is 2, supported items are now Bow and Crossbow.
 - Infinity does not limited as Arrow.
-- Power supported items are now Bow and Crossbow
-- Quick Charge charge time is now[0.75, 0.5, 0.25]
-- Sharpness primary items are removed, now it possible enchant on all sharp weapons.
-- Thorns reduce 1 (instead of 2) durability every harm, supported items are now armor, horse armor, wolf armor
+- Power supported items are now Bow and Crossbow.
+- Quick Charge charge time is now[0.75, 0.5, 0.25].
+- Sharpness primary items are removed, now it possible enchant on all sharp weapons(#minecraft:enchantable/sharp_weapon).
+- Thorns reduce 1 (instead of 2) durability every harm, supported items are now Armor, Horse Armor, Wolf Armor, Elytra.
 
 #### <span style="font-size:16px;">Loot Tables</span>
 
@@ -78,7 +84,7 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 
 - Attack CD: Some damage types (Player Attack, Mob Attack, etc.) are now bypass cooldown, so here is a additional attack cd for Player and Slimes.
 - Flamming Arrows: Ignited arrows set fire on blocks when land.
-- Melting Snowball: Snowballs on fire after 10 ticks(0.5 second) are killed.
+- Melting Snowball: Snowballs on fire after 10 ticks(0.5 second) are cleared.
 - Path Speed: Living Entities on Dirt Path +10% Movement Speed.
 - Spectral Arrow Glowing: Spectral Arrow Entities are now glowing.
 - Stonecutter Damage: Stonecutter damage Living Entities.
@@ -87,23 +93,27 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 ### <span style="font-size:16px;">Item Components</span>
 
 Using [Item Components](https://www.modrinth.com/mod/item-components) mod.  
-Armor attribute changes is planned with high priority, but it seems difficult.  
+Armor attribute changes is planned with high priority, but it's [too complex](https://github.com/Minecrafthyr/minecraft_remade/item_components/armors/_levels.md), so it's delayed.  
 See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/item_conponents).
 
 - More items has 64 max stack size.
 - Ender Pearl is now 0.5 second cooldown.
-- Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, Spawner, Command Block**s** Items resistant fire.
+- Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, End Portal Frame, Spawner, Trial Spawner, Vault, Command Block**s** Items resistant fire.
 - Consume Glow Berries gives you Glowing effect.
 - Melon Slice Use Remainder is now Melon Seeds.
 - Milk has 4 saturation.
-- Paper is consumable, requires 3.2 seconds(normal×2) to consume, it regenerate 5 health points(Instant Health effect)
-- Rotten Flesh has 2 nutrition, 2 saturation, 600 ticks of hunger effect, 20% chance for 100 ticks of poison effect
+- Paper is consumable, requires 3.2 seconds(normal×2) to consume, it regenerate 5 health points(Instant Health effect).
+- Rotten Flesh has 2 nutrition, 2 saturation, 600 ticks of hunger effect, 20% chance for 100 ticks of poison effect.
 - Wheat Seeds and Pumpkin Seeds are consumable, requires 0.8 seconds(normal÷2) to consume, has 1 nutrition, 1 saturation.
 - Sugar is consumable, requires 0.8 seconds(normal÷2) to consume, it can always eat, has 1 nutrition, 1 saturation.
-- Uncommon Rarity apply on Netherite-style items and Trident
-- Bone and Stick has 3.5(4 - 0.5) Attack Speed, 2(1 + 1) Attack Damage, has 3 enchantable value
-- Mace is Unbreakable, has 0.6(4 - 3.4) Attack Speed, 10(1 + 9) Attack Damage.
-- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 256, Golden = 16, Diamond = 1024, Netherite = 2048
+- Uncommon Rarity apply on Netherite-style items.
+- Bone and Stick has 3 enchantable value,  
+  2(1 + 1) Attack Damage  
+  3.5(4 - 0.5) Attack Speed
+- Mace is Unbreakable,  
+  10(1 + 9) Attack Damage  
+  0.6(4 - 3.4) Attack Speed
+- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 256, Golden = 16, Diamond = 1024, Netherite = 2048.
 
 ### <span style="font-size:16px;">Recipes</span>
 

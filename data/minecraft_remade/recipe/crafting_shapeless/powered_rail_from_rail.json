@@ -10,6 +10,7 @@
     "minecraft:copper_ingot"
   ],
   "result": {
+    "count": 1,
     "id": "minecraft:powered_rail"
   }
 }

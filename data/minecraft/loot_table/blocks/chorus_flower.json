@@ -29,12 +29,14 @@
               ],
               "name": "minecraft:chorus_fruit",
               "functions": [
+                
                 {
-                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
-                  "formula": "uniform_bonus_count",
+                  "formula": "minecraft:binomial_with_bonus_count",
+                  "function": "minecraft:apply_bonus",
                   "parameters": {
-                    "bonusMultiplier": 2
+                    "extra": 3,
+                    "probability": 0.5714286
                   }
                 }
               ]

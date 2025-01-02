@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -28,10 +27,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "weight": 3,
@@ -77,19 +76,19 @@
         {
           "type": "minecraft:empty"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:wet_sponge"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -118,10 +117,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -139,7 +138,8 @@
           "name": "minecraft:tide_armor_trim_smithing_template",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/elder_guardian"

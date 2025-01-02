@@ -6,8 +6,8 @@
     },
     "minecraft:food": {
       "can_always_eat": true,
-      "nutrition": 1,
-      "saturation": 1
+      "nutrition": 2,
+      "saturation": 0.4
     }
   }
 }

@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -20,10 +19,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -54,7 +53,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/bogged"

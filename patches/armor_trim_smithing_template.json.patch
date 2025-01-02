@@ -10,17 +10,17 @@
   },
   {
     "op": "copy",
-    "from": "/key/#",
+    "from": "/key/S",
     "path": "/ingredients/0"
   },
   {
     "op": "copy",
-    "from": "/key/S",
+    "from": "/key/C",
     "path": "/ingredients/1"
   },
   {
     "op": "copy",
-    "from": "/key/C",
+    "from": "/key/#",
     "path": "/ingredients/2"
   },
   {

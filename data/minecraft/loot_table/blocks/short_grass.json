@@ -17,7 +17,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "minecraft_remade:block/short_grass"
+              "value": "minecraft_remade:block/seeds_and_string"
             }
           ]
         }

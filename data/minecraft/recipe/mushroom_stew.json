@@ -2,9 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    "minecraft:bowl",
     "minecraft:brown_mushroom",
     "minecraft:brown_mushroom",
-    "minecraft:bowl"
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom"
   ],
   "result": {
     "count": 1,

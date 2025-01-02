@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:netherite_ingot",
+    "minecraft:netherrack",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.minecraft_remade.bat_wing",
+                "fallback": "Bat Wing"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "minecraft_remade:bat_wing"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/bat"
+}

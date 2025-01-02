@@ -1,14 +1,24 @@
 {
   "pack": {
     "pack_format": 61,
-    "description": "v1.0.0-pre1 for 1.21.4 by Minecraft_hyr"
+    "description": "v1.0.0 preview 1 for 1.21.4 by Minecraft_hyr"
   },
   "filter": {
     "block": [
       {
         "__comment": "ore_tweaks",
-        "namespace": "minecraft",
         "path": "recipe/(.+_from_(blasting|smelting)_.+_ore|netherite_scrap_from_blasting|netherite_scrap)\\.json"
+      },
+      {
+        "namespace": "enderitemod",
+        "path": "recipe/enderite_scrap\\.json"
+      },
+      {
+        "path": "advancements/recipes/.*\\.json"
+      },
+      {
+        "namespace": "raw_ores_processing",
+        "path": "recipe/minecraft/.*\\.json"
       }
     ]
   },
@@ -121,7 +131,7 @@
             ],
             "path": [
               {
-                "pattern": "recipe/.+(?!_glazed)_terracotta\\.json"
+                "pattern": "recipe/(?!.+_glazed_terracotta\\.json).+_terracotta\\.json"
               }
             ]
           }

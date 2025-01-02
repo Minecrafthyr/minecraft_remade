@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -28,10 +27,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "weight": 2,
@@ -77,10 +76,10 @@
         {
           "type": "minecraft:empty"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -109,10 +108,10 @@
           "value": "minecraft:gameplay/fishing/fish",
           "type": "minecraft:loot_table"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "conditions": [
@@ -130,7 +129,8 @@
           "name": "minecraft:tide_armor_trim_smithing_template",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/guardian"

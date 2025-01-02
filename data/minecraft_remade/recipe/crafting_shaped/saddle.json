@@ -3,11 +3,13 @@
   "category": "misc",
   "key": {
     "/": "minecraft:lead",
-    "L": "minecraft:leather"
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_nugget"
   },
   "pattern": [
     "LLL",
-    "L/L"
+    "L/L",
+    " I "
   ],
   "result": {
     "id": "minecraft:saddle"

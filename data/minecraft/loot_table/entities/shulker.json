@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -20,10 +19,10 @@
           "name": "minecraft:shulker_shell",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -41,7 +40,8 @@
           "name": "minecraft:spire_armor_trim_smithing_template",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/shulker"

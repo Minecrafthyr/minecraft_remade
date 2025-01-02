@@ -2,16 +2,15 @@
   "type": "minecraft:barter",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
-          "weight": 2,
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:netherite_upgrade_smithing_template"
         },
         {
-          "weight": 5,
           "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:book",
           "functions": [
             {
@@ -21,8 +20,8 @@
           ]
         },
         {
-          "weight": 8,
           "type": "minecraft:item",
+          "weight": 8,
           "name": "minecraft:iron_boots",
           "functions": [
             {
@@ -32,8 +31,8 @@
           ]
         },
         {
-          "weight": 8,
           "type": "minecraft:item",
+          "weight": 8,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -43,8 +42,8 @@
           ]
         },
         {
-          "weight": 8,
           "type": "minecraft:item",
+          "weight": 8,
           "name": "minecraft:splash_potion",
           "functions": [
             {
@@ -54,8 +53,8 @@
           ]
         },
         {
-          "weight": 8,
           "type": "minecraft:item",
+          "weight": 8,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -65,8 +64,8 @@
           ]
         },
         {
-          "weight": 10,
           "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:iron_nugget",
           "functions": [
             {
@@ -81,8 +80,8 @@
           ]
         },
         {
-          "weight": 10,
           "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:ender_pearl",
           "functions": [
             {
@@ -97,8 +96,8 @@
           ]
         },
         {
-          "weight": 20,
           "type": "minecraft:item",
+          "weight": 20,
           "name": "minecraft:string",
           "functions": [
             {
@@ -113,8 +112,8 @@
           ]
         },
         {
-          "weight": 20,
           "type": "minecraft:item",
+          "weight": 20,
           "name": "minecraft:quartz",
           "functions": [
             {
@@ -129,13 +128,13 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:obsidian"
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:crying_obsidian",
           "functions": [
             {
@@ -150,13 +149,13 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:fire_charge"
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:leather",
           "functions": [
             {
@@ -171,8 +170,8 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:soul_sand",
           "functions": [
             {
@@ -187,8 +186,8 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:spectral_arrow",
           "functions": [
             {
@@ -203,8 +202,8 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:gravel",
           "functions": [
             {
@@ -219,8 +218,8 @@
           ]
         },
         {
-          "weight": 40,
           "type": "minecraft:item",
+          "weight": 40,
           "name": "minecraft:blackstone",
           "functions": [
             {
@@ -234,7 +233,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:gameplay/piglin_bartering"

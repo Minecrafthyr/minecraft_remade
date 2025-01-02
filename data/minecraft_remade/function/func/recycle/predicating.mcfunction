@@ -1,0 +1,1 @@
+execute as 3894524e-4b9a-40f8-a012-93317ae698df run function minecraft_remade:func/recycle/predicating/offsets

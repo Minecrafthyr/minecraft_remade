@@ -2,7 +2,6 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -62,7 +61,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:blocks/bee_nest"

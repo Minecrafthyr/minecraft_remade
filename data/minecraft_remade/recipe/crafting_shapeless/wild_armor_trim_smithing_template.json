@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:moss_block",
+    "minecraft:mossy_cobblestone",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wild_armor_trim_smithing_template"
+  }
+}

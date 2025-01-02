@@ -1,16 +1,69 @@
 # Minecraft Remade
 
-Tweaks Minecraft. Keeps in balanced.  
-Using "Item Components" and "Patched" mod for simply modify Minecraft data.
+Tweaks Minecraft. Keeps in balanced.
 
-- Version: 1.0.0 preview 1
+- Version: 1.0.0 preview 1 (Beta)
 - Game versions: 1.21.4
 - Project Links:  
-  [Modrinth](https://modrinth.com/datapack/minecraft_remade)  
+  [Modrinth](https://modrinth.com/datapack/oFkITbQM)  
   [Github](https://github.com/Minecrafthyr/minecraft_remade)
-- Document Links:  
+- Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
   [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)
+- Current files count: 1100+
+
+## Introduction
+
+### Startup progression
+
+Crafting Table recipe:
+
+- Crafting Shaped
+
+|               |             |
+| ------------- | ----------- |
+| Leather       | Iron Nugget |
+| Wooden Planks | Stick       |
+
+Mine gravel possibly drop Iron Nugget.
+
+Leather recipe:
+
+- Crafting Shaped
+
+  X: Artificial Leather or Bat Wing or Rabbit Hide
+
+  |     |     |
+  | --- | --- |
+  | X   | X   |
+  | X   | X   |
+
+Artificial Leather recipe:
+
+- Crafting Shaped
+
+  |       |       |
+  | ----- | ----- |
+  | Paper | Paper |
+  | Paper | Paper |
+
+Paper recipe:
+
+- Crafting Shapeless
+
+  |                       |                       |
+  | --------------------- | --------------------- |
+  | Wooden Pressure Plate | Wooden Pressure Plate |
+
+- Crafting Shapeless
+
+  |            |            |            |
+  | ---------- | ---------- | ---------- |
+  | Sugar Cane | Sugar Cane | Sugar Cane |
+
+- Leather can also loot by killing animals that may have leather.
+- Stone needs stone tools to mine, Deepslate needs iron tools to mine.
+- Stone tools can craft by Flint.
 
 ## Mod Infos
 
@@ -20,9 +73,10 @@ The Modrinth collection is downside.
 
 [Collection](https://modrinth.com/collection/vv2GYBKe)
 
-- [Fabric API](https://www.modrinth.com/mod/fabric-api)
-- [Item Components](https://www.modrinth.com/mod/item-components)
-- [Patched](https://www.modrinth.com/mod/patched)
+- [Fabric API](https://www.modrinth.com/mod/P7dR8mSH)
+- [Item Components](https://www.modrinth.com/mod/wOl8aLro)
+- [Patched](https://www.modrinth.com/mod/IBlGrJtC)
+- [Modify Player Data](https://modrinth.com/mod/e706DYY5)
 
 ### Optional
 
@@ -39,6 +93,9 @@ Packs that made compatibility with.
 
 - [Crawl](https://modrinth.com/mod/H1JOVjhn)
 - [Extended Bonemeal](https://modrinth.com/mod/extended-bone-meal)
+- [REI](https://modrinth.com/mod/rei)
+  - [Architectury API](https://modrinth.com/mod/architectury-api)
+  - [Cloth Config API](https://modrinth.com/mod/cloth-config)
 
 ## Features
 
@@ -49,7 +106,7 @@ Packs that made compatibility with.
 More enchantable item are planned with medium priority.  
 Enchantment cost changes are not listed here, you can view [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/enchantment).
 
-- Protection**s** supported items are now Armor, Horse Armor, Wolf Armor, Elytra.
+- **All** Protections max level is 5, supported items are now Armor, Horse Armor, Wolf Armor, Elytra.
 - Breach supported items are now weapon.
 - Feater Falling increase 0.5 Safe Fall Distance attribute per level.
 - Flame ignite time is changed, max level is 2, supported items are now Bow and Crossbow.
@@ -58,6 +115,8 @@ Enchantment cost changes are not listed here, you can view [source code](https:/
 - Quick Charge charge time is now[0.75, 0.5, 0.25].
 - Sharpness primary items are removed, now it possible enchant on all sharp weapons(#minecraft:enchantable/sharp_weapon).
 - Thorns reduce 1 (instead of 2) durability every harm, supported items are now Armor, Horse Armor, Wolf Armor, Elytra.
+- Looting support shears.
+- Unbreaking max level is 5.
 
 #### <span style="font-size:16px;">Loot Tables</span>
 
@@ -87,33 +146,56 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 - Melting Snowball: Snowballs on fire after 10 ticks(0.5 second) are cleared.
 - Path Speed: Living Entities on Dirt Path +10% Movement Speed.
 - Spectral Arrow Glowing: Spectral Arrow Entities are now glowing.
+- Elytra Slow Fall: Sneak when equipping Elytra gives you Slow Fall effect.
 - Stonecutter Damage: Stonecutter damage Living Entities.
-- Regeneration: Player regeneration is modified, now it does not relates to Saturation.
+- Regeneration: Player natural regeneration is modified. Regeneration speed scaling by difficulty(seconds)
+
+  | Nutrition | 18  | 12  | 6   |
+  | --------- | --- | --- | --- |
+  | Peaceful  | 1   | 2   | 3   |
+  | Easy      | 2   | 4   | 6   |
+  | Normal    | 4   | 8   | 12  |
+  | Hard      | 8   | 16  | 24  |
+
+- Fast Climb: Hold jump key (default: Space) and forward/backward/left/right key(default: WASD) on climbable blocks climb up faster.
+- Food Exhaustion: Food Exhaustion increase every tick. Jump exhaustion more.
+- Safe Fall Distance: Player Safe Fall Distance attribute base is 4 instead of 3. Sneaking add 1 Safe Fall Distance again.
+- Triggers:  
+  `/trigger minecraft_remade.back_to_death_location`Back to death location. (Disabled by default)  
+  `/trigger minecraft_remade.get_death_location`Get death location. (Disabled by default)  
+  `/trigger minecraft_remade.config`Display config screen in chat. (planned)  
+  `/trigger minecraft_remade.hat`Move mainhand items to head.  
+  `/trigger minecraft_remade.random_teleport` or `/trigger minecraft_remade.rtp`Random teleportation of a 10000 circle with a radius centered around point `(0,0)`. (Disabled by default)  
+  `/trigger minecraft_remade.sit`Sit if standing center is not air.(Disabled by default)  
+  `/trigger minecraft_remade.surface`Teleport to world highest point of here. (Disabled by default)
 
 ### <span style="font-size:16px;">Item Components</span>
 
 Using [Item Components](https://www.modrinth.com/mod/item-components) mod.  
-Armor attribute changes is planned with high priority, but it's [too complex](https://github.com/Minecrafthyr/minecraft_remade/item_components/armors/_levels.md), so it's delayed.  
+Armor attribute changes is planned with medium priority, but it's [too complex](https://github.com/Minecrafthyr/minecraft_remade/item_components/armors/_levels.md), so it's delayed.  
 See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/item_conponents).
 
+_(Default consume time is 1.6 second.)_
+
 - More items has 64 max stack size.
-- Ender Pearl is now 0.5 second cooldown.
-- Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, End Portal Frame, Spawner, Trial Spawner, Vault, Command Block**s** Items resistant fire.
+- Throwable items now has 0.2 second cooldown.
+- Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, End Portal Frame, Spawner, Trial Spawner, Vault, **All** Command Blocks Items resistant fire.
 - Consume Glow Berries gives you Glowing effect.
 - Melon Slice Use Remainder is now Melon Seeds.
-- Milk has 4 saturation.
-- Paper is consumable, requires 3.2 seconds(normal×2) to consume, it regenerate 5 health points(Instant Health effect).
-- Rotten Flesh has 2 nutrition, 2 saturation, 600 ticks of hunger effect, 20% chance for 100 ticks of poison effect.
-- Wheat Seeds and Pumpkin Seeds are consumable, requires 0.8 seconds(normal÷2) to consume, has 1 nutrition, 1 saturation.
-- Sugar is consumable, requires 0.8 seconds(normal÷2) to consume, it can always eat, has 1 nutrition, 1 saturation.
-- Uncommon Rarity apply on Netherite-style items.
+- Milk has 1 nutrition, 2 saturation.
+- Paper is consumable, requires 3.2 seconds to consume, has 10 seconds cooldown, it regenerate 5 health points(Instant Health effect).
+- Rotten Flesh has 2 nutrition, 2 saturation, 30 seconds of hunger effect, 20% chance for 5 seconds of poison effect.
+- Wheat Seeds and Pumpkin Seeds are consumable, requires 0.8 seconds to consume, has 1 nutrition, 0.5 saturation.
+- Sugar is consumable, requires 0.8 seconds to consume, it can always eat, has 2 nutrition, 0.4 saturation.
+- Netherite-style items has Uncommon Rarity.
 - Bone and Stick has 3 enchantable value,  
-  2(1 + 1) Attack Damage  
-  3.5(4 - 0.5) Attack Speed
+  <span style="color:green;"> 2 Attack Damage  
+  3.5 Attack Speed</span>
 - Mace is Unbreakable,  
-  10(1 + 9) Attack Damage  
-  0.6(4 - 3.4) Attack Speed
-- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 256, Golden = 16, Diamond = 1024, Netherite = 2048.
+  <span style="color:green;">10 Attack Damage  
+  0.6 Attack Speed</span>
+- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 384, Golden = 32, Diamond = 1536, Netherite = 2048.
+- Red and Brown Mushroom requires 1.6 seconds to consume, has 1 nutrition, 1.2 saturation. Red Mushroom apply Poison effect for 10 seconds, 2 level.
 
 ### <span style="font-size:16px;">Recipes</span>
 
@@ -121,5 +203,5 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 
 ## About legacy version
 
-The Minecraft Remade is now for 1.21.4+.  
+The Minecraft Remade is now for Minecraft 1.21.4.  
 The old one is [archived here](https://github.com/Minecrafthyr/mcre).

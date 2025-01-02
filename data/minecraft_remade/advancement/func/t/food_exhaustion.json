@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "food_exhaustion": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#food_exhaustion"
+              },
+              "score": "minecraft_remade.configs"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "periodic_tick": 10,
+              "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": [
+                  "adventure",
+                  "survival"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/food_exhaustion"
+  }
+}

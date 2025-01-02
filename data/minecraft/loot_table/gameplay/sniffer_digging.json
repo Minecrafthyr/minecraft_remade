@@ -2,16 +2,15 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
-          "weight": 2,
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:torchflower_seeds"
         },
         {
-          "weight": 2,
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:pitcher_pod"
         },
         {
@@ -30,7 +29,8 @@
           "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:gameplay/sniffer_digging"

@@ -3,6 +3,7 @@
   "category": "misc",
   "group": "paper",
   "ingredients": [
+    "#minecraft:wooden_pressure_plates",
     "#minecraft:wooden_pressure_plates"
   ],
   "result": {

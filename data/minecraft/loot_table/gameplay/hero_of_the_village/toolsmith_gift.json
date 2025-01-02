@@ -2,7 +2,6 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -20,7 +19,8 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_shovel"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:gameplay/hero_of_the_village/toolsmith_gift"

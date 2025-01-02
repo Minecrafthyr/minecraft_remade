@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,9 +10,9 @@
             {
               "add": false,
               "count": {
-                "max": 4.0,
+                "type": "minecraft:uniform",
                 "min": 3.0,
-                "type": "minecraft:uniform"
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             },
@@ -28,7 +27,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/skeleton_horse"

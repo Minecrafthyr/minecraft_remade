@@ -24,7 +24,7 @@
       "sound": "minecraft:block.wool.hit"
     },
     "minecraft:use_cooldown": {
-      "seconds": 10
+      "seconds": 10.0
     }
   }
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:cobbled_deepslate",
   "result": {
-    "id": "minecraft:flint",
-    "count": 4
+    "count": 2,
+    "id": "minecraft:flint"
   }
 }

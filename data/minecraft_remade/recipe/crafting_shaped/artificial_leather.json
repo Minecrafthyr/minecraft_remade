@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rabbit_hide",
+  "key": {
+    "#": "minecraft:paper"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.artificial_leather\", \"fallback\": \"Artificial Leather\"}",
+      "minecraft:item_model": "minecraft_remade:artificial_leather"
+    }
+  }
+}

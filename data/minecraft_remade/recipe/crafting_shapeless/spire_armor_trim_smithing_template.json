@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:purpur_pillar",
+    "minecraft:purpur_block",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spire_armor_trim_smithing_template"
+  }
+}

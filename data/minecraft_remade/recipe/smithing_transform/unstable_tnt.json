@@ -6,7 +6,7 @@
     "id": "minecraft:tnt",
     "components": {
       "minecraft:lore": [
-        "{\"text\": \"(unstable)\", \"color\": \"gray\"}"
+        "{\"translate\": \"lore.minecraft_remade.unstable\",\"fallback\": \"Unstable\", \"color\": \"gray\"}"
       ],
       "minecraft:block_state": {
         "unstable": "true"

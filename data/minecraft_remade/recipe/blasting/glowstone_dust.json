@@ -3,10 +3,7 @@
   "cookingtime": 100,
   "experience": 0.1,
   "group": "glowstone_dust",
-  "ingredient": [
-    "minecraft:glow_ink_sac",
-    "minecraft:glow_berries"
-  ],
+  "ingredient": "#minecraft_remade:smelt/glowstone_dust",
   "result": {
     "id": "minecraft:glowstone_dust"
   }

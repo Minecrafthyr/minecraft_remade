@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -20,19 +19,19 @@
           "name": "minecraft:sentry_armor_trim_smithing_template",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "name": "minecraft:saddle",
           "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -58,10 +57,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -78,10 +77,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -112,7 +111,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/ravager"

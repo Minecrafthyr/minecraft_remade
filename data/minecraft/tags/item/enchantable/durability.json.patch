@@ -1,0 +1,11 @@
+[
+  {
+    "op": "find",
+    "path": "/values/20",
+    "value": "minecraft:mace"
+  },
+  {
+    "op": "remove",
+    "path": "/values/20"
+  }
+]

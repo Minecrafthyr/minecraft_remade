@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bone_block",
+    "minecraft:netherrack",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:rib_armor_trim_smithing_template"
+  }
+}

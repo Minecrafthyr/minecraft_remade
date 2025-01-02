@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/max_level",
+    "value": 5
+  },
+  {
+    "op": "replace",
+    "path": "/supported_items",
+    "value": "#minecraft_remade:enchantable/armor_and_body_armor"
+  }
+]

@@ -1,0 +1,1 @@
+$execute if predicate $(id) run function minecraft_remade:func/recycle/predicating/loot with storage minecraft_remade:data _

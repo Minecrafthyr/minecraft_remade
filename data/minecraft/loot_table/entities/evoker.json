@@ -2,22 +2,21 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:vex_armor_trim_smithing_template",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.3
             }
-          ]
+          ],
+          "name": "minecraft:vex_armor_trim_smithing_template"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -50,10 +49,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance",
@@ -67,7 +66,9 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "filled_map.mansion",
+              "name": {
+                "translate": "filled_map.mansion"
+              },
               "target": "item_name"
             },
             {
@@ -78,16 +79,17 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "minecraft_remade:entity/template/villager"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/evoker"

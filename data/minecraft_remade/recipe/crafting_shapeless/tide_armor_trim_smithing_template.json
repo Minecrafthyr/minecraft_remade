@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:prismarine_bricks",
+    "minecraft:prismarine",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:tide_armor_trim_smithing_template"
+  }
+}

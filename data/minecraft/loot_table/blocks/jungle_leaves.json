@@ -2,7 +2,6 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -28,33 +27,47 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:stick",
                   "weight": 2,
-                  "quality": 0
+                  "quality": 0,
+                  "name": "minecraft:stick",
+                  "functions": [
+                    {
+                      "function": "minecraft:apply_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:uniform_bonus_count",
+                      "parameters": {
+                        "bonusMultiplier": 2
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
                 },
                 {
                   "type": "minecraft:item",
+                  "quality": 1,
                   "name": "minecraft:jungle_sapling",
-                  "quality": 1
-                }
-              ],
-              "functions": [
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
+                  "functions": [
+                    {
+                      "function": "minecraft:apply_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:uniform_bonus_count",
+                      "parameters": {
+                        "bonusMultiplier": 2
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:blocks/jungle_leaves"

@@ -1,6 +1,6 @@
 {
   "targets": "#minecraft_remade:tools/diamond",
   "components": {
-    "minecraft:max_damage": 1024
+    "minecraft:max_damage": 1536
   }
 }

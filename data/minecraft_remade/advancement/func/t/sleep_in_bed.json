@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "slow_fall": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "minecraft_remade.sleep_in_bed": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/sleep_in_bed"
+  }
+}

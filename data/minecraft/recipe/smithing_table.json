@@ -4,10 +4,11 @@
   "key": {
     "#": "#minecraft:planks",
     "@": "minecraft:iron_ingot",
+    "I": "minecraft:iron_nugget",
     "S": "minecraft:stick"
   },
   "pattern": [
-    "@ ",
+    "@I",
     "#S"
   ],
   "result": {

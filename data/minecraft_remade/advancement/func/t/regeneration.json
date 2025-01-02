@@ -1,0 +1,128 @@
+{
+  "criteria": {
+    "regeneration": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#regeneration"
+              },
+              "score": "minecraft_remade.configs"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": [
+                  "adventure",
+                  "survival"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#difficulty"
+                      },
+                      "score": "minecraft_remade.temp"
+                    },
+                    "range": 0
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "minecraft_remade:func/regeneration/peaceful"
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#difficulty"
+                      },
+                      "score": "minecraft_remade.temp"
+                    },
+                    "range": 1
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "minecraft_remade:func/regeneration/easy"
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#difficulty"
+                      },
+                      "score": "minecraft_remade.temp"
+                    },
+                    "range": 2
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "minecraft_remade:func/regeneration/normal"
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#difficulty"
+                      },
+                      "score": "minecraft_remade.temp"
+                    },
+                    "range": 3
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "minecraft_remade:func/regeneration/hard"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/regeneration"
+  }
+}

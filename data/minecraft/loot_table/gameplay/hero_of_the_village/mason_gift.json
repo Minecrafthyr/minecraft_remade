@@ -2,7 +2,6 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "name": "minecraft:bricks",
@@ -13,7 +12,8 @@
           "expand": true,
           "name": "minecraft:terracotta"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift"

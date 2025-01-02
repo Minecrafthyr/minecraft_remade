@@ -10,7 +10,8 @@
     "count": 1,
     "id": "minecraft:pumpkin_pie",
     "components": {
-      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.apple_pie\", \"fallback\":  \"Apple Pie\"}"
+      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.apple_pie\", \"fallback\":  \"Apple Pie\"}",
+      "minecraft:item_model": "minecraft_remade:apple_pie"
     }
   }
 }

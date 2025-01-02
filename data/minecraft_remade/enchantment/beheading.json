@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.minecraft_remade.beheading"
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft_remade:enchantable/axes",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 2
+}

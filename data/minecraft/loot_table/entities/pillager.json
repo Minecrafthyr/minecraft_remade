@@ -2,17 +2,26 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "minecraft_remade:entity/template/villager"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:raider",
+              "is_captain": true
+            }
+          }
+        },
         {
           "condition": "minecraft:random_chance",
           "chance": 0.1
@@ -36,10 +45,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -57,7 +66,39 @@
           "type": "minecraft:item",
           "name": "minecraft:sentry_armor_trim_smithing_template"
         }
-      ]
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:raider",
+              "is_captain": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "amplifier": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_ominous_bottle_amplifier"
+            }
+          ],
+          "name": "minecraft:ominous_bottle"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

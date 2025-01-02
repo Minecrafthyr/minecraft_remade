@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft_remade:bleeding",
     "minecraft:arrow",
     "minecraft:bad_respawn_point",
     "minecraft:dragon_breath",
@@ -32,6 +31,10 @@
     "minecraft:unattributed_fireball",
     "minecraft:wither_skull",
     "minecraft:spit",
-    "minecraft:wind_charge"
+    "minecraft:wind_charge",
+    "minecraft:mace_smash",
+    "minecraft_remade:bleeding",
+    "minecraft:wind_charge",
+    "minecraft:thrown"
   ]
 }

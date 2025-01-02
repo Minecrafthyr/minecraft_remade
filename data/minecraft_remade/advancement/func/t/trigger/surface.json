@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "surface": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#trigger.surface"
+              },
+              "score": "minecraft_remade.configs"
+            },
+            "range": 1
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "minecraft_remade.surface": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/trigger/surface"
+  }
+}

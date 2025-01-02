@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
+              "name": "enderitemod:cracked_enderite_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "enderitemod:enderite_scrap",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cracked_enderite_ore"
+}

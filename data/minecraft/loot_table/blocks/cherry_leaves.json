@@ -1,7 +1,7 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -27,35 +27,48 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:stick",
                   "weight": 2,
-                  "quality": 0
+                  "quality": 0,
+                  "name": "minecraft:stick",
+                  "functions": [
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:uniform_bonus_count",
+                      "function": "minecraft:apply_bonus",
+                      "parameters": {
+                        "bonusMultiplier": 2
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
                 },
                 {
                   "type": "minecraft:item",
+                  "quality": 1,
                   "name": "minecraft:cherry_sapling",
-                  "quality": 1
-                }
-              ],
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
+                  "functions": [
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:uniform_bonus_count",
+                      "function": "minecraft:apply_bonus",
+                      "parameters": {
+                        "bonusMultiplier": 2
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_leaves",
-  "type": "minecraft:block"
+  "random_sequence": "minecraft:blocks/cherry_leaves"
 }

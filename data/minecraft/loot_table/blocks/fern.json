@@ -16,75 +16,8 @@
               "name": "minecraft:fern"
             },
             {
-              "type": "minecraft:group",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
-                }
-              ],
-              "children": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:wheat_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:melon_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:pumpkin_seeds"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:beetroot_seeds"
-                }
-              ],
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:string",
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:reference",
-                "name": "minecraft_remade:tool/silk_touch"
-              }
-            },
-            {
-              "condition": "minecraft:survives_explosion"
-            }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 2
-              }
+              "type": "minecraft:loot_table",
+              "value": "minecraft_remade:block/seeds_and_string"
             }
           ]
         }

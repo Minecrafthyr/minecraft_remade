@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:flint_and_steel",
+  "components": {
+    "minecraft:max_damage": 128
+  }
+}

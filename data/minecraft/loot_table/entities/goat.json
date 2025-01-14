@@ -84,7 +84,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{HasLeftHorn:1b}"
+            "nbt": "{HasLeftHorn:true}"
           }
         },
         {
@@ -109,7 +109,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{IsScreamingGoat:0b}"
+                    "nbt": "{IsScreamingGoat:false}"
                   }
                 }
               ],
@@ -122,7 +122,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{IsScreamingGoat:1b}"
+                    "nbt": "{IsScreamingGoat:true}"
                   }
                 }
               ],
@@ -140,7 +140,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{HasRightHorn:1b}"
+            "nbt": "{HasRightHorn:true}"
           }
         },
         {
@@ -165,7 +165,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{IsScreamingGoat:0b}"
+                    "nbt": "{IsScreamingGoat:false}"
                   }
                 }
               ],
@@ -178,7 +178,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{IsScreamingGoat:1b}"
+                    "nbt": "{IsScreamingGoat:true}"
                   }
                 }
               ],

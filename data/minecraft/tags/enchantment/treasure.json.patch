@@ -1,0 +1,20 @@
+[
+  {
+    "op": "find",
+    "path": "/values/5",
+    "value": "minecraft:mending"
+  },
+  {
+    "op": "remove",
+    "path": "/values/5"
+  },
+  {
+    "op": "find",
+    "path": "/values/2",
+    "value": "minecraft:swift_sneak"
+  },
+  {
+    "op": "remove",
+    "path": "/values/2"
+  }
+]

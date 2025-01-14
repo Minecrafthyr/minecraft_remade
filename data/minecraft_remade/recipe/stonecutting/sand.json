@@ -1,6 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:sandstone",
+  "ingredient": [
+    "minecraft:sandstone",
+    "minecraft:diorite"
+  ],
   "result": {
     "id": "minecraft:sand",
     "count": 2

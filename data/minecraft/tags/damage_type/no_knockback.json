@@ -1,6 +1,10 @@
 {
   "values": [
     "minecraft_remade:stonecutter",
-    "minecraft_remade:bleeding"
+    "minecraft_remade:bleeding",
+    {
+      "id": "toughasnails:hyperthermia",
+      "required": false
+    }
   ]
 }

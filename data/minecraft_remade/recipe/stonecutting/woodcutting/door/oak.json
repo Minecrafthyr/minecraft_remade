@@ -1,0 +1,9 @@
+{
+  "group": "door",
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:oak_planks",
+  "result": {
+    "id": "minecraft:oak_door",
+    "count": 2
+  }
+}

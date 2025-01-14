@@ -29,9 +29,6 @@ scoreboard objectives add minecraft_remade.surface trigger
 
 scoreboard objectives add minecraft_remade.sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
 
-# scoreboard objectives add readonly.const dummy
-data modify storage minecraft_remade:data load set value {version:3,installed:true}
-
 function minecraft_remade:loop/attack_cd
 function minecraft_remade:config/arrow_break/enable
 function minecraft_remade:config/flamming_arrows/enable
@@ -59,3 +56,7 @@ scoreboard players set #config minecraft_remade.random_teleport.cooldown_time 60
 function minecraft_remade:config/trigger/hat/enable
 function minecraft_remade:config/trigger/sit/disable
 function minecraft_remade:config/trigger/surface/disable
+
+function minecraft_remade:load/version/4
+
+data modify storage minecraft_remade:data load set value {version:4,installed:true}

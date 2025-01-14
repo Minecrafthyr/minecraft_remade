@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:prismarine_slab",
+  "addition": "minecraft:prismarine_slab",
+  "result": {
+    "id": "minecraft:prismarine"
+  }
+}

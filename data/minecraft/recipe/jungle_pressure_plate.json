@@ -3,13 +3,13 @@
   "category": "redstone",
   "group": "wooden_pressure_plate",
   "key": {
-    "#": "minecraft:jungle_planks"
+    "#": "minecraft:jungle_slab"
   },
   "pattern": [
     "##"
   ],
   "result": {
-    "count": 16,
+    "count": 8,
     "id": "minecraft:jungle_pressure_plate"
   }
 }

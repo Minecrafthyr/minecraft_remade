@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "lapis_lazuli": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lapis_lazuli"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/ci/lapis_lazuli"
+  }
+}

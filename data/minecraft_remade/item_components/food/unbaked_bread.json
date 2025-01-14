@@ -1,0 +1,9 @@
+{
+  "targets": "bakeyourbread:unbaked_bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation": 1
+    }
+  }
+}

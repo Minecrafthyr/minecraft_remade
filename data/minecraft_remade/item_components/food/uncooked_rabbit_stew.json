@@ -1,0 +1,9 @@
+{
+  "targets": "bakeyourbread:uncooked_rabbit_stew",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 7,
+      "saturation": 5.9
+    }
+  }
+}

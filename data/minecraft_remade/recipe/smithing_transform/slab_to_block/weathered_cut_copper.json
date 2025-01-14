@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:weathered_cut_copper_slab",
+  "addition": "minecraft:weathered_cut_copper_slab",
+  "result": {
+    "id": "minecraft:weathered_cut_copper"
+  }
+}

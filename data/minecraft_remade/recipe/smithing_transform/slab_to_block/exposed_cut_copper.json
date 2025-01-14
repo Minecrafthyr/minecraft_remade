@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:exposed_cut_copper_slab",
+  "addition": "minecraft:exposed_cut_copper_slab",
+  "result": {
+    "id": "minecraft:exposed_cut_copper"
+  }
+}

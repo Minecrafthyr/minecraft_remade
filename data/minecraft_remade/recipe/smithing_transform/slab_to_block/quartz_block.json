@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:quartz_slab",
+  "addition": "minecraft:quartz_slab",
+  "result": {
+    "id": "minecraft:quartz_block"
+  }
+}

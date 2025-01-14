@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:bamboo_mosaic_slab",
+  "addition": "minecraft:bamboo_mosaic_slab",
+  "result": {
+    "id": "minecraft:bamboo_mosaic"
+  }
+}

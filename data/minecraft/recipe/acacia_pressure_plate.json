@@ -3,13 +3,13 @@
   "category": "redstone",
   "group": "wooden_pressure_plate",
   "key": {
-    "#": "minecraft:acacia_planks"
+    "#": "minecraft:acacia_slab"
   },
   "pattern": [
     "##"
   ],
   "result": {
-    "count": 16,
+    "count": 8,
     "id": "minecraft:acacia_pressure_plate"
   }
 }

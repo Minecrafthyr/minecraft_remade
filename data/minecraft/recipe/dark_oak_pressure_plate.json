@@ -3,13 +3,13 @@
   "category": "redstone",
   "group": "wooden_pressure_plate",
   "key": {
-    "#": "minecraft:dark_oak_planks"
+    "#": "minecraft:dark_oak_slab"
   },
   "pattern": [
     "##"
   ],
   "result": {
-    "count": 16,
+    "count": 8,
     "id": "minecraft:dark_oak_pressure_plate"
   }
 }

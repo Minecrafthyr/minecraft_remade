@@ -4,6 +4,6 @@
   "ingredient": "minecraft:dark_oak_planks",
   "result": {
     "id": "minecraft:dark_oak_button",
-    "count": 1
+    "count": 64
   }
 }

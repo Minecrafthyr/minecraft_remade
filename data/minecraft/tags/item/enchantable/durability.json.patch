@@ -2,10 +2,17 @@
   {
     "op": "find",
     "path": "/values/20",
-    "value": "minecraft:mace"
-  },
-  {
-    "op": "remove",
-    "path": "/values/20"
+    "test": [
+      {
+        "path": "",
+        "value": "minecraft:mace"
+      }
+    ],
+    "then": [
+      {
+        "op": "remove",
+        "path": ""
+      }
+    ]
   }
 ]

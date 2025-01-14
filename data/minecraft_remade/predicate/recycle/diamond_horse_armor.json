@@ -2,8 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
-      "mainhand": {
+    "slots": {
+      "weapon.mainhand": {
         "items": "minecraft:diamond_horse_armor"
       }
     }

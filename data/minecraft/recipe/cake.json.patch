@@ -1,0 +1,17 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "bakeyourbread"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/3",
+    "value": "bakeyourbread:unbaked_bread"
+  },
+  {
+    "op": "replace",
+    "path": "/result/id",
+    "value": "bakeyourbread:unbaked_cake"
+  }
+]

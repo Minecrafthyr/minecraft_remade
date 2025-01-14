@@ -4,9 +4,7 @@
   "predicate": {
     "location": {
       "block": {
-        "blocks": [
-          "minecraft:cobweb"
-        ]
+        "blocks": "minecraft:cobweb"
       }
     }
   }

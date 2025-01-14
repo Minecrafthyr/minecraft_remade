@@ -1,0 +1,27 @@
+## Version 1.0.0-preview2
+
+- Enchantments are now replace vanilla files instead of patch.
+- Fix Terracotta.
+- More Translate.
+- Rabbit Hide item model variant: Poor Quality Leather.
+- Fix Crafting Table can't carft Pressure Plates by replace block as slab.
+- Fix too many light weight pressure plate recipe result.
+- Food compontents changes.
+- Make compatibility with BakeYourBread.
+- Trail Thambers Reward Modifies.
+- Rapid Move and Faster Attack enchantment.
+- `/trigger minecraft_remade.suicide`.
+- All Campfires are unlit by default (Item models are changed).
+- Remove `somthing_on_a_stick` patch.
+- Redstone components now allowed to use items in `#minecraft:stone_crafting_materials` replace Cobblestone.
+- `/trigger minecraft_remade.hat.make`, `/trigger minecraft_remade.hat.unmake`.
+- Smithing Transform Slabs to Blocks.
+- Reduce kelp worldgen.
+- Armor Trim Smithing Template.
+- Woodcutting Fixes.
+- (Readded after thinking) Climbable Chain.
+- Overlay 62 test (for 25w02a snapshot, not useable).
+- Shield recipe is changed.
+- Consumeable Lapis Lazuli, Quartz, Amethyst Shard adding experience.
+- Fix `safe_fall_distance` sneak not working.
+- Modify Wooden Tools Attributes.

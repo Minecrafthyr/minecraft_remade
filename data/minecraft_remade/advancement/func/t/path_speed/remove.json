@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "test": {
+    "path_speed": {
       "conditions": {
         "player": [
           {

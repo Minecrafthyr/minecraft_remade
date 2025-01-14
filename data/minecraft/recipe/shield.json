@@ -2,14 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "O": "minecraft:iron_ingot",
-    "W": "#minecraft:planks",
-    "i": "minecraft:iron_nugget"
+    "I": "minecraft:iron_ingot",
+    "W": "#minecraft:planks"
   },
   "pattern": [
-    "iWO",
-    "iW ",
-    "iW "
+    "IWI",
+    "IW ",
+    "IW "
   ],
   "result": {
     "count": 1,

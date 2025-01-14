@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:mossy_stone_brick_slab",
+  "addition": "minecraft:mossy_stone_brick_slab",
+  "result": {
+    "id": "minecraft:mossy_stone_bricks"
+  }
+}

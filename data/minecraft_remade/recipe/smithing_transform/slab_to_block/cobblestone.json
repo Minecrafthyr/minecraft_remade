@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:cobblestone_slab",
+  "addition": "minecraft:cobblestone_slab",
+  "result": {
+    "id": "minecraft:cobblestone"
+  }
+}

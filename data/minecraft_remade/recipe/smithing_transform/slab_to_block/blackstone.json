@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:blackstone_slab",
+  "addition": "minecraft:blackstone_slab",
+  "result": {
+    "id": "minecraft:blackstone"
+  }
+}

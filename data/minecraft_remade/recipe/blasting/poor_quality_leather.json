@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "rabbit_hide",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.poor_quality_leather\", \"fallback\": \"Poor Quality Leather\"}",
+      "minecraft:item_model": "minecraft_remade:poor_quality_leather"
+    }
+  }
+}

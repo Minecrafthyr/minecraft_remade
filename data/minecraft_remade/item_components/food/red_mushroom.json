@@ -1,0 +1,24 @@
+{
+  "targets": "minecraft:red_mushroom",
+  "components": {
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "on_consume_effects": [
+        {
+          "type": "apply_effects",
+          "effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 200,
+              "amplifier": 1
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation": 0.5
+    }
+  }
+}

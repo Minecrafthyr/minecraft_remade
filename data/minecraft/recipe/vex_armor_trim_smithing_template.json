@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:vex_armor_trim_smithing_template",
+    "minecraft:cobblestone",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:vex_armor_trim_smithing_template"
+  }
+}

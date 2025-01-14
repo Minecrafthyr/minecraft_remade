@@ -1,5 +1,17 @@
-{
-  "op": "replace",
-  "path": "/key/#",
-  "value": "#minecraft:stone_crafting_materials"
-}
+[
+  {
+    "op": "test",
+    "path": "/category",
+    "value": "redstone"
+  },
+  {
+    "op": "test",
+    "path": "/key/#",
+    "value": "minecraft:cobblestone"
+  },
+  {
+    "op": "replace",
+    "path": "/key/#",
+    "value": "#minecraft:stone_crafting_materials"
+  }
+]

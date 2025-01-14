@@ -1,0 +1,17 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "bakeyourbread"
+  },
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "toughasnails"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/7",
+    "value": "toughasnails:purified_water_bottle"
+  }
+]

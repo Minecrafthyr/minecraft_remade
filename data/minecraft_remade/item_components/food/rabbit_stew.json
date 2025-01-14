@@ -1,0 +1,9 @@
+{
+  "targets": "minecraft:red_mushroom",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 15,
+      "saturation": 17
+    }
+  }
+}

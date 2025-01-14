@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diorite_slab",
+  "addition": "minecraft:diorite_slab",
+  "result": {
+    "id": "minecraft:diorite"
+  }
+}

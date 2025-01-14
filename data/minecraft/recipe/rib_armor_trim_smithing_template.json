@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:rib_armor_trim_smithing_template",
+    "minecraft:netherrack",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:rib_armor_trim_smithing_template"
+  }
+}

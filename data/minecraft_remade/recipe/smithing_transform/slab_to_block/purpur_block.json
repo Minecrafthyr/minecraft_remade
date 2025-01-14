@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:purpur_slab",
+  "addition": "minecraft:purpur_slab",
+  "result": {
+    "id": "minecraft:purpur_block"
+  }
+}

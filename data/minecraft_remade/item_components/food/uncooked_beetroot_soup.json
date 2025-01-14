@@ -1,0 +1,9 @@
+{
+  "targets": "bakeyourbread:uncooked_beetroot_soup",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation": 3
+    }
+  }
+}

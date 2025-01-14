@@ -12,7 +12,8 @@
                 "expected": true,
                 "id": "minecraft_remade:player_attack"
               }
-            ]
+            ],
+            "is_direct": true
           }
         }
       },

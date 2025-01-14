@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "minecraft_remade.advancements.story.root.title",
+      "fallback": "Minecraft Remade"
+    },
+    "description": {
+      "translate": "minecraft_remade.advancements.story.root.description",
+      "fallback": "Tweaks Minecraft. Keeps in balanced.\n Made by Minecraft_hyr."
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "background": "minecraft:"
+  }
+}

@@ -8,6 +8,12 @@
           "name": "minecraft:campfire",
           "functions": [
             {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
               "function": "minecraft:copy_state",
               "block": "minecraft:campfire",
               "properties": [

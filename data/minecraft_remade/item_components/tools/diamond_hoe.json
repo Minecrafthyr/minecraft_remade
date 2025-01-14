@@ -1,0 +1,21 @@
+{
+  "targets": "minecraft:diamond_hoe",
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "id": "minecraft:base_attack_damage",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_damage"
+      },
+      {
+        "id": "minecraft:base_attack_speed",
+        "amount": -1.5,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_speed"
+      }
+    ]
+  }
+}

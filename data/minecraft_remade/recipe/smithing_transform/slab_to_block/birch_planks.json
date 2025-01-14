@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:birch_slab",
+  "addition": "minecraft:birch_slab",
+  "result": {
+    "id": "minecraft:birch_planks"
+  }
+}

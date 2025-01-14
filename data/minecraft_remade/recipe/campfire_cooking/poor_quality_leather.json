@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "group": "rabbit_hide",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.poor_quality_leather\", \"fallback\": \"Poor Quality Leather\"}",
+      "minecraft:item_model": "minecraft_remade:poor_quality_leather"
+    }
+  }
+}

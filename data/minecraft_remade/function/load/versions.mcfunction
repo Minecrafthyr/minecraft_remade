@@ -1,0 +1,2 @@
+execute if data storage minecraft_remade:data load{version:3} run function minecraft_remade:load/version/4
+execute unless data storage minecraft_remade:data load.version run function minecraft_remade:load/install

@@ -45,6 +45,10 @@
     "minecraft:ochre_froglight",
     "minecraft:verdant_froglight",
     "minecraft:pearlescent_froglight",
-    "minecraft:frosted_ice"
+    "minecraft:frosted_ice",
+    {
+      "id": "minecraft_remade:charcoal_block",
+      "required": false
+    }
   ]
 }

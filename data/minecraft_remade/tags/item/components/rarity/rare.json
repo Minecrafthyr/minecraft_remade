@@ -1,3 +1,88 @@
 {
-  "values": []
+  "values": [
+    {
+      "id": "enderitemod:enderite_block",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_shovel",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_axe",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_hoe",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_sword",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_helmet",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_chestplate",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_leggings",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_boots",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_ingot",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_scrap",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_ore",
+      "required": false
+    },
+    {
+      "id": "enderitemod:cracked_enderite_ore",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_respawn_archor",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_shield",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_crossbow",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_bow",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitemod:enderite_shulker_shears",
+      "required": false
+    }
+  ]
 }

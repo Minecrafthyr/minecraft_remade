@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:equippable": {
+      "slot": "head",
+      "damage_on_hurt": false
+    },
+    "minecraft:custom_data": {
+      "minecraft_remade": {
+        "hat": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "targets": "minecraft:lapis_lazuli",
+  "components": {
+    "minecraft:consumable": {
+      "consume_seconds": 0.05,
+      "on_consume_effects": [
+        {
+          "type": "play_sound",
+          "sound": "minecraft:block.stone.break"
+        }
+      ],
+      "sound": "minecraft:block.stone.hit"
+    }
+  }
+}

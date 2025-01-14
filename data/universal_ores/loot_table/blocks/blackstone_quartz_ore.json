@@ -19,7 +19,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "minecraft_remade:block/basalt_quartz_ore"
+              "value": "minecraft_remade:block/blackstone_quartz_ore"
             }
           ]
         }

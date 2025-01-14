@@ -1,0 +1,27 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "bakeyourbread"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/-",
+    "value": "minecraft:water_bucket"
+  },
+  {
+    "op": "replace",
+    "path": "/result/id",
+    "value": "bakeyourbread:unbaked_bread"
+  },
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "toughasnails"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/6",
+    "value": "toughasnails:purified_water_bottle"
+  }
+]

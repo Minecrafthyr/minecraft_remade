@@ -1,0 +1,37 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "bakeyourbread"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/1",
+    "value": "minecraft:chicken"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/3",
+    "value": "minecraft:potato"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/-",
+    "value": "minecraft:water_bucket"
+  },
+  {
+    "op": "replace",
+    "path": "/result/id",
+    "value": "bakeyourbread:uncooked_rabbit_stew"
+  },
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "toughasnails"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/5",
+    "value": "toughasnails:purified_water_bottle"
+  }
+]

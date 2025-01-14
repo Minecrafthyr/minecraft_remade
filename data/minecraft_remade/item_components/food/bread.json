@@ -1,0 +1,9 @@
+{
+  "targets": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation": 6
+    }
+  }
+}

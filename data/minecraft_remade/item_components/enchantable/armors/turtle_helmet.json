@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:turtle_helmet",
+  "components": {
+    "minecraft:enchantable": {
+      "value": 10
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:end_stone_brick_slab",
+  "addition": "minecraft:end_stone_brick_slab",
+  "result": {
+    "id": "minecraft:end_stone_bricks"
+  }
+}

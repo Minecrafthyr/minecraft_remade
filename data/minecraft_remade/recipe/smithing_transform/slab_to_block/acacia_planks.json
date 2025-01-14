@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:acacia_slab",
+  "addition": "minecraft:acacia_slab",
+  "result": {
+    "id": "minecraft:acacia_planks"
+  }
+}

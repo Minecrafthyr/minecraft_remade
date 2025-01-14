@@ -59,6 +59,6 @@
     }
   },
   "rewards": {
-    "function": "minecraft_remade:adv/t/safe_fall_distance/add"
+    "function": "minecraft_remade:adv/t/safe_fall_distance/remove"
   }
 }

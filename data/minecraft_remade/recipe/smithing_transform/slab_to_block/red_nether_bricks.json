@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:red_nether_brick_slab",
+  "addition": "minecraft:red_nether_brick_slab",
+  "result": {
+    "id": "minecraft:red_nether_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:oxidized_cut_copper_slab",
+  "addition": "minecraft:oxidized_cut_copper_slab",
+  "result": {
+    "id": "minecraft:oxidized_cut_copper"
+  }
+}

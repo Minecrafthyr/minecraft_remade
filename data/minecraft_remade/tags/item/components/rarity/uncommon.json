@@ -11,8 +11,8 @@
     "minecraft:netherite_leggings",
     "minecraft:netherite_boots",
     "minecraft:netherite_ingot",
-    "minecraft:netherite_block",
     "minecraft:netherite_scrap",
+    "minecraft:netherite_upgrade_smithing_template",
     "minecraft:ancient_debris",
     {
       "id": "toughasnails:empty_netherite_canteen",

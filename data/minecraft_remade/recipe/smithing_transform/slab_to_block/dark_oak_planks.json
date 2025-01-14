@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:dark_oak_slab",
+  "addition": "minecraft:dark_oak_slab",
+  "result": {
+    "id": "minecraft:dark_oak_planks"
+  }
+}

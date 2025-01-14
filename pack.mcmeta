@@ -1,20 +1,29 @@
 {
   "pack": {
     "pack_format": 61,
-    "description": "v1.0.0 preview 1 for 1.21.4 by Minecraft_hyr"
+    "description": "v1.0.0-preview2 for 1.21.4 by Minecraft_hyr",
+    "supported_formats": [
+      61,
+      62
+    ]
   },
   "filter": {
     "block": [
       {
+        "path": "advancements/recipes/.*\\.json"
+      },
+      {
         "__comment": "ore_tweaks",
+        "namespace": "minecraft",
         "path": "recipe/(.+_from_(blasting|smelting)_.+_ore|netherite_scrap_from_blasting|netherite_scrap)\\.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/rabbit_stew_from_.+\\.json"
       },
       {
         "namespace": "enderitemod",
         "path": "recipe/enderite_scrap\\.json"
-      },
-      {
-        "path": "advancements/recipes/.*\\.json"
       },
       {
         "namespace": "raw_ores_processing",
@@ -123,22 +132,6 @@
       },
       {
         "pack_type": "server_data",
-        "patch": "terracotta",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/(?!.+_glazed_terracotta\\.json).+_terracotta\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
         "patch": "fence",
         "targets": [
           {
@@ -164,38 +157,6 @@
             "path": [
               {
                 "pattern": "recipe/.+_fence_gate\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
-        "patch": "something_on_a_stick",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/.+_on_a_stick\\.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "pack_type": "server_data",
-        "patch": "armor_trim_smithing_template",
-        "targets": [
-          {
-            "namespace": [
-              "minecraft"
-            ],
-            "path": [
-              {
-                "pattern": "recipe/.+_armor_trim_smithing_template\\.json"
               }
             ]
           }
@@ -244,6 +205,38 @@
             "path": [
               {
                 "pattern": "recipe/.*cut_copper_slab_from_.*copper.*_stonecutting\\.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pack_type": "server_data",
+        "patch": "carpet",
+        "targets": [
+          {
+            "namespace": [
+              "minecraft"
+            ],
+            "path": [
+              {
+                "pattern": "recipe/.+_carpet\\.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pack_type": "server_data",
+        "patch": "redstones_need_stone",
+        "targets": [
+          {
+            "namespace": [
+              "minecraft"
+            ],
+            "path": [
+              {
+                "pattern": "recipe/.*\\.json"
               }
             ]
           }

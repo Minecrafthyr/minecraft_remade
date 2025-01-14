@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:spruce_slab",
+  "addition": "minecraft:spruce_slab",
+  "result": {
+    "id": "minecraft:spruce_planks"
+  }
+}

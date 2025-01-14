@@ -1,0 +1,26 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "toughasnails"
+  },
+  {
+    "op": "add",
+    "path": "/components/minecraft:consumable",
+    "value": {
+      "consume_seconds": 1.6,
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "toughasnails:thirst",
+              "duration": 20,
+              "amplifer": 80
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

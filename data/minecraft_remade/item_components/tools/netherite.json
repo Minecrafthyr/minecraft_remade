@@ -1,6 +1,9 @@
 {
   "targets": "#minecraft_remade:tools/netherite",
   "components": {
-    "minecraft:max_damage": 2048
+    "minecraft:max_damage": 2048,
+    "minecraft:enchantable": {
+      "value": 40
+    }
   }
 }

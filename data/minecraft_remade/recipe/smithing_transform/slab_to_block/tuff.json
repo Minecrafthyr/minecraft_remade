@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:tuff_slab",
+  "addition": "minecraft:tuff_slab",
+  "result": {
+    "id": "minecraft:tuff"
+  }
+}

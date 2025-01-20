@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.feet": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft_remade:use_reduce_cost",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

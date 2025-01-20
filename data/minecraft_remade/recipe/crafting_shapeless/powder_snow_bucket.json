@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bucket",
+    "minecraft:snowball",
+    "minecraft:snowball",
+    "minecraft:snowball"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:powder_snow_bucket"
+  }
+}

@@ -19,15 +19,15 @@
   "max_level": 7,
   "min_cost": {
     "base": 1,
-    "per_level_above_first": 6
+    "per_level_above_first": 8
   },
   "max_cost": {
     "base": 31,
-    "per_level_above_first": 10
+    "per_level_above_first": 16
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/mining",
-  "weight": 10
+  "weight": 12
 }

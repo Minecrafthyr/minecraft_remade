@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "#minecraft_remade:smelt/quartz",
+  "result": {
+    "id": "minecraft:quartz"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "#minecraft_remade:enchantable/all_weapon",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/beheading",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/bow_and_crossbow",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/extra_experience",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/horse_armor",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/looting",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/mob_equippable",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/thorns",
+      "required": false
+    }
+  ]
+}

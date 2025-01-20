@@ -29,6 +29,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/weapon",
+  "supported_items": "#minecraft_remade:enchantable/all_weapon",
   "weight": 2
 }

@@ -18,27 +18,8 @@
     {
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              }
-            },
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:block/item/lapis_lazuli"
         }
       ],
       "rolls": 1.0

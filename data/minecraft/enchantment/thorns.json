@@ -46,6 +46,6 @@
   "slots": [
     "any"
   ],
-  "supported_items": "#minecraft_remade:enchantable/mob_equippable",
+  "supported_items": "#minecraft_remade:enchantable/thorns",
   "weight": 1
 }

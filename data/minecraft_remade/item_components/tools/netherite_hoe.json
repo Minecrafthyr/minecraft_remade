@@ -1,20 +1,34 @@
 {
-  "targets": "minecraft:netherite_hoe",
+  "targets": "minecraft:diamond_hoe",
   "components": {
     "minecraft:attribute_modifiers": [
       {
         "id": "minecraft:base_attack_damage",
-        "amount": 5,
+        "amount": 6.0,
         "operation": "add_value",
         "slot": "mainhand",
         "type": "minecraft:attack_damage"
       },
       {
         "id": "minecraft:base_attack_speed",
-        "amount": -2.5,
+        "amount": -2.0,
         "operation": "add_value",
         "slot": "mainhand",
         "type": "minecraft:attack_speed"
+      },
+      {
+        "id": "minecraft:base_interaction_range",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:block_interaction_range"
+      },
+      {
+        "id": "minecraft:base_entity_interaction_range",
+        "amount": 2.0,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:entity_interaction_range"
       }
     ]
   }

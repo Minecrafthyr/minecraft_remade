@@ -1,0 +1,2 @@
+schedule function minecraft_remade:loop/health_fix/1t 1t
+execute as @e[type=!#taglib:non_living,type=!minecraft:player,tag=!minecraft_remade.health_fix.checked] run function minecraft_remade:func/health_fix/heal

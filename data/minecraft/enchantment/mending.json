@@ -9,21 +9,24 @@
         "effect": {
           "type": "minecraft:multiply",
           "factor": {
-            "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": -1.0
+            "type": "minecraft:fraction",
+            "denominator": 2.0,
+            "numerator": {
+              "type": "minecraft:levels_squared",
+              "added": 0.0
+            }
           }
         }
       }
     ]
   },
-  "max_level": 2,
+  "max_level": 3,
   "min_cost": {
     "base": 20,
     "per_level_above_first": 20
   },
   "max_cost": {
-    "base": 60,
+    "base": 40,
     "per_level_above_first": 20
   },
   "slots": [

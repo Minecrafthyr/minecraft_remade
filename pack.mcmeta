@@ -2,10 +2,7 @@
   "pack": {
     "pack_format": 61,
     "description": "v1.0.0-preview2 for 1.21.4 by Minecraft_hyr",
-    "supported_formats": [
-      61,
-      62
-    ]
+    "supported_formats": 61
   },
   "filter": {
     "block": [

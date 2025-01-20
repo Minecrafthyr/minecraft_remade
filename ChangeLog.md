@@ -1,27 +1,57 @@
 ## Version 1.0.0-preview2
 
-- Enchantments are now replace vanilla files instead of patch.
-- Fix Terracotta.
-- More Translate.
-- Rabbit Hide item model variant: Poor Quality Leather.
-- Fix Crafting Table can't carft Pressure Plates by replace block as slab.
-- Fix too many light weight pressure plate recipe result.
-- Food compontents changes.
 - Make compatibility with BakeYourBread.
-- Trail Thambers Reward Modifies.
-- Rapid Move and Faster Attack enchantment.
-- `/trigger minecraft_remade.suicide`.
-- All Campfires are unlit by default (Item models are changed).
-- Remove `somthing_on_a_stick` patch.
-- Redstone components now allowed to use items in `#minecraft:stone_crafting_materials` replace Cobblestone.
-- `/trigger minecraft_remade.hat.make`, `/trigger minecraft_remade.hat.unmake`.
-- Smithing Transform Slabs to Blocks.
-- Reduce kelp worldgen.
-- Armor Trim Smithing Template.
-- Woodcutting Fixes.
-- (Readded after thinking) Climbable Chain.
-- Overlay 62 test (for 25w02a snapshot, not useable).
-- Shield recipe is changed.
-- Consumeable Lapis Lazuli, Quartz, Amethyst Shard adding experience.
+
+### Enchantments
+
+- Enchantments are now replace vanilla files instead of patch.
+- New Enchantments (max level in parentheses):  
+  Beheading (5), Extra Experience (3), Faster Attack (5), Magic Protection (7), Rapid Move (5), Reach (4), Step Up (3), Curse of Vulnerable.
+
+### Functions
+
+- More Translate.
+- `/trigger minecraft_remade.suicide`, `/trigger minecraft_remade.hat.make`, `/trigger minecraft_remade.hat.unmake`.
 - Fix `safe_fall_distance` sneak not working.
-- Modify Wooden Tools Attributes.
+- Disable Flamming Arrow by default.
+- Random Teleport: Default cooldown time is 60 seconds, default range is 100000.
+- Base of Block Interaction Range is 4, base of Entity Interaction Range is 2.
+- Health Fix: Heal all mobs when spawning.
+  > [!WARNING]  
+  > **Also apply on mobs that saved and does not load when joining game, bucause datapack can not get ticks entity exist.**
+
+### Item Components
+
+- Food components modifies.
+- Tools attributes modifies.
+- All Campfires are unlit by default (Item models are changed).
+- Consumeable Lapis Lazuli, Quartz, Amethyst Shard adding experience.
+- Enchantable Shield, Flint and Steel, Brush.
+
+### Loot Tables
+
+- Trail Thambers Reward modifies.
+- Snow block drop 8 Snowball.
+
+### Recipes
+
+- Fix too many light weight pressure plate recipe result.
+- Fix Terracotta.
+- Fix Armor Trim Smithing Template.
+- Redstone components now allowed to use items in `#minecraft:stone_crafting_materials` replace Cobblestone.
+- Smithing Transform Slabs to Blocks.
+- Woodcutting Fixes.
+- Rabbit Hide item model variant: Poor Quality Leather.
+- Fix Crafting Table can't carft Pressure Plates, now replace block as slab.
+- Glass smelt to Quartz.
+- Shield recipe is changed.
+- Remove `somthing_on_a_stick` patch.
+- 8 Snowball can craft Snow block. 2 Snow Block can craft 16 Snow.
+
+### Tags
+
+- (Readded after thinking) Climbable Chain.
+
+### Worldgen
+
+- Reduce kelp worldgen.

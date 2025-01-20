@@ -14,11 +14,10 @@ Tweaks Minecraft. Keeps in balanced.
 
 ## Compatibilities
 
-The Modrinth collection is downside.
-
 ### Requirements
 
-**<span style="color:red;">\[!\]</span> Required resource pack in Modrinth files page.**
+> [!WARNING]  
+> **Requires resource pack in Modrinth files page.**
 
 [Collection](https://modrinth.com/collection/vv2GYBKe)
 
@@ -36,7 +35,7 @@ Packs that made compatibility with. [Collection](https://modrinth.com/collection
 - [Bake Your Bread](https://modrinth.com/mod/6FNv53gc/4cgX9zXl)
 - \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
   - [GlitchCore](https://modrinth.com/mod/s3dmwKy5)
-- [Enderite Mod](https://modrinth.com/mod/6lvRWqbA)
+- \[Incomplete\] [Enderite Mod](https://modrinth.com/mod/6lvRWqbA)
 
 ### Suggestions
 

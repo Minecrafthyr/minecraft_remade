@@ -31,7 +31,6 @@ scoreboard objectives add minecraft_remade.sleep_in_bed minecraft.custom:minecra
 
 function minecraft_remade:loop/attack_cd
 function minecraft_remade:config/arrow_break/enable
-function minecraft_remade:config/flamming_arrows/enable
 function minecraft_remade:config/melting_snowball/enable
 function minecraft_remade:config/path_speed/enable
 function minecraft_remade:config/regeneration/enable
@@ -50,9 +49,7 @@ function minecraft_remade:config/trigger/back_to_death_location/disable
 function minecraft_remade:config/trigger/get_death_location/disable
 function minecraft_remade:config/trigger/config/enable
 function minecraft_remade:config/trigger/random_teleport/disable
-data modify storage minecraft_remade:data configs.trigger.random_teleport.range set value 10000
 scoreboard players set #config minecraft_remade.random_teleport.wait_time 100
-scoreboard players set #config minecraft_remade.random_teleport.cooldown_time 6000
 function minecraft_remade:config/trigger/hat/enable
 function minecraft_remade:config/trigger/sit/disable
 function minecraft_remade:config/trigger/surface/disable

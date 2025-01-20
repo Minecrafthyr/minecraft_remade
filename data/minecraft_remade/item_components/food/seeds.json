@@ -8,8 +8,8 @@
       "consume_seconds": 1.6
     },
     "minecraft:food": {
-      "nutrition": 0,
-      "saturation": 0.5
+      "nutrition": 1,
+      "saturation": 0.2
     }
   }
 }

@@ -4,37 +4,27 @@
     "translate": "enchantment.minecraft.impaling"
   },
   "effects": {
-    "minecraft:post_attack": [
+    "minecraft:damage": [
       {
-        "affected": "victim",
         "effect": {
-          "type": "minecraft:damage_entity",
-          "damage_type": "minecraft:magic",
-          "min_damage": {
+          "type": "minecraft:add",
+          "value": {
             "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "max_damage": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
+            "base": 0.5,
+            "per_level_above_first": 0.5
           }
         },
-        "enchanted": "attacker",
-        "requirements": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "fluid": {
-                  "fluids": "#minecraft:water"
-                }
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
               }
             }
           }
-        ]
+        }
       }
     ]
   },

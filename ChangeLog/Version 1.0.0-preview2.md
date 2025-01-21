@@ -1,18 +1,16 @@
-## Version 1.0.0-preview2
-
 - Make compatibility with BakeYourBread.
 
 ### Enchantments
 
 - Enchantments are now replace vanilla files instead of patch.
 - New Enchantments (max level in parentheses):  
-  Beheading (5), Extra Experience (3), Faster Attack (5), Magic Protection (7), Rapid Move (5), Reach (4), Step Up (3), Curse of Vulnerable.
+  Beheading (5), Extra Experience (3), Faster Attack (5), Flame Thorns (5), Magic Protection (7), Rapid Move (5), Reach (4), Step Up (3), Curse of Vulnerable.
 
 ### Functions
 
 - More Translate.
 - `/trigger minecraft_remade.suicide`, `/trigger minecraft_remade.hat.make`, `/trigger minecraft_remade.hat.unmake`.
-- Fix `safe_fall_distance` sneak not working.
+- Fix Safe Fall Distance add by sneak is not working.
 - Disable Flamming Arrow by default.
 - Random Teleport: Default cooldown time is 60 seconds, default range is 100000.
 - Base of Block Interaction Range is 4, base of Entity Interaction Range is 2.
@@ -32,6 +30,7 @@
 
 - Trail Thambers Reward modifies.
 - Snow block drop 8 Snowball.
+- Fix Silk Touch 2 does not work in some cases.
 
 ### Recipes
 
@@ -47,6 +46,7 @@
 - Shield recipe is changed.
 - Remove `somthing_on_a_stick` patch.
 - 8 Snowball can craft Snow block. 2 Snow Block can craft 16 Snow.
+- Lever mineable by pickaxe.
 
 ### Tags
 

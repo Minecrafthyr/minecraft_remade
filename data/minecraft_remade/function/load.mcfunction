@@ -2,7 +2,6 @@
 
 function #minecraft_remade:load/before
 
-
 recipe give @a *
 execute unless data storage minecraft_remade:data load{version:4} run function minecraft_remade:load/versions
 

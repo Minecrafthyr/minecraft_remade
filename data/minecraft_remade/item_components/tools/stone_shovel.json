@@ -17,14 +17,14 @@
         "type": "minecraft:attack_speed"
       },
       {
-        "id": "minecraft:base_interaction_range",
+        "id": "minecraft_remade:tool_block_interaction_range",
         "amount": 0.5,
         "operation": "add_value",
         "slot": "mainhand",
         "type": "minecraft:block_interaction_range"
       },
       {
-        "id": "minecraft:base_entity_interaction_range",
+        "id": "minecraft_remade:tool_entity_interaction_range",
         "amount": 1.0,
         "operation": "add_value",
         "slot": "mainhand",

@@ -20,6 +20,6 @@
   {
     "op": "replace",
     "path": "/result/count",
-    "value": 8
+    "value": 4
   }
 ]

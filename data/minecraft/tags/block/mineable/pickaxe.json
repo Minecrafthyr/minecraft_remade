@@ -46,6 +46,7 @@
     "minecraft:verdant_froglight",
     "minecraft:pearlescent_froglight",
     "minecraft:frosted_ice",
+    "minecraft:lever",
     {
       "id": "minecraft_remade:charcoal_block",
       "required": false

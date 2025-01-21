@@ -13,18 +13,6 @@
           "functions": [
             {
               "block": "minecraft:sniffer_egg",
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "block": "minecraft:sniffer_egg",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                      "hatch": "0"
-                    }
-                  }
-                }
-              ],
               "function": "minecraft:copy_state",
               "properties": [
                 "hatch"

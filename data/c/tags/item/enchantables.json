@@ -9,11 +9,19 @@
       "required": false
     },
     {
+      "id": "#minecraft_remade:enchantable/breach",
+      "required": false
+    },
+    {
       "id": "#minecraft_remade:enchantable/bow_and_crossbow",
       "required": false
     },
     {
       "id": "#minecraft_remade:enchantable/extra_experience",
+      "required": false
+    },
+    {
+      "id": "#minecraft_remade:enchantable/heavy_weapon",
       "required": false
     },
     {

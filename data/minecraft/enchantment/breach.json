@@ -29,6 +29,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft_remade:enchantable/heavy_weapon",
+  "supported_items": "#minecraft_remade:enchantable/breach",
   "weight": 2
 }

@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft.thorns"
   },
@@ -25,8 +25,10 @@
               }
             },
             {
-              "type": "minecraft:change_item_damage",
-              "amount": 1.0
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:enchant.thorns.hit",
+              "pitch": 1.0,
+              "volume": 0.5
             }
           ]
         },
@@ -36,7 +38,7 @@
   },
   "max_level": 5,
   "min_cost": {
-    "base": 20,
+    "base": 15,
     "per_level_above_first": 10
   },
   "max_cost": {
@@ -47,5 +49,5 @@
     "any"
   ],
   "supported_items": "#minecraft_remade:enchantable/thorns",
-  "weight": 1
+  "weight": 2
 }

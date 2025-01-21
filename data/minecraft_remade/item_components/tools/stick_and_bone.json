@@ -1,0 +1,31 @@
+{
+  "targets": [
+    "minecraft:stick",
+    "minecraft:bone"
+  ],
+  "components": {
+    "minecraft:attribute_modifiers": [
+      {
+        "id": "minecraft:base_attack_damage",
+        "amount": 2.0,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_damage"
+      },
+      {
+        "id": "minecraft:base_attack_speed",
+        "amount": -1.0,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_speed"
+      },
+      {
+        "id": "minecraft_remade:tool_entity_interaction_range",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:entity_interaction_range"
+      }
+    ]
+  }
+}

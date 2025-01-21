@@ -1,0 +1,15 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "enderitemod"
+  },
+  {
+    "op": "replace",
+    "path": "/config/targets/0/target",
+    "value": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "minecraft_remade:enderite_ore_replaceable"
+    }
+  }
+]

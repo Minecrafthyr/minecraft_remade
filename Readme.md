@@ -10,7 +10,7 @@ Tweaks Minecraft. Keeps in balanced.
 - Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
   [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)
-- Current files count: 1100+
+- Current files count: 1500+
 
 ## Compatibilities
 
@@ -46,23 +46,7 @@ Packs that made compatibility with. [Collection](https://modrinth.com/collection
 - [REI](https://modrinth.com/mod/nfn13YXA)
   - [Architectury API](https://modrinth.com/mod/lhGA9TYQ)
   - [Cloth Config API](https://modrinth.com/mod/9s6osm5g)
-
-### Replacement
-
-This pack has include some features, you don't need to install them again.
-
-<details>
-
-- Unlit Campfires
-- Stack Up 64 (does not include damageable items)
-- Edible Sugar & Seeds
-- Redstones Allow Stone Materials
-- Wooden Shovel Boat
-- More Building Blocks Count & Less Ingredients
-- Torch from Stick (Smelting or Blasting or Campfire Cooking)
-- Glowstone Dust from Glow Berries or Glow Ink Sac (Smelting or Blasting)
-
-</details>
+- [Braver Bundles](https://modrinth.com/mod/piuCfuMa)
 
 ## Introduction
 
@@ -97,19 +81,18 @@ This pack has include some features, you don't need to install them again.
     <tr> <th colspan=99>Crafting <td>(Shapeless)
     <tr> <td>Sugar Cane <td>Sugar Cane <td>Sugar Cane
   </table>
-- Leather can also loot by killing animals that may have leather.
+- More animals drop leather.
 - Stone needs stone tool to mine, Deepslate needs iron tool to mine.
 - Stone tools should craft from Flint.
 
 ## Features
 
-Descriptions may out of date.
+Caution: descriptions may out of date.
 
 ### Modifications
 
 #### <span style="font-size:16px;">Enchantments</span>
 
-More enchantable item are planned with medium priority.  
 Enchantment cost changes are not listed here, you can view [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/enchantment).
 
 <details>

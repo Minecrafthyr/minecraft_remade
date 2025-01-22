@@ -53,6 +53,7 @@ scoreboard players set #config minecraft_remade.random_teleport.wait_time 100
 function minecraft_remade:config/trigger/hat/enable
 function minecraft_remade:config/trigger/sit/disable
 function minecraft_remade:config/trigger/surface/disable
+function minecraft_remade:config/flamming_arrows/enable
 
 function minecraft_remade:load/version/4
 

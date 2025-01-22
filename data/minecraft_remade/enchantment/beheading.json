@@ -17,5 +17,5 @@
   ],
   "primary_items": "#minecraft_remade:enchantable/beheading",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "weight": 2
+  "weight": 1
 }

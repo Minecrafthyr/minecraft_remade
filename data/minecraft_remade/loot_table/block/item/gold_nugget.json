@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:gold_nugget",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_terracotta",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/fire_aspect_2"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/blue_terracotta"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "category": "misc",
+  "ingredient": "minecraft:warped_wart_block",
+  "result": {
+    "id": "minecraft:ender_pearl"
+  }
+}

@@ -32,7 +32,13 @@
             }
           ]
         },
-        "enchanted": "victim"
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
       }
     ]
   },

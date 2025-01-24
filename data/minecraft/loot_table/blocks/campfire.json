@@ -19,6 +19,20 @@
               "properties": [
                 "lit"
               ]
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/fire_aspect"
+                }
+              ],
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "lit": "true"
+                }
+              }
             }
           ]
         }

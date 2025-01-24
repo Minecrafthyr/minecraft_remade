@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "gold_ingot",
+  "ingredient": "minecraft:gilded_blackstone",
+  "result": {
+    "count": 1,
+    "id": "minecraft:gold_ingot"
+  }
+}

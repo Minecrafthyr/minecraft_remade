@@ -10,7 +10,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/silk_touch_or_shears"
+                  "name": "minecraft_remade:tool/silk_touch_2_or_shears"
                 }
               ],
               "name": "minecraft:short_grass"

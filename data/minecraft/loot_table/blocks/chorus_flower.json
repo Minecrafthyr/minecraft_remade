@@ -29,7 +29,15 @@
               ],
               "name": "minecraft:chorus_fruit",
               "functions": [
-                
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/fire_aspect"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:binomial_with_bonus_count",

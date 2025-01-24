@@ -14,14 +14,7 @@
             "per_level_above_first": 0.02
           }
         },
-        "enchanted": "attacker",
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "attacker",
-          "predicate": {
-            "type": "minecraft:player"
-          }
-        }
+        "enchanted": "attacker"
       }
     ]
   },

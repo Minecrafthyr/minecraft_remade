@@ -1,0 +1,2 @@
+schedule function minecraft_remade:loop/melting_snowball/2t 2t
+execute as @e[type=minecraft:snowball,predicate=minecraft_remade:flags/is_on_fire/true,tag=!global.ignore,tag=!minecraft_remade.on_fire.snowball.ignore] run function minecraft_remade:func/melting_snowball

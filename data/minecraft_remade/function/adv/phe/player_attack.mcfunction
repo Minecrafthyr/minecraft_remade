@@ -6,4 +6,4 @@ scoreboard players operation #time minecraft_remade.temp /= #0 minecraft_remade.
 execute if score #time minecraft_remade.temp matches 11.. run scoreboard players set #time minecraft_remade.temp 11
 execute unless score #time minecraft_remade.temp matches 1..11 run return 0
 
-function minecraft_remade:func/attack_cd/add
+function minecraft_remade:func/attack_cd/add_player

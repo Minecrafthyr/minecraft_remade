@@ -29,7 +29,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft_remade:enchantable/bow_and_crossbow",
+  "supported_items": "#minecraft_remade:enchantable/piercing",
   "exclusive_set": "#minecraft_remade:exclusive_set/punch_piercing",
   "weight": 10
 }

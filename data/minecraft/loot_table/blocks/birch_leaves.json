@@ -13,7 +13,18 @@
                   "name": "minecraft_remade:tool/silk_touch_or_shears"
                 }
               ],
-              "name": "minecraft:birch_leaves"
+              "name": "minecraft:birch_leaves",
+              "functions": [
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/fire_aspect"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                }
+              ]
             },
             {
               "type": "minecraft:group",
@@ -48,6 +59,15 @@
                   "quality": 1,
                   "name": "minecraft:birch_sapling",
                   "functions": [
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:reference",
+                          "name": "minecraft_remade:tool/fire_aspect"
+                        }
+                      ],
+                      "function": "minecraft:furnace_smelt"
+                    },
                     {
                       "function": "minecraft:apply_bonus",
                       "enchantment": "minecraft:fortune",

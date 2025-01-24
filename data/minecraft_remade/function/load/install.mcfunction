@@ -29,7 +29,6 @@ scoreboard objectives add minecraft_remade.surface trigger
 
 scoreboard objectives add minecraft_remade.sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
 
-function minecraft_remade:loop/attack_cd
 function minecraft_remade:config/arrow_break/enable
 function minecraft_remade:config/melting_snowball/enable
 function minecraft_remade:config/path_speed/enable

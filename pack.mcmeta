@@ -37,7 +37,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -53,7 +54,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -117,7 +119,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -133,7 +136,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -149,7 +153,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {

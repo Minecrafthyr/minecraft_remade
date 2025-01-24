@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "block": "minecraft:cake",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "bites": "0"
+              }
+            }
+          ],
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_candle",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/silk_touch"
+                }
+              ],
+              "function": "minecraft:copy_state",
+              "block": "minecraft:blue_candle_cake",
+              "properties": [
+                "lit"
+              ]
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/fire_aspect"
+                }
+              ],
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "lit": "true"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/blue_candle_cake"
+}

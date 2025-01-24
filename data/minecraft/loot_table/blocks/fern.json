@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "entries": [
@@ -10,7 +11,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/silk_touch"
+                  "name": "minecraft_remade:tool/silk_touch_2_or_shears"
                 }
               ],
               "name": "minecraft:fern"
@@ -25,6 +26,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/fern",
-  "type": "minecraft:block"
+  "random_sequence": "minecraft:blocks/fern"
 }

@@ -6,7 +6,8 @@ Tweaks Minecraft. Keeps in balanced.
 - Game versions: 1.21.4
 - Project Links:  
   [Modrinth](https://modrinth.com/datapack/oFkITbQM)  
-  [Github](https://github.com/Minecrafthyr/minecraft_remade)
+  [Github](https://github.com/Minecrafthyr/minecraft_remade)  
+  [Resourcepack on Github](https://github.com/Minecrafthyr/minecraft_remade-resources)
 - Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
   [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)

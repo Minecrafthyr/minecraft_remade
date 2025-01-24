@@ -1,20 +1,26 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "slots": {
-      "weapon.offhand": {
-        "predicates": {
-          "minecraft:enchantments": [
-            {
-              "enchantments": "minecraft_remade:use_reduce_cost",
-              "levels": {
-                "min": 1
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.offhand": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft_remade:use_reduce_cost",
+                "levels": {
+                  "min": 1
+                }
               }
-            }
-          ]
+            ]
+          }
         }
       }
     }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.1
   }
-}
+]

@@ -6,6 +6,10 @@
     "minecraft_remade:magic_protection",
     "minecraft_remade:step_up",
     "minecraft_remade:faster_attack",
-    "minecraft_remade:rapid_move"
+    "minecraft_remade:rapid_move",
+    "minecraft_remade:flame_thorns",
+    "minecraft_remade:use_reduce_cost",
+    "minecraft_remade:sneak_resist",
+    "minecraft_remade:extra_experience"
   ]
 }

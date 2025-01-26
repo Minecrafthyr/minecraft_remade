@@ -26,16 +26,8 @@
                   "adventure",
                   "survival"
                 ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "minecraft_remade.food_exhaustion": {
-                "min": 1
-              }
+              },
+              "periodic_tick": 20
             }
           }
         ]

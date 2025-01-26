@@ -1,7 +1,8 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.vulnerable_curse"
+    "translate": "enchantment.minecraft.vulnerable_curse",
+    "fallback": "Vulnerable Curse"
   },
   "effects": {
     "minecraft:item_damage": [

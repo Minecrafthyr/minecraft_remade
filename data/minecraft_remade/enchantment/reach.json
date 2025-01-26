@@ -1,7 +1,8 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft_remade.reach"
+    "translate": "enchantment.minecraft_remade.reach",
+    "fallback": "Reach"
   },
   "effects": {
     "minecraft:attributes": [

@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:armor_stand",
+  "components": {
+    "minecraft:armor_stand": {
+      "ShowArms": 1
+    }
+  }
+}

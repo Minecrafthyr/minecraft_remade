@@ -1,8 +1,11 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
           "functions": [
             {
               "add": false,
@@ -22,9 +25,7 @@
                 "max": 1.0
               }
             }
-          ],
-          "name": "minecraft:string",
-          "type": "minecraft:item"
+          ]
         }
       ],
       "rolls": 1.0
@@ -66,6 +67,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/spider",
-  "type": "minecraft:entity"
+  "random_sequence": "minecraft:entities/spider"
 }

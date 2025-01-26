@@ -38,8 +38,8 @@
     "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 10,
-    "per_level_above_first": 24
+    "base": 35,
+    "per_level_above_first": 12
   },
   "slots": [
     "armor"

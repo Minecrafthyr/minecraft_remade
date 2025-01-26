@@ -1,7 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft_remade.rapid_move"
+    "translate": "enchantment.minecraft_remade.rapid_move",
+    "fallback": "Rapid Move"
   },
   "effects": {
     "minecraft:attributes": [

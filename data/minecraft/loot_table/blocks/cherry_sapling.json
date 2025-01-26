@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "conditions": [
@@ -15,7 +16,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/fire_aspect"
+                  "name": "minecraft_remade:tool/smelts_loot"
                 }
               ],
               "function": "minecraft:furnace_smelt"
@@ -47,7 +48,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/fire_aspect"
+                  "name": "minecraft_remade:tool/smelts_loot"
                 }
               ],
               "function": "minecraft:furnace_smelt"
@@ -58,6 +59,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_sapling",
-  "type": "minecraft:block"
+  "random_sequence": "minecraft:blocks/cherry_sapling"
 }

@@ -1,7 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft_remade.extra_experience"
+    "translate": "enchantment.minecraft_remade.extra_experience",
+    "fallback": "Extra Experience"
   },
   "effects": {
     "mob_experience": [

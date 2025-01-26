@@ -1,5 +1,4 @@
 attribute @s minecraft:attack_damage modifier add minecraft_remade:attack_cd -10 add_multiplied_total
-attribute @s minecraft:entity_interaction_range modifier add minecraft_remade:attack_cd -10 add_multiplied_total
 tellraw @a[scores={minecraft_remade.debug=2..}] \
 [ \
   {"translate": "minecraft_remade.debuging", \

@@ -1,2 +1,1 @@
-$execute if score #repair_cost minecraft_remade.temp matches 1 run return run data remove entity @s Inventory[{Slot:$(slot)}].components."minecraft:repair_cost"
-$execute store result entity @s Inventory[{Slot:$(slot)}].components."minecraft:repair_cost" int 1 run scoreboard players remove #repair_cost minecraft_remade.temp 1
+$data modify entity @s Inventory[{Slot:$(slot)}].components."minecraft:repair_cost" operation -= 1

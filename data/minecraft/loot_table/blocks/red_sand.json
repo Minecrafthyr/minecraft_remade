@@ -14,7 +14,18 @@
                   "name": "minecraft_remade:tool/silk_touch"
                 }
               ],
-              "name": "minecraft:red_sand"
+              "name": "minecraft:red_sand",
+              "functions": [
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/smelts_loot_2"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                }
+              ]
             },
             {
               "type": "minecraft:alternatives",
@@ -113,7 +124,18 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:red_sand"
+                  "name": "minecraft:red_sand",
+                  "functions": [
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:reference",
+                          "name": "minecraft_remade:tool/smelts_loot"
+                        }
+                      ],
+                      "function": "minecraft:furnace_smelt"
+                    }
+                  ]
                 }
               ]
             }

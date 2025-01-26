@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "#taglib:item_frames",
+    "slots": {
+      "container.0": {
+        "items": "#minecraft_remade:func/mechine"
+      }
+    },
+    "stepping_on": {
+      "block": {
+        "blocks": "minecraft:dropper"
+      }
+    },
+    "nbt": "{Facing:0b}"
+  }
+}

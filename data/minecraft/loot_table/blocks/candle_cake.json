@@ -13,13 +13,6 @@
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
-            },
-            {
-              "block": "minecraft:cake",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "bites": "0"
-              }
             }
           ],
           "name": "minecraft:cake"
@@ -55,7 +48,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/fire_aspect"
+                  "name": "minecraft_remade:tool/smelts_loot"
                 }
               ],
               "function": "minecraft:set_components",

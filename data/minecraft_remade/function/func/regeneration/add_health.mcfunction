@@ -6,4 +6,4 @@ execute if score #max_health minecraft_remade.temp matches ..1 run return 0
 
 function bs.health:add/health {points: 1}
 # +4 foodExhaustionLevel
-scoreboard players operation @s minecraft_remade.food_exhaustion += #food_exhaustion.regenerate minecraft_remade.configs
+data modify entity @s foodExhaustionLevel operation += 4

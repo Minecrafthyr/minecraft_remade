@@ -15,7 +15,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/fire_aspect"
+                  "name": "minecraft_remade:tool/smelts_loot"
                 }
               ],
               "function": "minecraft:furnace_smelt"
@@ -47,7 +47,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/fire_aspect"
+                  "name": "minecraft_remade:tool/smelts_loot"
                 }
               ],
               "function": "minecraft:furnace_smelt"

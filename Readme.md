@@ -1,6 +1,6 @@
 # Minecraft Remade
 
-Tweaks Minecraft. Keeps in balanced.
+Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced way.
 
 - Version: 1.0.0-preview2 (Beta)
 - Game versions: 1.21.4
@@ -17,8 +17,7 @@ Tweaks Minecraft. Keeps in balanced.
 
 ### Requirements
 
-> [!WARNING]  
-> **Requires resource pack in Modrinth files page.**
+- Required resourcepack in Modrinth files page or on Gitbub.
 
 [Collection](https://modrinth.com/collection/vv2GYBKe)
 
@@ -31,7 +30,7 @@ Tweaks Minecraft. Keeps in balanced.
 
 Packs that made compatibility with. [Collection](https://modrinth.com/collection/OomzyzBT)
 
-- [Universal-Ores](https://modrinth.com/mod/sUkBOCw1)
+- [Universal Ores](https://modrinth.com/mod/68kWHuUF)
 - [Tooltipz](https://modrinth.com/mod/6FNv53gc)
 - [Bake Your Bread](https://modrinth.com/mod/6FNv53gc/4cgX9zXl)
 - \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
@@ -42,12 +41,12 @@ Packs that made compatibility with. [Collection](https://modrinth.com/collection
 
 [Collection](https://modrinth.com/collection/xnfbeiAU)
 
-- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs)
-- [Extended Bonemeal](https://modrinth.com/mod/bHkCoxMs)
 - [REI](https://modrinth.com/mod/nfn13YXA)
   - [Architectury API](https://modrinth.com/mod/lhGA9TYQ)
   - [Cloth Config API](https://modrinth.com/mod/9s6osm5g)
-- [Braver Bundles](https://modrinth.com/mod/piuCfuMa)
+- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs)
+- [Extended Bonemeal](https://modrinth.com/mod/bHkCoxMs)
+- [Stackable Bundles](https://modrinth.com/mod/Hs0QCDz6)
 
 ## Introduction
 
@@ -94,35 +93,14 @@ Caution: descriptions may out of date.
 
 #### <span style="font-size:16px;">Enchantments</span>
 
-Enchantment cost changes are not listed here, you can view [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/enchantment).
-
 <details>
-
-- All Protections max level is 5, supported items are now All equippable items.
-- Breach supported items are now weapon.
-- Feater Falling increase 0.5 Safe Fall Distance attribute per level.
-- Flame ignite time is changed, max level is 2, supported items are now Bow and Crossbow.
-- Infinity does not limited as Arrow.
-- Power supported items are now Bow and Crossbow.
-- Quick Charge charge time is now[0.75, 0.5, 0.25].
-- Sharpness primary items are removed, now it possible enchant on all sharp weapons.
-- Thorns reduce 1 durability instead of 2, supported items are now All equippable items.
-- Looting support shears.
-- Unbreaking max level is 5.
-
 </details>
 
 #### <span style="font-size:16px;">Loot Tables</span>
 
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/loot_table).
-
 #### <span style="font-size:16px;">Recipes</span>
 
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/recipe).
-
 #### <span style="font-size:16px;">World Generation</span>
-
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/worldgen).
 
 ### Additions
 
@@ -130,10 +108,11 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 
 Advancements are planned with low priority.
 
+#### <span style="font-size:16px;">Enchantments</span>
+
 #### <span style="font-size:16px;">Functions</span>
 
-Config menu is planned with medium priority. For now, use `/function minecraft_remade:config/<func>/(enable|disable)`  
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/function).
+Config menu is planned with medium priority, delay until 1.21.5, text components change in 1.21.5 may break something. For now, use `/function minecraft_remade:config/<func>/(enable|disable)`
 
 <details>
 
@@ -152,7 +131,7 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
     <tr> <th>Normal    <td>4  <td>6  <td>12
     <tr> <th>Hard      <td>8  <td>16 <td>24
   </table>
-- Fast Climb: Hold jump key (default: Space) and forward/backward/left/right key(default: WASD) on climbable blocks climb up faster.
+- Fast Climb: Hold jump key (default: Space) and forward/backward/left/right key(default: W/A/S/D) on climbable blocks climb up faster.
 - Food Exhaustion: Food Exhaustion always increase. Jump exhaustion more.
 - Safe Fall Distance: Player Safe Fall Distance attribute base is 4 instead of 3. Sneaking add 1 Safe Fall Distance again.
 - Triggers:  
@@ -171,13 +150,12 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 #### <span style="font-size:16px;">Item Components</span>
 
 Using [Item Components](https://www.modrinth.com/mod/item-components) mod.  
-More attribute changes is planned with medium priority, but it's too complex, so it's delayed.  
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/item_conponents).
+More attribute changes is planned with medium priority.
 
 <details>
 
 _(Default consume time is 1.6 second.)_  
-_(As now, food nutrition and saturation isn't so balanced.)_
+_(As now, food nutrition and saturation still doesn't so balanced.)_
 
 - More items has 64 max stack size.
 - Throwable items now has 0.2 second cooldown.
@@ -199,8 +177,6 @@ _(As now, food nutrition and saturation isn't so balanced.)_
 </details>
 
 #### <span style="font-size:16px;">Recipes</span>
-
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/recipe).
 
 ## About legacy version
 

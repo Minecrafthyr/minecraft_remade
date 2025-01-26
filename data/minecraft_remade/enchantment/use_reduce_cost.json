@@ -1,7 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft_remade.use_reduce_cost"
+    "translate": "enchantment.minecraft_remade.use_reduce_cost",
+    "fallback": "Use Reduce Cost"
   },
   "max_level": 1,
   "min_cost": {

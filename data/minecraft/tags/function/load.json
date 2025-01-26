@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "bs.health:__load__",
+    "bs.hitbox:__load__",
+    "bs.raycast:__load__",
     "minecraft_remade:load"
   ]
 }

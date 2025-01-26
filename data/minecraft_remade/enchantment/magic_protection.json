@@ -1,7 +1,8 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft_remade.magic_protection"
+    "translate": "enchantment.minecraft_remade.magic_protection",
+    "fallback": "Magic Protection"
   },
   "effects": {
     "minecraft:damage_protection": [
@@ -38,8 +39,8 @@
     "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 10,
-    "per_level_above_first": 24
+    "base": 35,
+    "per_level_above_first": 12
   },
   "slots": [
     "armor"

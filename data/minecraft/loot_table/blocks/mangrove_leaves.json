@@ -14,7 +14,18 @@
                   "name": "minecraft_remade:tool/silk_touch_or_shears"
                 }
               ],
-              "name": "minecraft:mangrove_leaves"
+              "name": "minecraft:mangrove_leaves",
+              "functions": [
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/smelts_loot"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                }
+              ]
             },
             {
               "type": "minecraft:item",

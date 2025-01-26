@@ -1,0 +1,2 @@
+execute if items entity @s container.0 minecraft:stonecutter run function minecraft_remade:func/mechine/recyler
+execute if items entity @s container.0 minecraft:hopper run function minecraft_remade:func/mechine/exp_converter

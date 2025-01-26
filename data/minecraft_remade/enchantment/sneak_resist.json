@@ -1,7 +1,8 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft_remade.sneak_resist"
+    "translate": "enchantment.minecraft_remade.sneak_resist",
+    "fallback": "Sneak Resist"
   },
   "effects": {
     "minecraft:damage_protection": [

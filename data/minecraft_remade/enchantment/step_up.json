@@ -1,7 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft_remade.step_up"
+    "translate": "enchantment.minecraft_remade.step_up",
+    "fallback": "Step Up"
   },
   "effects": {
     "minecraft:attributes": [

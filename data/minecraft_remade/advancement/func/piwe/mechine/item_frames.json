@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "item_frames": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "minecraft_remade:func/mechine/item_frames"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/piwe/mechine/item_frames"
+  }
+}

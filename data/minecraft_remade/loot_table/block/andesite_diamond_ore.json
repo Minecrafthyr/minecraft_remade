@@ -2,15 +2,10 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:andesite"
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:block/item/andesite"
         }
       ],
       "rolls": 1.0

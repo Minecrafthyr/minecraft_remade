@@ -1,7 +1,8 @@
 {
   "anvil_cost": 3,
   "description": {
-    "translate": "enchantment.minecraft_remade.flame_thorns"
+    "translate": "enchantment.minecraft_remade.flame_thorns",
+    "fallback": "Flame Thorns"
   },
   "effects": {
     "minecraft:post_attack": [

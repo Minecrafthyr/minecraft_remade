@@ -1,7 +1,8 @@
 {
   "anvil_cost": 3,
   "description": {
-    "translate": "enchantment.minecraft_remade.faster_attack"
+    "translate": "enchantment.minecraft_remade.faster_attack",
+    "fallback": "Faster Attack"
   },
   "effects": {
     "minecraft:attributes": [

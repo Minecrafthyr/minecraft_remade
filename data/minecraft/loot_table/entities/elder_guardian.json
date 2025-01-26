@@ -24,6 +24,15 @@
                 "min": 0.0,
                 "max": 1.0
               }
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot_2"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ]
         }

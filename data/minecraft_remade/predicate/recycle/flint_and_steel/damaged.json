@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "slots": {
-      "weapon.mainhand": {
+      "container.0": {
         "items": "minecraft:flint_and_steel",
         "predicates": {
           "minecraft:damage": {

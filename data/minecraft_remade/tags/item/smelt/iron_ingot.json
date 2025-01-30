@@ -4,6 +4,10 @@
     "minecraft:iron_horse_armor",
     "minecraft:cauldron",
     "minecraft:rail",
-    "#c:music_discs"
+    "#c:music_discs",
+    {
+      "id": "travelersbackpack:iron_tier_upgrade",
+      "required": false
+    }
   ]
 }

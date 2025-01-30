@@ -4,6 +4,6 @@
   "ingredient": "minecraft:acacia_planks",
   "result": {
     "id": "minecraft:acacia_button",
-    "count": 64
+    "count": 32
   }
 }

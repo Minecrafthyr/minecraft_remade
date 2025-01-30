@@ -6,7 +6,7 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 - Game versions: 1.21.4
 - Project Links:  
   [Modrinth](https://modrinth.com/datapack/oFkITbQM)  
-  [Github](https://github.com/Minecrafthyr/minecraft_remade)  
+  [Github](https://github.com/Minecrafthyr/minecraft_remade) ([Dev Branch](https://github.com/Minecrafthyr/minecraft_remade/tree/dev))  
   [Resourcepack on Github](https://github.com/Minecrafthyr/minecraft_remade-resources)
 - Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
@@ -25,6 +25,8 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 - [Item Components](https://www.modrinth.com/mod/wOl8aLro)
 - [Patched](https://www.modrinth.com/mod/IBlGrJtC)
 - [Modify Player Data](https://modrinth.com/mod/e706DYY5)
+- [Data Command Plus](https://modrinth.com/mod/RDzf0iuC)
+- [Slashbridge](https://modrinth.com/mod/36AACSsJ)
 
 ### Optional
 
@@ -156,23 +158,6 @@ More attribute changes is planned with medium priority.
 
 _(Default consume time is 1.6 second.)_  
 _(As now, food nutrition and saturation still doesn't so balanced.)_
-
-- More items has 64 max stack size.
-- Throwable items now has 0.2 second cooldown.
-- “Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, End Portal Frame, Spawner, Trial Spawner, Vault, All Command Blocks” Items resistant fire.
-- Consume Glow Berries gives you Glowing effect.
-- Melon Slice Use Remainder is now Melon Seeds.
-- Milk has 1 nutrition, 2 saturation.
-- Paper is consumable, requires 3.2 seconds to consume, has 10 seconds cooldown, it regenerate 5 health points(Instant Health effect).
-- Rotten Flesh has 2 nutrition, 2 saturation, 30 seconds of hunger effect, 20% chance for 5 seconds of poison effect.
-- Wheat Seeds and Pumpkin Seeds are consumable, has 0.5 saturation.
-- Sugar is consumable, it can always eat, has 2 nutrition, 0.4 saturation.
-- Netherite-style items has Uncommon Rarity.
-- Mace is Unbreakable,  
-  <span style="color:green;">10 Attack Damage  
-  0.6 Attack Speed</span>
-- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 384, Golden = 32, Diamond = 1536, Netherite = 2048.
-- Red and Brown Mushroom requires 1.6 seconds to consume, has 1 nutrition, 1.2 saturation. Red Mushroom apply Poison effect for 10 seconds, 2 level.
 
 </details>
 

@@ -1,4 +1,7 @@
+data modify entity @s Item set from storage minecraft_remade:data _.items[0]
 data modify storage minecraft_remade:data _.exp_value set value 0s
-execute unless function minecraft_remade:func/mechine/exp_converter/value run return run tag @s remove minecraft_remade.temp
+function minecraft_remade:func/mechine/exp_converter/value
+execute if data storage minecraft_remade:data _{exp_value:0s} run return run tag @s remove minecraft_remade.temp
 kill
-execute summon minecraft:experience_orb run data modify entity @s Value set from storage minecraft_remade:data _.exp_value
+function minecraft_remade:func/mechine/exp_converter/calc_value with storage minecraft_remade:data _.items[0]
+function minecraft_remade:func/mechine/exp_converter/summon_exp with storage minecraft_remade:data _

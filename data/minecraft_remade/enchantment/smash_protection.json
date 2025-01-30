@@ -1,0 +1,50 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.minecraft_remade.smash_protection",
+    "fallback": "Smash Protection"
+  },
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft_remade:is_smash"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 24
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft_remade:enchantable/mob_equippable",
+  "weight": 2
+}

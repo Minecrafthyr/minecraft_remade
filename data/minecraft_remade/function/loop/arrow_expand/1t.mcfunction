@@ -1,2 +1,0 @@
-schedule function minecraft_remade:loop/arrow_expand/1t 1t
-execute as @e[type=minecraft:arrow,predicate=minecraft_remade:func/arrow_expand/not_arrow_item] run function minecraft_remade:func/arrow_expand/shot

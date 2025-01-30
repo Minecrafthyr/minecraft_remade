@@ -1,0 +1,4 @@
+schedule function minecraft_remade:loop/extinguish_explosives/1t 1t
+execute as @e[type=minecraft:tnt,predicate=minecraft_remade:func/extinguish_explosives/water] run function minecraft_remade:func/extinguish_explosives/tnt
+execute as @e[type=minecraft:tnt_minecart,predicate=minecraft_remade:func/extinguish_explosives/water] unless data entity @s {fuse:-1} run function minecraft_remade:func/extinguish_explosives/tnt_minecart
+execute as @e[type=minecraft:creeper,predicate=minecraft_remade:func/extinguish_explosives/water] unless data entity @s {ignited:false} run function minecraft_remade:func/extinguish_explosives/creeper

@@ -1,0 +1,1 @@
+schedule function minecraft_remade:loop/dynamic_lights/all_entities 10t

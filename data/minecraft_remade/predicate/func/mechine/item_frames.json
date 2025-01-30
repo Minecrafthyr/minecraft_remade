@@ -1,18 +1,18 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "#taglib:item_frames",
-    "slots": {
-      "container.0": {
-        "items": "#minecraft_remade:func/mechine"
-      }
-    },
-    "stepping_on": {
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Facing:1b}"
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
       "block": {
         "blocks": "minecraft:dropper"
       }
     },
-    "nbt": "{Facing:0b}"
+    "offsetY": -1
   }
-}
+]

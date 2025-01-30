@@ -14,8 +14,23 @@ tag @e[type=!#taglib:non_living,type=!minecraft:player] add minecraft_remade.hea
 scoreboard objectives add minecraft_remade.full_death_xp.dead deathCount
 scoreboard objectives add minecraft_remade.data dummy
 scoreboard objectives add minecraft_remade.debug dummy
+scoreboard objectives add minecraft_remade.pickup dummy
 
 function minecraft_remade:config/attack_cd/enable
 function minecraft_remade:config/health_fix/disable
 function minecraft_remade:config/extinguish_item/enable
 function minecraft_remade:config/flamming_arrows/enable
+
+tellraw @a[scores={minecraft_remade.debug=1..}] \
+[ \
+  { \
+    "translate": "minecraft_remade.debuging", \
+    "fallback": "[Debug %s %s] %s", \
+    "color": "yellow", \
+    "with": [ \
+      "1+", \
+      {"text": "minecraft_remade:load", "color":"white"}, \
+      {"text": "Updated to version 4!", "color": "white"} \
+    ] \
+  } \
+]

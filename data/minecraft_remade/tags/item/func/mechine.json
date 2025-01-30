@@ -1,6 +1,8 @@
 {
   "values": [
     "minecraft:stonecutter",
-    "minecraft:hopper"
+    "minecraft:hopper",
+    "minecraft:scaffolding",
+    "minecraft:crafting_table"
   ]
 }

@@ -1,0 +1,155 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "items": "minecraft:campfire",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "minecraft:campfire",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "items": "minecraft:respawn_anchor",
+            "components": {
+              "minecraft:block_state": {
+                "charges": "4"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "minecraft:respawn_anchor",
+            "components": {
+              "minecraft:block_state": {
+                "charges": "4"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "items": "minecraft:redstone_lamp",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "minecraft:redstone_lamp",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "items": "minecraft:copper_bulb",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "minecraft:copper_bulb",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "items": "#minecraft_remade:func/dynamic_lights/light/15"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "#minecraft_remade:func/dynamic_lights/light/15"
+          }
+        }
+      }
+    }
+  ]
+}

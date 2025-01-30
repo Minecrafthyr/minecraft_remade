@@ -8,8 +8,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.2,
-          "per_level_above_first": 0.2
+          "base": 0.1,
+          "per_level_above_first": 0.1
         },
         "attribute": "minecraft:sneaking_speed",
         "id": "minecraft:enchantment.swift_sneak",
@@ -17,14 +17,14 @@
       }
     ]
   },
-  "max_level": 5,
+  "max_level": 10,
   "min_cost": {
     "base": 20,
-    "per_level_above_first": 10
+    "per_level_above_first": 8
   },
   "max_cost": {
     "base": 40,
-    "per_level_above_first": 20
+    "per_level_above_first": 16
   },
   "slots": [
     "legs"

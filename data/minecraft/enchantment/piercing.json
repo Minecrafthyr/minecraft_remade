@@ -17,19 +17,19 @@
       }
     ]
   },
-  "max_level": 5,
+  "max_level": 10,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
+    "base": 10,
+    "per_level_above_first": 10
   },
   "max_cost": {
-    "base": 30,
-    "per_level_above_first": 8
+    "base": 20,
+    "per_level_above_first": 20
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft_remade:enchantable/piercing",
   "exclusive_set": "#minecraft_remade:exclusive_set/punch_piercing",
-  "weight": 10
+  "weight": 6
 }

@@ -50,3 +50,17 @@ function minecraft_remade:config/trigger/surface/disable
 function minecraft_remade:load/version/4
 
 data modify storage minecraft_remade:data load set value {version:4,installed:true}
+
+tellraw @a[scores={minecraft_remade.debug=1..}] \
+[ \
+  { \
+    "translate": "minecraft_remade.debuging", \
+    "fallback": "[Debug %s %s] %s", \
+    "color": "yellow", \
+    "with": [ \
+      "1+", \
+      {"text": "minecraft_remade:load", "color":"white"}, \
+      {"text": "Installed!", "color": "white"} \
+    ] \
+  } \
+]

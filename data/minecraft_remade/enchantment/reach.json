@@ -9,8 +9,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+          "base": 0.2,
+          "per_level_above_first": 0.2
         },
         "attribute": "minecraft:block_interaction_range",
         "id": "minecraft_remade:enchantment.reach",
@@ -19,8 +19,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+          "base": 0.2,
+          "per_level_above_first": 0.2
         },
         "attribute": "minecraft:entity_interaction_range",
         "id": "minecraft_remade:enchantment.reach",
@@ -28,14 +28,14 @@
       }
     ]
   },
-  "max_level": 4,
+  "max_level": 10,
   "min_cost": {
-    "base": 16,
+    "base": 15,
     "per_level_above_first": 10
   },
   "max_cost": {
-    "base": 40,
-    "per_level_above_first": 12
+    "base": 30,
+    "per_level_above_first": 20
   },
   "slots": [
     "mainhand"

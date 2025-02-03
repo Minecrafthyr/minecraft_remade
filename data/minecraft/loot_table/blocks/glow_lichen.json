@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glow_lichen",
           "conditions": [
             {
               "condition": "minecraft:reference",
               "name": "minecraft_remade:tool/silk_touch_or_shears"
             }
           ],
+          "name": "minecraft:glow_lichen",
           "functions": [
             {
               "count": 0.0,

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:glass",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:blackstone",
+    "minecraft:deepslate",
+    "#minecraft:terracotta",
+    "#taglib:glazed_terracotta",
+    "minecraft:nether_brick",
+    "minecraft:amethyst_shard"
+  ]
+}

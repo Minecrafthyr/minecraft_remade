@@ -28,10 +28,14 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:apply_mob_effect",
-          "min_duration": 1.0,
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+          },
           "max_duration": {
             "type": "minecraft:linear",
-            "base": 1.0,
+            "base": 0.5,
             "per_level_above_first": 0.5
           },
           "min_amplifier": 3.0,

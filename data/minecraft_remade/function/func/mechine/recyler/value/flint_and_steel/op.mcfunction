@@ -1,1 +1,0 @@
-$data modify storage minecraft_remade:data _.damage operation /= $(max_damage)

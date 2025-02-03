@@ -33,15 +33,16 @@
   "max_level": 5,
   "min_cost": {
     "base": 15,
-    "per_level_above_first": 10
+    "per_level_above_first": 16
   },
   "max_cost": {
     "base": 30,
-    "per_level_above_first": 20
+    "per_level_above_first": 32
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft_remade:enchantable/extra_experience",
+  "exclusive_set": "#minecraft_remade:exclusive_set/extra_experience",
   "weight": 2
 }

@@ -95,9 +95,6 @@ Caution: descriptions may out of date.
 
 #### <span style="font-size:16px;">Enchantments</span>
 
-<details>
-</details>
-
 #### <span style="font-size:16px;">Loot Tables</span>
 
 #### <span style="font-size:16px;">Recipes</span>
@@ -108,13 +105,11 @@ Caution: descriptions may out of date.
 
 #### <span style="font-size:16px;">Advancements</span>
 
-Advancements are planned with low priority.
-
 #### <span style="font-size:16px;">Enchantments</span>
 
 #### <span style="font-size:16px;">Functions</span>
 
-Config menu is planned with medium priority, delay until 1.21.5, text components change in 1.21.5 may break something. For now, use `/function minecraft_remade:config/<func>/(enable|disable)`
+Config use `/function minecraft_remade:config/<func>/(enable|disable)`.
 
 <details>
 
@@ -151,8 +146,7 @@ Config menu is planned with medium priority, delay until 1.21.5, text components
 
 #### <span style="font-size:16px;">Item Components</span>
 
-Using [Item Components](https://www.modrinth.com/mod/item-components) mod.  
-More attribute changes is planned with medium priority.
+Using [Item Components](https://www.modrinth.com/mod/item-components) Mod.
 
 <details>
 

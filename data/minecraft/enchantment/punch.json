@@ -37,6 +37,6 @@
     "mainhand"
   ],
   "supported_items": "#minecraft_remade:enchantable/bow_and_crossbow",
-  "exclusive_set": "#minecraft_remade:exclusive_set/punch_piercing",
+  "exclusive_set": "#minecraft_remade:exclusive_set/punch",
   "weight": 2
 }

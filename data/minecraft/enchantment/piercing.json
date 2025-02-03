@@ -30,6 +30,6 @@
     "mainhand"
   ],
   "supported_items": "#minecraft_remade:enchantable/piercing",
-  "exclusive_set": "#minecraft_remade:exclusive_set/punch_piercing",
+  "exclusive_set": "#minecraft_remade:exclusive_set/piercing",
   "weight": 6
 }

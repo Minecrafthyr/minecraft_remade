@@ -1,0 +1,217 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "slots": {
+                      "container.0": {
+                        "predicates": {
+                          "minecraft:damage": {
+                            "durability": 128
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:iron_ingot"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_nugget",
+              "functions": [
+                {
+                  "function": "minecraft:sequence",
+                  "functions": [
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 16
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 2
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 32
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 3
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 48
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 4
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 64
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 5
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 80
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 6
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 96
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 7
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "slots": {
+                              "container.0": {
+                                "predicates": {
+                                  "minecraft:damage": {
+                                    "durability": {
+                                      "min": 112
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:set_count",
+                      "count": 8
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

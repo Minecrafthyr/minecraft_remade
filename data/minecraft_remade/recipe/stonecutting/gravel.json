@@ -4,7 +4,8 @@
     "minecraft:tuff",
     "minecraft:andesite",
     "minecraft:cobblestone",
-    "minecraft:stone"
+    "minecraft:stone",
+    "minecraft:basalt"
   ],
   "result": {
     "id": "minecraft:gravel",

@@ -1,0 +1,18 @@
+[
+  {
+    "op": "find",
+    "path": "/values/0",
+    "test": [
+      {
+        "path": "",
+        "value": "minecraft:sonic_boom"
+      }
+    ],
+    "then": [
+      {
+        "op": "remove",
+        "path": ""
+      }
+    ]
+  }
+]

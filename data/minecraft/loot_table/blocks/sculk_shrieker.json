@@ -26,6 +26,15 @@
               "properties": [
                 "can_summon"
               ]
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot_2"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ]
         }

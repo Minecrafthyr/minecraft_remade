@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_boat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

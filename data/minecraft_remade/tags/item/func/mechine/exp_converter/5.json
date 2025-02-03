@@ -1,5 +1,10 @@
 {
   "values": [
-    "minecraft:emerald"
+    "minecraft:emerald",
+    "minecraft:sculk_catalyst",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sculk_shrieker",
+    "minecraft:echo_shard"
   ]
 }

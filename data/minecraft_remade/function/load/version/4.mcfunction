@@ -20,6 +20,7 @@ function minecraft_remade:config/attack_cd/enable
 function minecraft_remade:config/health_fix/disable
 function minecraft_remade:config/extinguish_item/enable
 function minecraft_remade:config/flamming_arrows/enable
+function minecraft_remade:config/mechine/enable
 
 tellraw @a[scores={minecraft_remade.debug=1..}] \
 [ \

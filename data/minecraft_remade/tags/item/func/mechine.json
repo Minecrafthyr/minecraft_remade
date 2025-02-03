@@ -3,6 +3,7 @@
     "minecraft:stonecutter",
     "minecraft:hopper",
     "minecraft:scaffolding",
-    "minecraft:crafting_table"
+    "minecraft:cactus",
+    "minecraft:blast_furnace"
   ]
 }

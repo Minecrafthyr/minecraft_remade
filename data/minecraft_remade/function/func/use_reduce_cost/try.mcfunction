@@ -1,1 +1,0 @@
-$data modify entity @s Inventory[{Slot:$(slot)}].components."minecraft:repair_cost" operation -= 1

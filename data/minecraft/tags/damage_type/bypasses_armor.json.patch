@@ -1,0 +1,18 @@
+[
+  {
+    "op": "find",
+    "path": "/values/4",
+    "test": [
+      {
+        "path": "",
+        "value": "minecraft:fly_into_wall"
+      }
+    ],
+    "then": [
+      {
+        "op": "remove",
+        "path": ""
+      }
+    ]
+  }
+]

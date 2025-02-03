@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "echo_shard": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.offhand": {
+                  "items": "minecraft:echo_shard"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/t/echo_shard"
+  }
+}

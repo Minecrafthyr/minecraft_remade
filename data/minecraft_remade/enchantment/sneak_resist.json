@@ -42,11 +42,11 @@
   },
   "max_level": 10,
   "min_cost": {
-    "base": 10,
+    "base": 20,
     "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 20,
+    "base": 40,
     "per_level_above_first": 24
   },
   "slots": [

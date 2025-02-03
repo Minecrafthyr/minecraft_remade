@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:minecart"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

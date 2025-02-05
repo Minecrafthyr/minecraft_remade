@@ -35,7 +35,6 @@ function minecraft_remade:config/path_speed/enable
 function minecraft_remade:config/regeneration/enable
 function minecraft_remade:config/spectral_arrow_glowing/enable
 function minecraft_remade:config/stonecutter_damage/enable
-function minecraft_remade:config/fast_climb/enable
 function minecraft_remade:config/food_exhaustion/enable
 function minecraft_remade:config/safe_fall_distance/enable
 

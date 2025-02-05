@@ -17,7 +17,7 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 
 ### Requirements
 
-- Required resourcepack in Modrinth files page or on Gitbub.
+- Resourcepack in Modrinth files page or on Gitbub is Required.
 
 [Collection](https://modrinth.com/collection/vv2GYBKe)
 
@@ -26,7 +26,6 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 - [Patched](https://www.modrinth.com/mod/IBlGrJtC)
 - [Modify Player Data](https://modrinth.com/mod/e706DYY5)
 - [Data Command Plus](https://modrinth.com/mod/RDzf0iuC)
-- [Slashbridge](https://modrinth.com/mod/36AACSsJ)
 
 ### Optional
 

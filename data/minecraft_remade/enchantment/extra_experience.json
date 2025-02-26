@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft_remade.extra_experience",
     "fallback": "Extra Experience"
@@ -32,17 +32,17 @@
   },
   "max_level": 5,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 16
+    "base": 30,
+    "per_level_above_first": 14
   },
   "max_cost": {
-    "base": 30,
-    "per_level_above_first": 32
+    "base": 60,
+    "per_level_above_first": 28
   },
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft_remade:enchantable/extra_experience",
+  "supported_items": "#minecraft:enchantable/mining_loot",
   "exclusive_set": "#minecraft_remade:exclusive_set/extra_experience",
   "weight": 2
 }

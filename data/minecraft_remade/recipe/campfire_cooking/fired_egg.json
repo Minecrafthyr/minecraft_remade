@@ -5,17 +5,6 @@
   "experience": 0.35,
   "ingredient": "minecraft:egg",
   "result": {
-    "id": "minecraft:cooked_chicken",
-    "components": {
-      "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.fired_egg\", \"fallback\": \"Fired Egg\"}",
-      "minecraft:item_model": "minecraft_remade:fired_egg",
-      "minecraft:food": {
-        "nutrition": 4,
-        "saturation": 8
-      },
-      "minecraft:consumable": {
-        "consume_seconds": 1.6
-      }
-    }
+    "id": "minecraft_remade:fired_egg"
   }
 }

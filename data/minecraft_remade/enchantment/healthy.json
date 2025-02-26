@@ -4,7 +4,7 @@
     "translate": "enchantment.minecraft_remade.healthy",
     "fallback": "Healthy"
   },
-  "max_level": 10,
+  "max_level": 5,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 12

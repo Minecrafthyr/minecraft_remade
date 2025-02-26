@@ -8,8 +8,7 @@
       "nutrition": 4,
       "saturation": 8
     },
-    "minecraft:consumable": {
-      "consume_seconds": 1.6
-    }
+    "minecraft:lore": [],
+    "minecraft:consumable": {}
   }
 }

@@ -1,0 +1,61 @@
+{
+  "id": "minecraft_remade:enderite_hoe",
+  "vanillaItem": "minecraft:netherite_hoe",
+  "components": {
+    "minecraft:max_stack_size": 1,
+    "minecraft:enchantable": {
+      "value": 60
+    },
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#minecraft_remade:incorrect_for_enderite_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/hoe",
+          "correct_for_drops": true,
+          "speed": 15.0
+        }
+      ]
+    },
+    "minecraft:max_damage": 3072,
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.enderite_hoe\", \"fallback\": \"Stone Knife\"}",
+    "minecraft:item_model": "minecraft_remade:enderite_hoe",
+    "minecraft:attribute_modifiers": [
+      {
+        "id": "minecraft:base_attack_damage",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_damage"
+      },
+      {
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.0,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:attack_speed"
+      },
+      {
+        "id": "minecraft_remade:tool_block_interaction_range",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:block_interaction_range"
+      },
+      {
+        "id": "minecraft_remade:tool_entity_interaction_range",
+        "amount": 1.5,
+        "operation": "add_value",
+        "slot": "mainhand",
+        "type": "minecraft:entity_interaction_range"
+      }
+    ],
+    "minecraft:lore": [],
+    "minecraft:weapon": {},
+    "minecraft:damage_resistant": {
+      "types": "#minecraft:is_fire"
+    }
+  }
+}

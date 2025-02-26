@@ -21,7 +21,8 @@
       "id": "minecraft:gravel"
     },
     "title": {
-      "translate": "advancements.story.gravel.title"
+      "translate": "advancements.story.gravel.title",
+      "fallback": "Find Gravel"
     }
   },
   "requirements": [

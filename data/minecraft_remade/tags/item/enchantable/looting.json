@@ -1,6 +1,6 @@
 {
   "values": [
-    "#minecraft_remade:enchantable/all_weapon",
+    "#minecraft:enchantable/weapon",
     "minecraft:shears"
   ]
 }

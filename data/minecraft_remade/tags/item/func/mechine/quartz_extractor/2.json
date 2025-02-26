@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:granite",
-    "minecraft:calcite"
+    "minecraft:calcite",
+    "minecraft:nether_brick"
   ]
 }

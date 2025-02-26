@@ -6,5 +6,8 @@
       "id": "toughasnails:hyperthermia",
       "required": false
     }
+  ],
+  "remove": [
+    "minecraft:fly_into_wall"
   ]
 }

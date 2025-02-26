@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 1,
+  "anvil_cost": 2,
   "description": {
     "translate": "enchantment.minecraft_remade.sneak_resist",
     "fallback": "Sneak Resist"
@@ -40,7 +40,7 @@
       }
     ]
   },
-  "max_level": 10,
+  "max_level": 5,
   "min_cost": {
     "base": 20,
     "per_level_above_first": 12

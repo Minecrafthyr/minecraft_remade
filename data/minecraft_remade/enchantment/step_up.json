@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "description": {
     "translate": "enchantment.minecraft_remade.step_up",
     "fallback": "Step Up"
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "max_level": 5,
+  "max_level": 1,
   "min_cost": {
     "base": 25,
     "per_level_above_first": 12

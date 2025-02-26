@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "#minecraft_remade:needs_enderite_tool"
+  ]
+}

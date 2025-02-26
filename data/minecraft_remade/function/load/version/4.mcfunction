@@ -21,6 +21,7 @@ function minecraft_remade:config/health_fix/disable
 function minecraft_remade:config/extinguish_item/enable
 function minecraft_remade:config/flamming_arrows/enable
 function minecraft_remade:config/mechine/enable
+function minecraft_remade:config/mob_mounting/disable
 
 tellraw @a[scores={minecraft_remade.debug=1..}] \
 [ \

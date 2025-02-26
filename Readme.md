@@ -26,13 +26,13 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 - [Patched](https://www.modrinth.com/mod/IBlGrJtC)
 - [Modify Player Data](https://modrinth.com/mod/e706DYY5)
 - [Data Command Plus](https://modrinth.com/mod/RDzf0iuC)
+- [Filament](https://modrinth.com/mod/yANxwqSX)
 
 ### Optional
 
 Packs that made compatibility with. [Collection](https://modrinth.com/collection/OomzyzBT)
 
 - [Universal Ores](https://modrinth.com/mod/68kWHuUF)
-- [Tooltipz](https://modrinth.com/mod/6FNv53gc)
 - [Bake Your Bread](https://modrinth.com/mod/6FNv53gc/4cgX9zXl)
 - \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
   - [GlitchCore](https://modrinth.com/mod/s3dmwKy5)
@@ -85,6 +85,7 @@ Packs that made compatibility with. [Collection](https://modrinth.com/collection
 - More animals drop leather.
 - Stone needs stone tool to mine, Deepslate needs iron tool to mine.
 - Stone tools should craft from Flint.
+- String can loot by mining grass by Sword or Stone Knife
 
 ## Features
 

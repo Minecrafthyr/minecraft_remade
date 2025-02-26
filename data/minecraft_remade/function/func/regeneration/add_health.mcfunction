@@ -6,7 +6,7 @@ scoreboard players operation #max_health minecraft_remade.temp -= #health minecr
 execute if score #max_health minecraft_remade.temp matches ..0 run return 0
 function bs.health:add/health {points: 1}
 
-execute if score #max_health minecraft_remade.temp matches 10.. run return run data modify entity @s foodExhaustionLevel operation += 4
+execute if score #max_health minecraft_remade.temp matches 10.. run return run data modify entity @s foodExhaustionLevel operation += 6
 
 execute store result storage minecraft_remade:data _.food_exh double 0.04 run scoreboard players get #max_health minecraft_remade.temp
 function minecraft_remade:func/regeneration/op with storage minecraft_remade:data _

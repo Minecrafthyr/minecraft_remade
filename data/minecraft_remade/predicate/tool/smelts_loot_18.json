@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:match_tool",
+  "predicate": {
+    "predicates": {
+      "minecraft:enchantments": [
+        {
+          "enchantments": "minecraft_remade:smelting",
+          "levels": {
+            "min": 9
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft.density"
   },
@@ -17,7 +17,7 @@
       }
     ]
   },
-  "max_level": 10,
+  "max_level": 5,
   "min_cost": {
     "base": 10,
     "per_level_above_first": 12

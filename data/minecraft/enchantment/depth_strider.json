@@ -8,8 +8,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.1,
-          "per_level_above_first": 0.1
+          "base": 0.2,
+          "per_level_above_first": 0.2
         },
         "attribute": "minecraft:water_movement_efficiency",
         "id": "minecraft:enchantment.depth_strider",
@@ -18,14 +18,14 @@
     ]
   },
   "exclusive_set": "#minecraft:exclusive_set/boots",
-  "max_level": 10,
+  "max_level": 5,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 8
+    "base": 10,
+    "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 10,
-    "per_level_above_first": 16
+    "base": 20,
+    "per_level_above_first": 24
   },
   "slots": [
     "feet"

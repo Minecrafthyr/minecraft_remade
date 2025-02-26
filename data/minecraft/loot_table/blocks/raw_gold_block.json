@@ -17,7 +17,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:reference",
-                  "name": "minecraft_remade:tool/smelts_loot_10"
+                  "name": "minecraft_remade:tool/smelts_loot_18"
                 }
               ],
               "function": "minecraft:furnace_smelt"

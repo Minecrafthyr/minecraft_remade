@@ -1,10 +1,6 @@
 {
   "values": [
-    "#minecraft:swords",
-    "#minecraft:axes",
-    "#minecraft:pickaxes",
-    "#minecraft:shovels",
-    "#minecraft:hoes",
-    "minecraft:mace"
+    "#minecraft_remade:enchantable/bow_and_crossbow",
+    "#minecraft:enchantable/weapon"
   ]
 }

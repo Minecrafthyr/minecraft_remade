@@ -17,18 +17,19 @@
       }
     ]
   },
-  "max_level": 10,
+  "max_level": 5,
   "min_cost": {
     "base": 10,
-    "per_level_above_first": 12
+    "per_level_above_first": 16
   },
   "max_cost": {
     "base": 20,
-    "per_level_above_first": 24
+    "per_level_above_first": 32
   },
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#minecraft_remade:enchantable/heavy_weapon",
   "supported_items": "#minecraft_remade:enchantable/breach",
   "weight": 2
 }

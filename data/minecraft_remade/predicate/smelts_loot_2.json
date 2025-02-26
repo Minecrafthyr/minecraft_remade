@@ -7,8 +7,10 @@
         "predicates": {
           "minecraft:enchantments": [
             {
-              "enchantments": "#minecraft:smelts_loot",
-              "levels": 2
+              "enchantments": "minecraft_remade:smelting",
+              "levels": {
+                "min": 1
+              }
             }
           ]
         }

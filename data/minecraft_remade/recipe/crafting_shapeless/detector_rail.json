@@ -2,7 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
   "ingredients": [
-    "minecraft:rail",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
     "minecraft:stone_pressure_plate",
     "minecraft:redstone"
   ],

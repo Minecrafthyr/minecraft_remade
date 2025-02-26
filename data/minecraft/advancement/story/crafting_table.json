@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/gravel",
+  "parent": "minecraft:story/find_gravel",
   "criteria": {
     "crafting_table": {
       "conditions": {
@@ -21,7 +21,8 @@
       "id": "minecraft:crafting_table"
     },
     "title": {
-      "translate": "advancements.story.crafting_table.title"
+      "translate": "advancements.story.crafting_table.title",
+      "fallback": "Begin Crafting!"
     }
   },
   "requirements": [

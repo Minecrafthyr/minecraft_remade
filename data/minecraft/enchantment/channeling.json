@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 3,
+  "anvil_cost": 2,
   "description": {
     "translate": "enchantment.minecraft.channeling"
   },
@@ -126,11 +126,11 @@
   "max_level": 2,
   "min_cost": {
     "base": 20,
-    "per_level_above_first": 12
+    "per_level_above_first": 15
   },
   "max_cost": {
     "base": 40,
-    "per_level_above_first": 24
+    "per_level_above_first": 30
   },
   "slots": [
     "mainhand"

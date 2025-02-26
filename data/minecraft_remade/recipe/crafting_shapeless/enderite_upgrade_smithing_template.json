@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "enderitemod:enderite_upgrade_smithing_template",
+    "minecraft_remade:enderite_upgrade_smithing_template",
     "minecraft:end_stone",
     "minecraft:netherite_ingot"
   ],
   "result": {
     "count": 2,
-    "id": "enderitemod:enderite_upgrade_smithing_template"
+    "id": "minecraft_remade:enderite_upgrade_smithing_template"
   }
 }

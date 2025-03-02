@@ -1,0 +1,13 @@
+{
+  "id": "minecraft_remade:cooked_pufferfish",
+  "vanillaItem": "minecraft:cooked_cod",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.cooked_pufferfish\", \"fallback\": \"Cooked Pufferfish\"}",
+    "minecraft:item_model": "minecraft_remade:cooked_pufferfish",
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation": 5.0
+    },
+    "minecraft:consumable": {}
+  }
+}

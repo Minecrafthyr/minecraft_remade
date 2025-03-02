@@ -47,7 +47,6 @@
         "type": "minecraft:entity_interaction_range"
       }
     ],
-    "minecraft:lore": [],
     "minecraft:weapon": {}
   }
 }

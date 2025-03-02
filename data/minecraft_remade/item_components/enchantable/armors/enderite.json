@@ -1,8 +1,0 @@
-{
-  "targets": "#enderitemod:enderite_armor",
-  "components": {
-    "minecraft:enchantable": {
-      "value": 60
-    }
-  }
-}

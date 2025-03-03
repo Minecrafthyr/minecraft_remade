@@ -14,7 +14,18 @@
                   "name": "minecraft_remade:tool/silk_touch_or_shears"
                 }
               ],
-              "name": "minecraft:dark_oak_leaves"
+              "name": "minecraft:dark_oak_leaves",
+              "functions": [
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/smelts_loot"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                }
+              ]
             },
             {
               "type": "minecraft:group",
@@ -49,6 +60,15 @@
                   "quality": 1,
                   "name": "minecraft:dark_oak_sapling",
                   "functions": [
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:reference",
+                          "name": "minecraft_remade:tool/smelts_loot"
+                        }
+                      ],
+                      "function": "minecraft:furnace_smelt"
+                    },
                     {
                       "enchantment": "minecraft:fortune",
                       "formula": "minecraft:uniform_bonus_count",

@@ -1,0 +1,7 @@
+execute positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~ ~0.5 ~ align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~ ~-0.5 ~ align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~0.5 ~ ~ align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~-0.5 ~ ~ align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~ ~ ~0.5 align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]
+execute positioned ~ ~ ~-0.5 align xyz positioned ~.5 ~.5 ~.5 if function minecraft_remade:func/dynamic_lights/set_block/check run return run kill @e[type=minecraft:marker,tag=minecraft_remade.dynamic_lights.failed]

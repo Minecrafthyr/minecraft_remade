@@ -4,6 +4,6 @@
   "ingredient": "minecraft:crimson_planks",
   "result": {
     "id": "minecraft:crimson_button",
-    "count": 64
+    "count": 32
   }
 }

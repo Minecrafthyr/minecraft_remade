@@ -1,12 +1,11 @@
+advancement revoke @s only minecraft_remade:func/phe/player_attack
 
-execute store result score #0 minecraft_remade.temp run attribute @s minecraft:attack_speed get 100
-scoreboard players add #0 minecraft_remade.temp 1
-scoreboard players set #time minecraft_remade.temp 1200
-scoreboard players operation #time minecraft_remade.temp /= #0 minecraft_remade.temp
+execute store result storage minecraft_remade:data _.speed double 0.00001 run attribute @s minecraft:attack_speed get 100000
+data modify storage minecraft_remade:data _.cooldown set value 10.0d
+function minecraft_remade:func/attack_cd/calc_player_cooldown with storage minecraft_remade:data _
+
+execute store result score #time minecraft_remade.temp run data get storage minecraft_remade:data _.cooldown
 execute if score #time minecraft_remade.temp matches 11.. run scoreboard players set #time minecraft_remade.temp 11
 execute unless score #time minecraft_remade.temp matches 1..11 run return 0
 
-execute store result storage minecraft_remade:data _.time int 1 run scoreboard players get #time minecraft_remade.temp
-function minecraft_remade:func/attack_cd/add with storage minecraft_remade:data _
-
-data remove storage minecraft_remade:data _
+function minecraft_remade:func/attack_cd/add_player

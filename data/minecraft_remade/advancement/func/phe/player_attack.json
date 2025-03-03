@@ -10,7 +10,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft_remade:player_attack"
+                "id": "minecraft:is_player_attack"
               }
             ],
             "is_direct": true

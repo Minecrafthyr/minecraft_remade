@@ -1,0 +1,2 @@
+schedule function minecraft_remade:loop/extinguish_item/1t 1t
+execute as @e[type=minecraft:item,predicate=minecraft_remade:func/extinguish_item/all] run item modify entity @s container.0 minecraft_remade:func/extinguish_item/all

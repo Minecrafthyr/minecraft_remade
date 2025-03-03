@@ -1,0 +1,51 @@
+{
+  "targets": "#minecraft_remade:components/raw_food_effect/default",
+  "components": {
+    "minecraft:consumable": {
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "probability": 0.25,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "amplifier": 1,
+              "duration": 1200
+            }
+          ]
+        },
+        {
+          "type": "minecraft:apply_effects",
+          "probability": 0.05,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "amplifier": 2,
+              "duration": 1200
+            }
+          ]
+        },
+        {
+          "type": "minecraft:apply_effects",
+          "probability": 0.01,
+          "effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 200
+            }
+          ]
+        },
+        {
+          "type": "minecraft:apply_effects",
+          "probability": 0.002,
+          "effects": [
+            {
+              "id": "minecraft:poison",
+              "duration": 1000
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

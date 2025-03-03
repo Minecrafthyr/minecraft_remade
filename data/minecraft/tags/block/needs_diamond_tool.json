@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
+    "minecraft:reinforced_deepslate",
     "minecraft:netherite_block",
     "minecraft:ancient_debris"
   ]

@@ -2,6 +2,6 @@
   "replace": false,
   "values": [
     "bs.health:__load__",
-    "minecraft_remade:load"
+    "minecraft_remade:reload"
   ]
 }

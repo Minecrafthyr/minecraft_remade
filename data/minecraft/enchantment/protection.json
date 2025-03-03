@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "description": {
     "translate": "enchantment.minecraft.protection"
   },
@@ -28,13 +28,13 @@
       }
     ]
   },
-  "max_level": 7,
+  "max_level": 5,
   "min_cost": {
-    "base": 5,
+    "base": 1,
     "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 10,
+    "base": 20,
     "per_level_above_first": 24
   },
   "slots": [

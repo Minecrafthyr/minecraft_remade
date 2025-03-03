@@ -1,0 +1,1 @@
+$summon minecraft:experience_orb ~ ~ ~ {Value:$(exp_value)s}

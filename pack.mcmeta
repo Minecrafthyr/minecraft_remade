@@ -12,7 +12,11 @@
       {
         "__comment": "ore_tweaks",
         "namespace": "minecraft",
-        "path": "recipe/(.+_from_(blasting|smelting)_.+_ore|netherite_scrap_from_blasting|netherite_scrap)\\.json"
+        "path": "recipe/(netherite_scrap_from_blasting|netherite_scrap)\\.json"
+      },
+      {
+        "__comment": "ore_tweaks",
+        "path": "recipe/.+_from_(blasting|smelting)_.+_ore\\.json"
       },
       {
         "namespace": "minecraft",
@@ -37,7 +41,9 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape",
+              "mo_glass"
             ],
             "path": [
               {
@@ -53,7 +59,9 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape",
+              "mo_glass"
             ],
             "path": [
               {
@@ -117,7 +125,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -133,7 +142,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {
@@ -149,7 +159,8 @@
         "targets": [
           {
             "namespace": [
-              "minecraft"
+              "minecraft",
+              "extshape"
             ],
             "path": [
               {

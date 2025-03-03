@@ -1,23 +1,23 @@
 # Minecraft Remade
 
-Tweaks Minecraft. Keeps in balanced.
+Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced way.
 
 - Version: 1.0.0-preview2 (Beta)
 - Game versions: 1.21.4
 - Project Links:  
   [Modrinth](https://modrinth.com/datapack/oFkITbQM)  
-  [Github](https://github.com/Minecrafthyr/minecraft_remade)
+  [Github](https://github.com/Minecrafthyr/minecraft_remade) ([Dev Branch](https://github.com/Minecrafthyr/minecraft_remade/tree/dev))  
+  [Resourcepack on Github](https://github.com/Minecrafthyr/minecraft_remade-resources)
 - Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
   [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)
-- Current files count: 1100+
+- Current files count: 1700+
 
 ## Compatibilities
 
 ### Requirements
 
-> [!WARNING]  
-> **Requires resource pack in Modrinth files page.**
+- Resourcepack in Modrinth files page or on Gitbub is Required.
 
 [Collection](https://modrinth.com/collection/vv2GYBKe)
 
@@ -25,44 +25,28 @@ Tweaks Minecraft. Keeps in balanced.
 - [Item Components](https://www.modrinth.com/mod/wOl8aLro)
 - [Patched](https://www.modrinth.com/mod/IBlGrJtC)
 - [Modify Player Data](https://modrinth.com/mod/e706DYY5)
+- [Data Command Plus](https://modrinth.com/mod/RDzf0iuC)
+- [Filament](https://modrinth.com/mod/yANxwqSX)
 
 ### Optional
 
 Packs that made compatibility with. [Collection](https://modrinth.com/collection/OomzyzBT)
 
-- [Universal-Ores](https://modrinth.com/mod/sUkBOCw1)
-- [Tooltipz](https://modrinth.com/mod/6FNv53gc)
+- [Universal Ores](https://modrinth.com/mod/68kWHuUF)
 - [Bake Your Bread](https://modrinth.com/mod/6FNv53gc/4cgX9zXl)
 - \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
   - [GlitchCore](https://modrinth.com/mod/s3dmwKy5)
-- \[Incomplete\] [Enderite Mod](https://modrinth.com/mod/6lvRWqbA)
 
 ### Suggestions
 
 [Collection](https://modrinth.com/collection/xnfbeiAU)
 
-- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs)
-- [Extended Bonemeal](https://modrinth.com/mod/bHkCoxMs)
 - [REI](https://modrinth.com/mod/nfn13YXA)
   - [Architectury API](https://modrinth.com/mod/lhGA9TYQ)
   - [Cloth Config API](https://modrinth.com/mod/9s6osm5g)
-
-### Replacement
-
-This pack has include some features, you don't need to install them again.
-
-<details>
-
-- Unlit Campfires
-- Stack Up 64 (does not include damageable items)
-- Edible Sugar & Seeds
-- Redstones Allow Stone Materials
-- Wooden Shovel Boat
-- More Building Blocks Count & Less Ingredients
-- Torch from Stick (Smelting or Blasting or Campfire Cooking)
-- Glowstone Dust from Glow Berries or Glow Ink Sac (Smelting or Blasting)
-
-</details>
+- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs)
+- [Extended Bonemeal](https://modrinth.com/mod/bHkCoxMs)
+- [Stackable Bundles](https://modrinth.com/mod/Hs0QCDz6)
 
 ## Introduction
 
@@ -97,59 +81,34 @@ This pack has include some features, you don't need to install them again.
     <tr> <th colspan=99>Crafting <td>(Shapeless)
     <tr> <td>Sugar Cane <td>Sugar Cane <td>Sugar Cane
   </table>
-- Leather can also loot by killing animals that may have leather.
+- More animals drop leather.
 - Stone needs stone tool to mine, Deepslate needs iron tool to mine.
 - Stone tools should craft from Flint.
+- String can loot by mining grass by Sword or Stone Knife
 
 ## Features
 
-Descriptions may out of date.
+Caution: descriptions may out of date.
 
 ### Modifications
 
 #### <span style="font-size:16px;">Enchantments</span>
 
-More enchantable item are planned with medium priority.  
-Enchantment cost changes are not listed here, you can view [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/enchantment).
-
-<details>
-
-- All Protections max level is 5, supported items are now All equippable items.
-- Breach supported items are now weapon.
-- Feater Falling increase 0.5 Safe Fall Distance attribute per level.
-- Flame ignite time is changed, max level is 2, supported items are now Bow and Crossbow.
-- Infinity does not limited as Arrow.
-- Power supported items are now Bow and Crossbow.
-- Quick Charge charge time is now[0.75, 0.5, 0.25].
-- Sharpness primary items are removed, now it possible enchant on all sharp weapons.
-- Thorns reduce 1 durability instead of 2, supported items are now All equippable items.
-- Looting support shears.
-- Unbreaking max level is 5.
-
-</details>
-
 #### <span style="font-size:16px;">Loot Tables</span>
-
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/loot_table).
 
 #### <span style="font-size:16px;">Recipes</span>
 
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/recipe).
-
 #### <span style="font-size:16px;">World Generation</span>
-
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft/worldgen).
 
 ### Additions
 
 #### <span style="font-size:16px;">Advancements</span>
 
-Advancements are planned with low priority.
+#### <span style="font-size:16px;">Enchantments</span>
 
 #### <span style="font-size:16px;">Functions</span>
 
-Config menu is planned with medium priority. For now, use `/function minecraft_remade:config/<func>/(enable|disable)`  
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/function).
+Config use `/function minecraft_remade:config/<func>/(enable|disable)`.
 
 <details>
 
@@ -168,7 +127,7 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
     <tr> <th>Normal    <td>4  <td>6  <td>12
     <tr> <th>Hard      <td>8  <td>16 <td>24
   </table>
-- Fast Climb: Hold jump key (default: Space) and forward/backward/left/right key(default: WASD) on climbable blocks climb up faster.
+- Fast Climb: Hold jump key (default: Space) and forward/backward/left/right key(default: W/A/S/D) on climbable blocks climb up faster.
 - Food Exhaustion: Food Exhaustion always increase. Jump exhaustion more.
 - Safe Fall Distance: Player Safe Fall Distance attribute base is 4 instead of 3. Sneaking add 1 Safe Fall Distance again.
 - Triggers:  
@@ -186,37 +145,16 @@ See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/dat
 
 #### <span style="font-size:16px;">Item Components</span>
 
-Using [Item Components](https://www.modrinth.com/mod/item-components) mod.  
-More attribute changes is planned with medium priority, but it's too complex, so it's delayed.  
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/item_conponents).
+Using [Item Components](https://www.modrinth.com/mod/item-components) Mod.
 
 <details>
 
 _(Default consume time is 1.6 second.)_  
-_(As now, food nutrition and saturation isn't so balanced.)_
-
-- More items has 64 max stack size.
-- Throwable items now has 0.2 second cooldown.
-- “Mace, Heavy Core, Blaze Rod, Blaze Powder, End Rod, Obsidian, Crying Obsidian, Ender Chest, Respawn Anchor, Bedrock, Reinforced Deepslate, End Portal Frame, Spawner, Trial Spawner, Vault, All Command Blocks” Items resistant fire.
-- Consume Glow Berries gives you Glowing effect.
-- Melon Slice Use Remainder is now Melon Seeds.
-- Milk has 1 nutrition, 2 saturation.
-- Paper is consumable, requires 3.2 seconds to consume, has 10 seconds cooldown, it regenerate 5 health points(Instant Health effect).
-- Rotten Flesh has 2 nutrition, 2 saturation, 30 seconds of hunger effect, 20% chance for 5 seconds of poison effect.
-- Wheat Seeds and Pumpkin Seeds are consumable, has 0.5 saturation.
-- Sugar is consumable, it can always eat, has 2 nutrition, 0.4 saturation.
-- Netherite-style items has Uncommon Rarity.
-- Mace is Unbreakable,  
-  <span style="color:green;">10 Attack Damage  
-  0.6 Attack Speed</span>
-- Max Damage of tools: Wooden = 16, Stone = 64, Iron = 384, Golden = 32, Diamond = 1536, Netherite = 2048.
-- Red and Brown Mushroom requires 1.6 seconds to consume, has 1 nutrition, 1.2 saturation. Red Mushroom apply Poison effect for 10 seconds, 2 level.
+_(As now, food nutrition and saturation still doesn't so balanced.)_
 
 </details>
 
 #### <span style="font-size:16px;">Recipes</span>
-
-See [source code](https://github.com/Minecrafthyr/minecraft_remade/tree/main/data/minecraft_remade/recipe).
 
 ## About legacy version
 

@@ -1,21 +1,22 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft_remade.beheading"
+    "translate": "enchantment.minecraft_remade.beheading",
+    "fallback": "Beheading"
   },
   "max_level": 5,
   "min_cost": {
     "base": 10,
-    "per_level_above_first": 10
+    "per_level_above_first": 12
   },
   "max_cost": {
     "base": 20,
-    "per_level_above_first": 10
+    "per_level_above_first": 24
   },
   "slots": [
     "mainhand"
   ],
   "primary_items": "#minecraft_remade:enchantable/beheading",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "weight": 2
+  "weight": 1
 }

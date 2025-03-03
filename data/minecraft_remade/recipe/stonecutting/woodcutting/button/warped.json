@@ -4,6 +4,6 @@
   "ingredient": "minecraft:warped_planks",
   "result": {
     "id": "minecraft:warped_button",
-    "count": 64
+    "count": 32
   }
 }

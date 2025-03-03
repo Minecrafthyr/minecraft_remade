@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "conditions": [
@@ -9,7 +10,18 @@
       "entries": [
         {
           "name": "minecraft:cherry_sapling",
-          "type": "minecraft:item"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0
@@ -30,12 +42,22 @@
       "entries": [
         {
           "name": "minecraft:cherry_log",
-          "type": "minecraft:item"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_sapling",
-  "type": "minecraft:block"
+  "random_sequence": "minecraft:blocks/cherry_sapling"
 }

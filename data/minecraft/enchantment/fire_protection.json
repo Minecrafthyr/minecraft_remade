@@ -8,12 +8,12 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": -0.1,
-          "per_level_above_first": -0.1
+          "base": -0.05,
+          "per_level_above_first": -0.05
         },
         "attribute": "minecraft:burning_time",
         "id": "minecraft:enchantment.fire_protection",
-        "operation": "add_multiplied_base"
+        "operation": "add_multiplied_total"
       }
     ],
     "minecraft:damage_protection": [
@@ -49,13 +49,13 @@
       }
     ]
   },
-  "max_level": 7,
+  "max_level": 5,
   "min_cost": {
-    "base": 5,
+    "base": 1,
     "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 10,
+    "base": 20,
     "per_level_above_first": 24
   },
   "slots": [

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "ingredient": "#minecraft_remade:smelt/echo_shard",
+  "result": {
+    "id": "minecraft:echo_shard"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:deepslate",
+  "addition": "minecraft:bone_block",
+  "result": {
+    "id": "minecraft:reinforced_deepslate"
+  }
+}

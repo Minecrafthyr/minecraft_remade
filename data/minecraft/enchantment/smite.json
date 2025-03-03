@@ -10,8 +10,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
+            "base": 0.5,
+            "per_level_above_first": 0.5
           }
         },
         "requirements": {
@@ -24,14 +24,14 @@
       }
     ]
   },
-  "max_level": 7,
+  "max_level": 5,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 10
+    "base": 1,
+    "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 30,
-    "per_level_above_first": 10
+    "base": 20,
+    "per_level_above_first": 24
   },
   "slots": [
     "mainhand"

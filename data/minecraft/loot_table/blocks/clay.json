@@ -12,10 +12,22 @@
                 }
               ],
               "name": "minecraft:clay",
-              "type": "minecraft:item"
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/smelts_loot"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
+                }
+              ]
             },
             {
               "type": "minecraft:item",
+              "name": "minecraft:clay_ball",
               "functions": [
                 {
                   "add": false,
@@ -24,9 +36,17 @@
                 },
                 {
                   "function": "minecraft:explosion_decay"
+                },
+                {
+                  "conditions": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "minecraft_remade:tool/smelts_loot"
+                    }
+                  ],
+                  "function": "minecraft:furnace_smelt"
                 }
-              ],
-              "name": "minecraft:clay_ball"
+              ]
             }
           ],
           "type": "minecraft:alternatives"

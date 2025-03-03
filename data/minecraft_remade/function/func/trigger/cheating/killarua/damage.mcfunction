@@ -1,0 +1,1 @@
+$execute as @e[type=!#taglib:non_living,distance=..$(range)] run damage @s $(damage) minecraft:player_attack by @e[type=player,tag=minecraft_remade.cheating.killarua.attacker,limit=1]

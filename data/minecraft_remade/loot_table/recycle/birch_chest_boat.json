@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_boat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

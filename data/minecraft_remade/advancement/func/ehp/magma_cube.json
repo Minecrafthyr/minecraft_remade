@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "magma_cube": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:magma_cube"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft_remade:adv/ehp/magma_cube"
+  }
+}

@@ -3,6 +3,7 @@ advancement revoke @s only minecraft_remade:func/t/trigger/random_teleport/trigg
 scoreboard players reset @s minecraft_remade.random_teleport
 scoreboard players reset @s minecraft_remade.rtp
 
-execute if score @s minecraft_remade.random_teleport.cooldown_time matches 1.. run return run function minecraft_remade:func/trigger/random_teleport/failed_message
+execute if score @s minecraft_remade.random_teleport.cooldown_time matches 1.. run return run function minecraft_remade:func/trigger/random_teleport/failed.cooldown
+execute if score @s minecraft_remade.random_teleport.wait_time matches 1.. run return run function minecraft_remade:func/trigger/random_teleport/failed.wait
 
 scoreboard players operation @s minecraft_remade.random_teleport.wait_time = #config minecraft_remade.random_teleport.wait_time

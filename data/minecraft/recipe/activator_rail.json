@@ -4,6 +4,7 @@
   "ingredients": [
     "minecraft:rail",
     "minecraft:redstone",
+    "minecraft:redstone",
     "minecraft:redstone"
   ],
   "result": {

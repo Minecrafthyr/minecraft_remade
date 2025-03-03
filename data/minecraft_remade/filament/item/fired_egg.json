@@ -1,0 +1,13 @@
+{
+  "id": "minecraft_remade:fired_egg",
+  "vanillaItem": "minecraft:cooked_chicken",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.fired_egg\", \"fallback\": \"Fired Egg\"}",
+    "minecraft:item_model": "minecraft_remade:fired_egg",
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation": 8
+    },
+    "minecraft:consumable": {}
+  }
+}

@@ -2,6 +2,10 @@
   "values": [
     "minecraft:bell",
     "minecraft:clock",
-    "minecraft:golden_horse_armor"
+    "minecraft:golden_horse_armor",
+    {
+      "id": "travelersbackpack:gold_tier_upgrade",
+      "required": false
+    }
   ]
 }

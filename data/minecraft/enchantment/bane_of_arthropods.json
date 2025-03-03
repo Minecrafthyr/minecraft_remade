@@ -28,14 +28,18 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:apply_mob_effect",
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+          },
           "max_duration": {
             "type": "minecraft:linear",
-            "base": 1.0,
+            "base": 0.5,
             "per_level_above_first": 0.5
           },
           "min_amplifier": 3.0,
           "max_amplifier": 3.0,
-          "min_duration": 1.0,
           "to_apply": "minecraft:slowness"
         },
         "enchanted": "attacker",
@@ -60,14 +64,14 @@
       }
     ]
   },
-  "max_level": 7,
+  "max_level": 5,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 10
+    "base": 1,
+    "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 30,
-    "per_level_above_first": 10
+    "base": 20,
+    "per_level_above_first": 24
   },
   "slots": [
     "mainhand"

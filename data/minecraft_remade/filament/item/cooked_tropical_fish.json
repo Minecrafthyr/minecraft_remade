@@ -1,0 +1,13 @@
+{
+  "id": "minecraft_remade:cooked_tropical_fish",
+  "vanillaItem": "minecraft:cooked_cod",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.cooked_tropical_fish\", \"fallback\": \"Cooked Tropical Fish\"}",
+    "minecraft:item_model": "minecraft_remade:cooked_tropical_fish",
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation": 5.0
+    },
+    "minecraft:consumable": {}
+  }
+}

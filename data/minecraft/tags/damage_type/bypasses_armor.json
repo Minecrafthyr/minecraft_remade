@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "minecraft_remade:bleeding"
+    "minecraft_remade:bleeding",
+    {
+      "id": "toughasnails:hyperthermia",
+      "required": false
+    }
+  ],
+  "remove": [
+    "minecraft:fly_into_wall"
   ]
 }

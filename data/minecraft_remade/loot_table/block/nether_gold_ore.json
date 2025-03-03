@@ -2,15 +2,10 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
-          "name": "minecraft:netherrack",
-          "type": "minecraft:item"
+          "type": "minecraft:loot_table",
+          "value": "minecraft_remade:block/item/netherrack"
         }
       ],
       "rolls": 1.0

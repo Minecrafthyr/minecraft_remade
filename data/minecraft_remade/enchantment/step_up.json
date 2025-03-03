@@ -1,7 +1,8 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft_remade.step_up"
+    "translate": "enchantment.minecraft_remade.step_up",
+    "fallback": "Step Up"
   },
   "effects": {
     "minecraft:attributes": [
@@ -17,18 +18,18 @@
       }
     ]
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
-    "base": 12,
-    "per_level_above_first": 16
+    "base": 25,
+    "per_level_above_first": 12
   },
   "max_cost": {
-    "base": 22,
-    "per_level_above_first": 16
+    "base": 50,
+    "per_level_above_first": 24
   },
   "slots": [
     "feet"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 2
+  "weight": 3
 }

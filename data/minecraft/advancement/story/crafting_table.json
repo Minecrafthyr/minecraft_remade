@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/find_gravel",
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.crafting_table.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancements.story.crafting_table.title",
+      "fallback": "Begin Crafting!"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

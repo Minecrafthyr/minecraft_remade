@@ -10,7 +10,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_sapling"
+          "name": "minecraft:acacia_sapling",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0
@@ -31,7 +42,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_log"
+          "name": "minecraft:acacia_log",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0

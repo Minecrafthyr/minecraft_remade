@@ -132,6 +132,13 @@
             },
             {
               "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ],
+              "name": "minecraft:snowball",
               "functions": [
                 {
                   "conditions": [
@@ -245,8 +252,7 @@
                   "count": 8.0,
                   "function": "minecraft:set_count"
                 }
-              ],
-              "name": "minecraft:snowball"
+              ]
             }
           ]
         }

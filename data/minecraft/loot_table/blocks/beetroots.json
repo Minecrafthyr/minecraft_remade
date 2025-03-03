@@ -22,6 +22,7 @@
                   }
                 }
               ],
+              "name": "minecraft:beetroot",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -41,8 +42,7 @@
                     "probability": 0.5714286
                   }
                 }
-              ],
-              "name": "minecraft:beetroot"
+              ]
             },
             {
               "type": "minecraft:item",
@@ -75,18 +75,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:binomial_with_bonus_count",
-              "function": "minecraft:apply_bonus",
               "parameters": {
                 "extra": 3,
                 "probability": 0.5714286
               }
             }
-          ],
-          "name": "minecraft:beetroot_seeds"
+          ]
         }
       ],
       "rolls": 1.0

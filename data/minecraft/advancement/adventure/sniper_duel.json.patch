@@ -1,0 +1,5 @@
+{
+  "op": "replace",
+  "path": "/criteria/killed_skeleton/conditions/entity/0/predicate/type",
+  "value": "#minecraft_remade:standing_skeletons"
+}

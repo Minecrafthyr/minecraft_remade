@@ -1,0 +1,9 @@
+{
+  "targets": "minecraft:armor_stand",
+  "components": {
+    "minecraft:entity_data": {
+      "id": "minecraft:armor_stand",
+      "ShowArms": 1
+    }
+  }
+}

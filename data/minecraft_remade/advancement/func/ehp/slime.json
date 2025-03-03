@@ -1,14 +1,14 @@
 {
   "criteria": {
     "slime": {
+      "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "#minecraft_remade:slime"
+            "type": "minecraft:slime"
           }
         }
-      },
-      "trigger": "minecraft:entity_hurt_player"
+      }
     }
   },
   "rewards": {

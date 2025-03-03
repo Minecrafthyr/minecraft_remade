@@ -14,20 +14,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:wheat_seeds",
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
+              "name": "minecraft:wheat_seeds"
             },
             {
               "type": "minecraft:item",
@@ -48,39 +35,26 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:pumpkin_seeds",
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
+              "name": "minecraft:pumpkin_seeds"
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:beetroot_seeds",
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
+              "name": "minecraft:beetroot_seeds"
             }
           ]
+        }
+      ],
+      "functions": [
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {
+            "bonusMultiplier": 2
+          }
+        },
+        {
+          "function": "minecraft:explosion_decay"
         }
       ],
       "rolls": 1.0
@@ -88,28 +62,14 @@
     {
       "conditions": [
         {
-          "condition": "minecraft:any_of",
-          "terms": [
-            {
-              "condition": "minecraft:all_of",
-              "terms": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "#minecraft:swords"
-                  }
-                },
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.2
-                }
-              ]
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#minecraft:swords"
+          }
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
         }
       ],
       "entries": [

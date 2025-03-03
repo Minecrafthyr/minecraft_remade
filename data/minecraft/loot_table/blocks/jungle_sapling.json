@@ -8,8 +8,19 @@
       ],
       "entries": [
         {
+          "type": "minecraft:item",
           "name": "minecraft:jungle_sapling",
-          "type": "minecraft:item"
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0
@@ -29,8 +40,19 @@
       ],
       "entries": [
         {
+          "type": "minecraft:item",
           "name": "minecraft:jungle_log",
-          "type": "minecraft:item"
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:tool/smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0

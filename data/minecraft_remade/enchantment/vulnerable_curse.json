@@ -1,7 +1,8 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.vulnerable_curse"
+    "translate": "enchantment.minecraft.vulnerable_curse",
+    "fallback": "Vulnerable Curse"
   },
   "effects": {
     "minecraft:item_damage": [
@@ -23,7 +24,7 @@
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 50,
+    "base": 100,
     "per_level_above_first": 0
   },
   "slots": [

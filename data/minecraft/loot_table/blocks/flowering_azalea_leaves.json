@@ -50,6 +50,15 @@
                   "name": "minecraft:flowering_azalea",
                   "functions": [
                     {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:reference",
+                          "name": "minecraft_remade:tool/smelts_loot"
+                        }
+                      ],
+                      "function": "minecraft:furnace_smelt"
+                    },
+                    {
                       "enchantment": "minecraft:fortune",
                       "formula": "minecraft:uniform_bonus_count",
                       "function": "minecraft:apply_bonus",

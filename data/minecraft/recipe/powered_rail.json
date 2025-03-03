@@ -3,7 +3,6 @@
   "category": "redstone",
   "ingredients": [
     "minecraft:activator_rail",
-    "minecraft:copper_ingot",
     "minecraft:copper_ingot"
   ],
   "result": {

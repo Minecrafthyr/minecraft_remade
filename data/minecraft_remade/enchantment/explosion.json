@@ -1,0 +1,49 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.minecraft_remade.explosion",
+    "fallback": "Explosion"
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 24
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft_remade:enchantable/all_weapon",
+  "supported_items": "#minecraft_remade:enchantable/heavy_weapon",
+  "weight": 1,
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:explode",
+          "block_interaction": "tnt",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          },
+          "sound": "minecraft:entity.generic.explode",
+          "attribute_to_user": false,
+          "create_fire": false,
+          "damage_type": "minecraft:player_explosion"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.minecraft_remade.healthy",
+    "fallback": "Healthy"
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 24
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft_remade:enchantable/mob_equippable",
+  "weight": 2,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.0
+        },
+        "attribute": "minecraft:max_health",
+        "id": "minecraft_remade:enchantment.healthy",
+        "operation": "add_value"
+      }
+    ]
+  }
+}

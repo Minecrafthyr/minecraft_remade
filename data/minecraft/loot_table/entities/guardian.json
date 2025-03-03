@@ -24,6 +24,15 @@
                 "min": 0.0,
                 "max": 1.0
               }
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot_2"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ]
         }
@@ -114,6 +123,8 @@
     {
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:tide_armor_trim_smithing_template",
           "conditions": [
             {
               "condition": "minecraft:random_chance_with_enchanted_bonus",
@@ -125,9 +136,7 @@
                 "per_level_above_first": 0.025
               }
             }
-          ],
-          "name": "minecraft:tide_armor_trim_smithing_template",
-          "type": "minecraft:item"
+          ]
         }
       ],
       "rolls": 1.0

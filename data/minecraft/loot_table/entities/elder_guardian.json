@@ -24,6 +24,15 @@
                 "min": 0.0,
                 "max": 1.0
               }
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot_2"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ]
         }
@@ -83,7 +92,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wet_sponge"
+          "name": "minecraft:wet_sponge",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ]
         }
       ],
       "rolls": 1.0

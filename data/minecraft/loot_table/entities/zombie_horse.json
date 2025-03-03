@@ -22,6 +22,15 @@
                 "min": 0.0,
                 "max": 1.0
               }
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "minecraft_remade:smelts_loot"
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ],
           "name": "minecraft:rotten_flesh",

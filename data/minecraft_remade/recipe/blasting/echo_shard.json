@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "ingredient": "#minecraft_remade:smelt/echo_shard",
+  "result": {
+    "id": "minecraft:echo_shard"
+  }
+}

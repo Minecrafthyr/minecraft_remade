@@ -11,7 +11,7 @@ Tweaks for Minecraft enchantments, recipes, loot tables, worldgen in a balanced 
 - Document Links (Github):  
   [English](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme.md)  
   [中文](https://github.com/Minecrafthyr/minecraft_remade/tree/main/Readme/中文.md)
-- Current files count: 1500+
+- Current files count: 1700+
 
 ## Compatibilities
 
@@ -36,7 +36,6 @@ Packs that made compatibility with. [Collection](https://modrinth.com/collection
 - [Bake Your Bread](https://modrinth.com/mod/6FNv53gc/4cgX9zXl)
 - \[Incomplete\] [Tough As Nails](https://modrinth.com/mod/ge1sOdFH)
   - [GlitchCore](https://modrinth.com/mod/s3dmwKy5)
-- \[Incomplete\] [Enderite Mod](https://modrinth.com/mod/6lvRWqbA)
 
 ### Suggestions
 

@@ -156,6 +156,13 @@ _(As now, food nutrition and saturation still doesn't so balanced.)_
 
 #### <span style="font-size:16px;">Recipes</span>
 
+## Todos
+
+- New Advancements. (Not sure add what)
+- Config menu. (After 1.21.5 release)
+- Armor Attributes Tweaks. (Delayed)
+- Add new item using Filament: More Food. (Work in process)
+
 ## About legacy version
 
 The Minecraft Remade is now for Minecraft 1.21.4.  

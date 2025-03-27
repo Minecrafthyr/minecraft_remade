@@ -48,7 +48,7 @@
     },
     "minecraft:food": {
       "nutrition": 2,
-      "saturation": 2
+      "saturation": 1
     }
   }
 }

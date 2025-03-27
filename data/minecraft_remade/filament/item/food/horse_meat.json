@@ -2,7 +2,7 @@
   "id": "minecraft_remade:horse_meat",
   "vanillaItem": "minecraft:beef",
   "components": {
-    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.horse_meat\", \"fallback\": \"Horse Meat\"}",
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.horse_meat\", \"fallback\": \"Raw Horse Meat\"}",
     "minecraft:item_model": "minecraft_remade:horse_meat",
     "minecraft:food": {
       "nutrition": 4,

@@ -1,0 +1,14 @@
+{
+  "id": "minecraft_remade:cooked_horse_meat",
+  "vanillaItem": "minecraft:cooked_beef",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.cooked_horse_meat\", \"fallback\": \"Cooked Horse Meat\"}",
+    "minecraft:item_model": "minecraft_remade:cooked_horse_meat",
+    "minecraft:food": {
+      "nutrition": 8,
+      "saturation": 12
+    },
+    "minecraft:lore": [],
+    "minecraft:consumable": {}
+  }
+}

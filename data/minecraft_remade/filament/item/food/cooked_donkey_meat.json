@@ -1,0 +1,14 @@
+{
+  "id": "minecraft_remade:cooked_donkey_meat",
+  "vanillaItem": "minecraft:cooked_beef",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.cooked_donkey_meat\", \"fallback\": \"Cooked Donkey Meat\"}",
+    "minecraft:item_model": "minecraft_remade:cooked_donkey_meat",
+    "minecraft:food": {
+      "nutrition": 8,
+      "saturation": 12
+    },
+    "minecraft:lore": [],
+    "minecraft:consumable": {}
+  }
+}

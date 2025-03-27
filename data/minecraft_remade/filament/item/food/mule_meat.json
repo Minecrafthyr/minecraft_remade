@@ -1,0 +1,14 @@
+{
+  "id": "minecraft_remade:mule_meat",
+  "vanillaItem": "minecraft:beef",
+  "components": {
+    "minecraft:item_name": "{\"translate\": \"item.minecraft_remade.mule_meat\", \"fallback\": \"Raw Mule Meat\"}",
+    "minecraft:item_model": "minecraft_remade:mule_meat",
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation": 8
+    },
+    "minecraft:lore": [],
+    "minecraft:consumable": {}
+  }
+}
